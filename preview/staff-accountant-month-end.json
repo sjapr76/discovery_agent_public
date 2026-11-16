@@ -1,0 +1,284 @@
+{
+ "niche_id": "staff-accountant-month-end",
+ "title": "Staff accountant running month-end close",
+ "profession": "accounting",
+ "description": "staff accountant in the in-house finance team of a mid-size company in the United States, responsible for journal entries, reconciliations and the month-end close, reporting to a controller",
+ "region": "United States",
+ "titles": [
+  "Staff Accountant",
+  "General Ledger Accountant",
+  "Accountant II",
+  "Senior Accountant (at some employers)",
+  "Month-End Close Accountant",
+  "Corporate Accountant"
+ ],
+ "context": {
+  "employer_types": [
+   "Privately held operating companies (manufacturing, distribution, services)",
+   "Private equity-backed portfolio companies",
+   "Software/SaaS and technology companies",
+   "Healthcare and nonprofit organizations with in-house finance",
+   "Publicly traded subsidiaries or divisions with a local finance team"
+  ],
+  "company_sizes": [
+   "Mid-size, roughly 100 to 2,000 employees",
+   "Roughly $20M to $500M in annual revenue",
+   "Finance team of about 5 to 30 people"
+  ],
+  "reports_to": [
+   "Controller",
+   "Accounting Manager (at some employers)",
+   "Assistant Controller"
+  ],
+  "depends_on_them": [
+   "Controller (reviews and signs off on reconciliations, entries and close status)",
+   "CFO and executives (rely on closed financials and the reporting package)",
+   "FP&A analysts (need accurate actuals for variance analysis and forecasts)",
+   "External auditors (need PBC schedules and samples)",
+   "Outside CPA/tax preparer (needs fixed asset, book-to-tax and apportionment data)",
+   "Lenders (need covenant compliance and borrowing-base reporting)",
+   "Department heads and budget owners (rely on correct departmental P&Ls and reclasses)",
+   "AP clerk and collections/credit staff (rely on coding fixes and cash application feedback)",
+   "Payroll/HR (rely on accurate payroll liability reconciliations)"
+  ]
+ },
+ "summary": "This person prepares and posts journal entries (accruals, prepaid amortization, depreciation, payroll, deferred revenue, reclasses, intercompany and allocations) and keeps them supported and approved under segregation-of-duties rules. They reconcile bank, card, AP, payroll, prepaid, accrued, debt, sales tax and other balance sheet accounts each month, run flux analysis on the P&L, and help assemble the reporting package within the close calendar set by the controller. They also depend on and chase inputs from AP, payroll, billing and department heads, and support year-end audit, 1099, tax and lender covenant work.",
+ "statements": 1366,
+ "by_section": {
+  "constraint": 180,
+  "workflow_step": 473,
+  "team_dynamics": 103,
+  "pain": 266,
+  "workaround": 140,
+  "limit": 77,
+  "judgment_call": 68,
+  "improvisation": 59
+ },
+ "sample_claims": [
+  {
+   "claim_id": "staff-accountant-month-end:0003",
+   "section": "workflow_step",
+   "statement": "On BD1 the staff accountant confirms the AP subledger is closed for the period before posting accruals that depend on it.",
+   "workflow": "month-end close",
+   "cadence": "monthly"
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0014",
+   "section": "workflow_step",
+   "statement": "The accountant sends a reminder email to department heads about three business days before month-end asking for unbilled and unrecorded expenses.",
+   "workflow": "accruals",
+   "cadence": "monthly"
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0018",
+   "section": "constraint",
+   "statement": "Every journal entry has supporting documentation attached, such as an invoice, a contract, a calculation or a bank statement."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0021",
+   "section": "constraint",
+   "statement": "Entries above a dollar threshold set by policy need controller approval before posting, and the preparer cannot approve their own entry."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0024",
+   "section": "workflow_step",
+   "statement": "Reversing entries are flagged with an auto-reverse date so accruals drop off on the first day of the next period.",
+   "workflow": "accruals",
+   "cadence": "monthly"
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0026",
+   "section": "workflow_step",
+   "statement": "Reclassification entries move amounts between expense accounts or departments after the accountant reviews the GL detail for miscoded items.",
+   "workflow": "manual journal entries",
+   "cadence": "monthly"
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0027",
+   "section": "constraint",
+   "statement": "Correcting entries are posted in the current open period rather than altering a closed period."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0030",
+   "section": "workflow_step",
+   "statement": "Payroll journal entries are created from the payroll register received from HR or the payroll provider, such as ADP, Paycom or Gusto.",
+   "workflow": "payroll journal entries",
+   "cadence": "monthly"
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0031",
+   "section": "workflow_step",
+   "statement": "The accountant maps payroll register totals to gross wages, employer taxes, benefits and withholding liabilities.",
+   "workflow": "payroll journal entries",
+   "cadence": "monthly"
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0032",
+   "section": "constraint",
+   "statement": "The accountant waits for the payroll register from the payroll manager, usually available BD1 or BD2 after the final pay run."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0039",
+   "section": "team_dynamics",
+   "statement": "Budget owners reply slowly or not at all, and the accountant has to estimate from the prior month invoice amount."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0053",
+   "section": "constraint",
+   "statement": "The accountant relies on the billing or revenue team for contract start dates and invoice details before recognizing deferred revenue."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0057",
+   "section": "pain",
+   "statement": "Intercompany balances do not agree because the counterparty entity posted in a different period or at a different rate."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0111",
+   "section": "limit",
+   "statement": "The accountant relies on the AP clerk to finish posting invoices dated in the month before the AP subledger is closed."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0117",
+   "section": "pain",
+   "statement": "Unapplied customer payments remain on the aging for weeks because remittance details are missing."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0143",
+   "section": "workaround",
+   "statement": "The accountant saves custom reports and saved searches in the ERP to avoid rebuilding the same export each month."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0151",
+   "section": "constraint",
+   "statement": "Chart of accounts changes are requested through the controller, who approves new accounts and departments before they are created."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0157",
+   "section": "limit",
+   "statement": "Overtime during close is common but not paid for exempt staff, so extended hours are absorbed by the accountant."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0190",
+   "section": "pain",
+   "statement": "Unapplied customer payments sit in AR and distort the aging until collections identifies who paid."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0193",
+   "section": "pain",
+   "statement": "Intercompany balances disagree because one entity booked the transaction in a different period, and the two sides have to be reconciled by email."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0197",
+   "section": "workaround",
+   "statement": "Beyond the official close calendar, the staff accountant keeps a personal checklist workbook with one tab per task and notes on where each file lives."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0198",
+   "section": "workaround",
+   "statement": "Reconciliations for stable accounts such as prepaids and deposits are started mid-month so the end-of-month crunch is lighter."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0201",
+   "section": "workaround",
+   "statement": "XLOOKUP and pivot tables are used to match bank transactions to GL activity instead of ticking items off by hand."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0219",
+   "section": "limit",
+   "statement": "Unwritten rule: questions for the CFO or executives go through the controller, and the staff accountant does not email them directly."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0228",
+   "section": "pain",
+   "statement": "The AP clerk codes invoices to the wrong GL account, and the staff accountant reclassifies them after the fact, often for the same vendor month after month."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0230",
+   "section": "pain",
+   "statement": "The payroll provider register sometimes arrives on the last day of close, leaving no slack for the payroll entry and the accrual calculation."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0278",
+   "section": "workaround",
+   "statement": "A duplicate check on vendor, invoice number, and amount is run in Excel against the AP aging to catch repeats before they are paid."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0429",
+   "section": "limit",
+   "statement": "Employees who leave corporate card charges uncoded or without receipts hold up the card reconciliation, and the staff accountant has limited authority to make them respond."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0442",
+   "section": "team_dynamics",
+   "statement": "The staff accountant often feels the work is invisible when it goes well and only noticed when a number is wrong or the close is late."
+  },
+  {
+   "claim_id": "staff-accountant-month-end:0460",
+   "section": "workaround",
+   "statement": "Many staff accountants keep a personal close tracker in Excel or OneNote listing every task, due day and dependency, in addition to the official checklist, so nothing is missed."
+  }
+ ],
+ "open_questions": [
+  {
+   "question": "What is the actual close timeline at your company (BD number for lock), and how often is it hit or missed?",
+   "why_it_matters": "Close length varies widely and defines the pressure on every task."
+  },
+  {
+   "question": "Which upstream inputs most often arrive late (payroll register, AP invoices, billing, accrual replies), and by how many days?",
+   "why_it_matters": "Shows the real bottlenecks and where slack is lost."
+  },
+  {
+   "question": "How long do the main tasks really take (payroll JE, bank recs, accruals, prepaid, flux)?",
+   "why_it_matters": "Official calendars rarely match actual hours, which shapes workload and staffing."
+  },
+  {
+   "question": "What is the JE approval threshold, and how often do entries sit waiting for controller approval?",
+   "why_it_matters": "Approval delays can stall the close and thresholds differ by company."
+  },
+  {
+   "question": "Which ERP and close/rec tools do you use (NetSuite, Sage Intacct, QuickBooks, Dynamics, BlackLine, FloQast), and what do they not do well?",
+   "why_it_matters": "Tooling determines how much work is manual and which workarounds exist."
+  },
+  {
+   "question": "What recurring errors do you fix most often (miscoded invoices, uncoded card charges, duplicate entries), and do you fix the root cause?",
+   "why_it_matters": "Reveals chronic process failures and how much rework is tolerated."
+  },
+  {
+   "question": "How do you handle accruals when budget owners don't respond, and what estimation rules are accepted?",
+   "why_it_matters": "Estimation conventions and reviewer tolerance differ by workplace."
+  },
+  {
+   "question": "Which reconciliations are most painful or most often carry unreconciled differences, and how long do items age before they're cleared?",
+   "why_it_matters": "Shows risk areas and tolerance for stale reconciling items."
+  },
+  {
+   "question": "What de minimis difference is acceptable on a reconciliation before you must investigate or book an adjustment?",
+   "why_it_matters": "Materiality and tolerance policies vary between employers."
+  },
+  {
+   "question": "What workarounds are tolerated (Excel mapping files, manual JEs to AP, late-posted entries into closed periods)?",
+   "why_it_matters": "Informal practices indicate control gaps and real process."
+  },
+  {
+   "question": "How much overtime or weekend work happens in close and audit, and is there any time-off flexibility afterward?",
+   "why_it_matters": "Workload and compensation norms differ and affect job quality."
+  },
+  {
+   "question": "What is the escalation path when someone outside finance (department head, cardholder) doesn't respond?",
+   "why_it_matters": "Shows how much authority the role actually has."
+  },
+  {
+   "question": "How is intercompany handled (entities, currencies, counterpart contacts), and how often do balances fail to agree?",
+   "why_it_matters": "Complexity depends on entity structure and discipline of counterparts."
+  },
+  {
+   "question": "What do you do for the audit and tax cycle (PBC volume, sample requests, 1099 process), and how much is done by you versus the CPA firm?",
+   "why_it_matters": "Division of work between in-house and outsiders differs widely."
+  },
+  {
+   "question": "Which parts of the role have grown recently (ASC 842, new revenue streams, automation, system migrations), and what has been automated away?",
+   "why_it_matters": "Shows how the job is changing and which skills matter."
+  }
+ ],
+ "next": "get_role_map returns any section in full. ask_role_map returns the claims most relevant to a question. request_verification logs a question for real practitioners."
+}

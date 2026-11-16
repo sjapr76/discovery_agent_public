@@ -1,0 +1,280 @@
+{
+ "niche_id": "bookkeeper-small-business",
+ "title": "Bookkeeper for small businesses",
+ "profession": "accounting",
+ "description": "bookkeeper who keeps the books for several small business clients, at a small bookkeeping firm or self-employed, in the United States, working mainly in QuickBooks Online or Xero",
+ "region": "United States",
+ "titles": [
+  "Bookkeeper",
+  "Freelance Bookkeeper",
+  "Remote Bookkeeper",
+  "Outsourced Bookkeeper",
+  "QuickBooks Online ProAdvisor / Bookkeeping Consultant",
+  "Accounting Technician"
+ ],
+ "context": {
+  "employer_types": [
+   "Small bookkeeping firm",
+   "Self-employed / sole-practitioner bookkeeping practice",
+   "Small CPA or tax practice with a bookkeeping arm",
+   "Virtual or outsourced accounting services company"
+  ],
+  "company_sizes": [
+   "Solo practitioner",
+   "2-10 person firm",
+   "Clients typically 1-25 employees (owner-operated small businesses)"
+  ],
+  "reports_to": [
+   "Firm owner or principal bookkeeper",
+   "Supervising CPA or accounting manager (in firm settings)",
+   "Client business owner (day-to-day)"
+  ],
+  "depends_on_them": [
+   "Small business owners needing current, accurate financial statements",
+   "Client CPAs and tax preparers who rely on year-end packages",
+   "Payroll providers and payroll specialists who need accurate coding",
+   "Lenders, landlords and investors requesting financial statements",
+   "Client employees and contractors paid correctly and reported on 1099s",
+   "Firm owner who relies on on-time monthly close across all clients"
+  ]
+ },
+ "summary": "The bookkeeper keeps the books for several small business clients in QuickBooks Online or Xero, onboarding each client, getting secure access, connecting bank and card feeds, categorizing transactions, matching receipts, recording invoices, bills, processor payouts, loans, and payroll entries. Each month they reconcile every bank, card, and loan account to statements, clear suspense accounts, review the P&L and balance sheet against prior periods, lock the period, and deliver reports. They also support sales tax, payroll liability, and 1099 tracking and prepare year-end packages for the client's CPA, while staying within scope by referring tax advice, return preparation, payroll fixes, and IRS representation to licensed professionals or providers.",
+ "statements": 1370,
+ "by_section": {
+  "workflow_step": 407,
+  "constraint": 163,
+  "pain": 316,
+  "workaround": 120,
+  "judgment_call": 129,
+  "team_dynamics": 96,
+  "limit": 92,
+  "improvisation": 47
+ },
+ "sample_claims": [
+  {
+   "claim_id": "bookkeeper-small-business:0001",
+   "section": "workflow_step",
+   "statement": "A new client starts with a discovery call where the bookkeeper asks about entity type, industry, monthly transaction volume, bank and card accounts, payroll provider, sales tax obligations, and the current state of the books.",
+   "workflow": "client onboarding",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0003",
+   "section": "workflow_step",
+   "statement": "After signing, the bookkeeper requests accountant-level access to the client's QuickBooks Online company or Xero organisation, or creates a new file if the client has none.",
+   "workflow": "client onboarding",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0004",
+   "section": "constraint",
+   "statement": "In QuickBooks Online the client invites the bookkeeper's firm email as an accountant user, or the firm sends an invitation to the QuickBooks Online Accountant master admin so the client appears in the client list."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0005",
+   "section": "constraint",
+   "statement": "In Xero the client adds the bookkeeper as an adviser user, and the firm then accepts the invite to link the organisation into Xero HQ."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0006",
+   "section": "workflow_step",
+   "statement": "The bookkeeper collects read-only logins or invitations for the bank, credit cards, Stripe, Square, PayPal, Shopify, and payroll provider, and tracks these in a password manager such as LastPass or 1Password.",
+   "workflow": "client onboarding",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0012",
+   "section": "workflow_step",
+   "statement": "The bookkeeper asks the client to upload prior-year tax returns, the most recent bank statements, loan agreements, and the sales tax registration numbers into a shared Google Drive or client portal folder.",
+   "workflow": "client onboarding",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0015",
+   "section": "workflow_step",
+   "statement": "Bank and credit card feeds are connected in QuickBooks Online through Banking or in Xero through Bank accounts, with the start date set so the feed does not duplicate transactions already entered.",
+   "workflow": "bank feed setup",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0018",
+   "section": "workflow_step",
+   "statement": "Each working week the bookkeeper opens the For Review tab in QuickBooks Online or the Reconcile tab in Xero for each client and works through the new transactions.",
+   "workflow": "transaction review",
+   "cadence": "weekly"
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0023",
+   "section": "judgment_call",
+   "statement": "The bookkeeper posts unclear transactions to an Ask My Accountant or Uncategorized suspense account and sends the client a question list instead of guessing."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0030",
+   "section": "pain",
+   "statement": "Auto-published receipts from Dext can create duplicate expenses when the same purchase also arrives through the bank feed, so the bookkeeper has to match rather than add."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0034",
+   "section": "judgment_call",
+   "statement": "Sync apps like A2X are billed per client per month, so the bookkeeper only recommends them when the transaction volume justifies the cost to the client."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0037",
+   "section": "constraint",
+   "statement": "Transfers between the client's own accounts, such as checking to savings or paying a credit card, are recorded as transfers rather than income or expense."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0040",
+   "section": "constraint",
+   "statement": "Owner contributions and draws for sole proprietors and partnerships are recorded to equity accounts, while S corporation owner pay goes through payroll and distributions go to equity."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0070",
+   "section": "constraint",
+   "statement": "Cash basis clients get reports on the cash basis, while accrual basis clients need the bookkeeper to enter bills and invoices when incurred, and the report basis setting is checked before each export."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0093",
+   "section": "pain",
+   "statement": "Payments to contractors made by credit card or PayPal are reported by the processor on a 1099-K and must be excluded from the 1099-NEC totals, which the software does not always handle correctly."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0096",
+   "section": "constraint",
+   "statement": "For payroll clients, payroll is run by the client or bookkeeper in Gusto, QuickBooks Payroll, ADP, Paychex, or Patriot, depending on the firm's service scope."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0101",
+   "section": "limit",
+   "statement": "Many small firms do not offer payroll processing or tax filing and stay in a bookkeeping-only role, so payroll mistakes must be raised to the payroll provider or CPA rather than fixed directly."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0111",
+   "section": "limit",
+   "statement": "Clients ask what they owe in tax, but the bookkeeper is not preparing the return and has to refer the question to the CPA."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0149",
+   "section": "limit",
+   "statement": "Bookkeepers without a CPA license cannot represent clients before the IRS or sign tax returns, so tax notices and filings are handed off."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0157",
+   "section": "judgment_call",
+   "statement": "The bookkeeper often gets discounted pricing through the QuickBooks Online Accountant or Xero Partner programs and bills clients directly or has them keep their own subscription."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0174",
+   "section": "judgment_call",
+   "statement": "The bookkeeper checks the audit log or Recent Transactions in the client file when a number looks wrong, to see who entered it and when."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0197",
+   "section": "judgment_call",
+   "statement": "They record the owner's estimated tax payments and personal draws as equity rather than business expenses."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0202",
+   "section": "workaround",
+   "statement": "They keep a running notes document per client that records quirks such as which credit card is personal, how the owner labels deposits, and who approves bills."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0209",
+   "section": "pain",
+   "statement": "Undeposited Funds balloons when clients record customer payments but never match them to bank deposits."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0211",
+   "section": "pain",
+   "statement": "Stripe, Square, PayPal, and Shopify deposits arrive net of fees and refunds, so every payout has to be broken apart to tie out."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0213",
+   "section": "pain",
+   "statement": "Amazon, Costco, and Walmart purchases that mix business supplies, inventory, and personal items cannot be categorized without the itemized order."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0235",
+   "section": "judgment_call",
+   "statement": "They charge a separate, hourly or project-based cleanup fee for catching up neglected books instead of folding it into the monthly price."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0244",
+   "section": "limit",
+   "statement": "A bookkeeper who is not a CPA, enrolled agent, or attorney cannot represent a client before the IRS, so tax notices get sent on to a credentialed colleague."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0245",
+   "section": "limit",
+   "statement": "Bookkeepers avoid giving tax advice or signing returns, because in many states that work falls to licensed CPAs or registered preparers."
+  },
+  {
+   "claim_id": "bookkeeper-small-business:0272",
+   "section": "pain",
+   "statement": "Payments received through Venmo, Zelle, or cash apps with vague memos leave no record of what a transaction was for."
+  }
+ ],
+ "open_questions": [
+  {
+   "question": "Which problems do you hit most often when taking over a new client's file (forced reconciliations, Undeposited Funds, duplicate accounts, edited periods)?",
+   "why_it_matters": "Shows what the onboarding review and cleanup quoting really focus on."
+  },
+  {
+   "question": "How long does a typical monthly close take per client, and which steps eat the most time?",
+   "why_it_matters": "Reveals real effort distribution and pricing realities versus the checklist."
+  },
+  {
+   "question": "How many clients do you carry, and at what point does the workload become unmanageable?",
+   "why_it_matters": "Sets expectations for capacity and how firms staff."
+  },
+  {
+   "question": "How do you actually chase clients for answers to Ask My Accountant questions, and how long do they take to respond?",
+   "why_it_matters": "Client responsiveness is often the main close bottleneck."
+  },
+  {
+   "question": "Which workarounds do you tolerate (e.g., personal cards in the business, Venmo payments, missing receipts) and which do you refuse?",
+   "why_it_matters": "Reveals real standards and boundaries versus ideal practice."
+  },
+  {
+   "question": "What tools do you use for tracking close status and client communication, and what do you wish they did better?",
+   "why_it_matters": "Practice management tool choice and gaps vary widely."
+  },
+  {
+   "question": "How do you handle MFA and credential access when clients are slow to supply codes?",
+   "why_it_matters": "Access friction delays statements and feeds, and practices differ."
+  },
+  {
+   "question": "Where do you draw the line between bookkeeping and tax advice or payroll work, and how do you respond when clients push past it?",
+   "why_it_matters": "Scope boundaries and liability handling differ by firm and state."
+  },
+  {
+   "question": "How do you price (flat monthly, tiered by transaction volume, hourly) and how often do you raise fees or fire clients?",
+   "why_it_matters": "Pricing models and client retention practices are workplace-specific."
+  },
+  {
+   "question": "What materiality thresholds do you use to investigate P&L swings or small reconciliation differences?",
+   "why_it_matters": "Informal thresholds drive how deep review goes."
+  },
+  {
+   "question": "How do you deal with clients who edit the file themselves after you close the month?",
+   "why_it_matters": "Lock date use and enforcement vary and affect error rates."
+  },
+  {
+   "question": "Which clients still use QuickBooks Desktop or Excel, and how do you manage working across systems?",
+   "why_it_matters": "Multi-system work adds time and tooling needs."
+  },
+  {
+   "question": "How do you handle inventory and cost of goods sold when the client has no reliable count?",
+   "why_it_matters": "Practices vary from perpetual tracking to periodic estimates."
+  },
+  {
+   "question": "How do you coordinate with each client's CPA, and what do they most often send back or complain about?",
+   "why_it_matters": "CPA expectations shape year-end package contents and rework."
+  },
+  {
+   "question": "When a deadline (lender request, tax filing, 1099s) arrives and data is missing, how do you decide whether to deliver late, rushed, or with caveats?",
+   "why_it_matters": "Shows real tradeoffs between accuracy and speed under pressure."
+  }
+ ],
+ "next": "get_role_map returns any section in full. ask_role_map returns the claims most relevant to a question. request_verification logs a question for real practitioners."
+}

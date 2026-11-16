@@ -1,0 +1,281 @@
+{
+ "niche_id": "solo-family-law-attorney",
+ "title": "Solo family-law attorney",
+ "profession": "legal",
+ "description": "solo practitioner attorney in the United States handling family law matters such as divorce, custody and support, with at most one assistant",
+ "region": "United States",
+ "titles": [
+  "Family Law Attorney",
+  "Solo Practitioner, Family Law",
+  "Divorce Attorney",
+  "Domestic Relations Attorney",
+  "Matrimonial Attorney",
+  "Custody and Support Attorney"
+ ],
+ "context": {
+  "employer_types": [
+   "Self-employed solo law practice",
+   "Small private family law firm of one lawyer",
+   "Shared or executive-suite office space",
+   "Limited-scope and flat-fee legal services provider"
+  ],
+  "company_sizes": [
+   "1 attorney",
+   "1 attorney plus 1 paralegal or legal secretary",
+   "Solo with contract or outsourced help (QDRO specialist, bookkeeper, answering service)"
+  ],
+  "reports_to": [
+   "Self (owner of the practice)",
+   "The court and presiding judge (as officer of the court)",
+   "State bar and disciplinary authority",
+   "The client (on settlement authority and objectives)"
+  ],
+  "depends_on_them": [
+   "Individual clients going through divorce, custody, or support disputes",
+   "Children whose parenting arrangements are decided",
+   "Assistant or paralegal who relies on attorney for direction and legal advice",
+   "Referral sources such as therapists, CPAs, financial planners, and other attorneys",
+   "Opposing counsel and self-represented opposing parties awaiting responses",
+   "GALs, evaluators, mediators and QDRO specialists awaiting records and instructions"
+  ]
+ },
+ "summary": "This person runs a one-lawyer family law practice, advising clients on divorce, custody, parenting time, support, and property division, and representing them in negotiation, mediation, hearings, and trial. They draft and file pleadings, motions, discovery, financial affidavits, settlement agreements, parenting plans, and final orders, and follow through on enforcement and modification after judgment. They also operate the business: intake, fee agreements, trust accounting, billing, supervising a small support staff, referrals, and managing client emotions and expectations.",
+ "statements": 1382,
+ "by_section": {
+  "workflow_step": 409,
+  "constraint": 247,
+  "pain": 283,
+  "workaround": 120,
+  "improvisation": 84,
+  "limit": 83,
+  "judgment_call": 94,
+  "team_dynamics": 62
+ },
+ "sample_claims": [
+  {
+   "claim_id": "solo-family-law-attorney:0007",
+   "section": "constraint",
+   "statement": "Residency requirements before filing for divorce, often six months in the state and 60 to 90 days in the county, determine where and when the case can be filed."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0015",
+   "section": "workflow_step",
+   "statement": "The attorney sends the new client a document checklist asking for tax returns, pay stubs, bank statements, retirement account statements, mortgage statements, and insurance policies.",
+   "workflow": "document collection",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0018",
+   "section": "workflow_step",
+   "statement": "The attorney screens for domestic violence, safety concerns, and child abuse reports at intake and discusses protective order options when needed.",
+   "workflow": "client intake",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0021",
+   "section": "workflow_step",
+   "statement": "The attorney drafts the petition or complaint for dissolution from a Word template, customizing it for children, property, and support claims.",
+   "workflow": "petition and filing",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0022",
+   "section": "constraint",
+   "statement": "Many states require mandatory court forms for family cases, so the attorney completes statewide form sets rather than free-form pleadings."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0025",
+   "section": "workflow_step",
+   "statement": "Filing is done through the court e-filing system (Odyssey File and Serve, Tyler, or a state portal) with the filing fee, typically a few hundred dollars, paid by card.",
+   "workflow": "petition and filing",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0027",
+   "section": "workflow_step",
+   "statement": "After filing, the assistant arranges service by a private process server or sheriff, or sends a waiver or acceptance of service when the spouse is cooperative.",
+   "workflow": "service and response",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0031",
+   "section": "constraint",
+   "statement": "Mandatory waiting periods, such as 60 days in some states, are calendared before a final decree can be entered."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0037",
+   "section": "workflow_step",
+   "statement": "Temporary orders are requested by motion when a client needs interim custody, parenting time, child support, spousal support, or exclusive use of the home.",
+   "workflow": "temporary orders",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0040",
+   "section": "improvisation",
+   "statement": "The attorney negotiates a stipulated interim agreement with opposing counsel and submits it as a consent order rather than waiting for a hearing."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0047",
+   "section": "constraint",
+   "statement": "Many courts require mediation before a contested hearing on custody or parenting time, so the attorney schedules and attends mediation."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0057",
+   "section": "pain",
+   "statement": "Opposing parties provide late or incomplete discovery, requiring a meet-and-confer letter and sometimes a motion to compel."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0080",
+   "section": "workaround",
+   "statement": "Co-parenting apps such as OurFamilyWizard or TalkingParents are recommended to document communication when conflict is high."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0082",
+   "section": "pain",
+   "statement": "Custody evaluations take months and cost thousands of dollars, which many clients cannot afford."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0107",
+   "section": "pain",
+   "statement": "Employers and state disbursement units are slow to set up withholding, so clients go weeks without support payments."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0122",
+   "section": "constraint",
+   "statement": "Relocation requests require advance notice to the other parent and a motion if there is no agreement, with deadlines set by statute."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0134",
+   "section": "pain",
+   "statement": "Unrecorded small tasks like short calls and emails lead to lost billable time."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0139",
+   "section": "constraint",
+   "statement": "Attorney withdrawal requires court approval and notice to the client and the other side, and cannot leave the client unprotected before a hearing."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0149",
+   "section": "judgment_call",
+   "statement": "Local rules and judge preferences vary between counties and judges, so the attorney must check standing orders before each filing."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0159",
+   "section": "pain",
+   "statement": "Clients treat the attorney as a therapist, and long calls about the spouse's behavior are billable but rarely productive."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0160",
+   "section": "workaround",
+   "statement": "The attorney refers clients to therapists and divorce coaches to reduce emotional calls billed at legal rates."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0164",
+   "section": "workaround",
+   "statement": "Limited scope representation is offered to clients who handle part of the case themselves, with the attorney appearing only for specific hearings."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0166",
+   "section": "judgment_call",
+   "statement": "When the opposing party is self-represented, the attorney sends all communications in writing and avoids giving that party legal advice."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0186",
+   "section": "workaround",
+   "statement": "To manage this, the attorney offers limited-scope representation, handling only the temporary hearing or the settlement agreement drafting while the client does the rest."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0190",
+   "section": "improvisation",
+   "statement": "Some solo attorneys ask the court for interim attorney fees from the higher-earning spouse when there is a big income gap."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0191",
+   "section": "pain",
+   "statement": "Billing in six-minute increments for clients who phone five times a day leads to bill disputes, so the attorney spends unpaid time explaining invoices."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0207",
+   "section": "workaround",
+   "statement": "A co-parenting app with message logs, such as OurFamilyWizard or TalkingParents, is recommended because judges accept the records and the tone of messages improves when both parents know they are monitored."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0242",
+   "section": "workaround",
+   "statement": "The attorney keeps a list of therapists, divorce coaches, and support groups to refer clients to, which also reduces the cost of the legal relationship."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0258",
+   "section": "limit",
+   "statement": "Support enforcement through the state child support agency means a parallel bureaucracy that the attorney cannot control, and cases can be delayed by agency backlogs."
+  },
+  {
+   "claim_id": "solo-family-law-attorney:0293",
+   "section": "team_dynamics",
+   "statement": "The assistant, whether a paralegal or secretary, handles scheduling, document intake, form completion, e-filing, and client reminders."
+  }
+ ],
+ "open_questions": [
+  {
+   "question": "What share of your new cases are uncontested or cooperative versus high-conflict, and how does that change your fee structure?",
+   "why_it_matters": "Case mix determines whether flat fees or hourly billing sustain the practice and how workload is shaped."
+  },
+  {
+   "question": "How long do the steps really take in your county, from filing to first hearing, to final decree, and to a signed order after a hearing?",
+   "why_it_matters": "Actual timelines, as opposed to statutory ones, drive client expectations, scheduling, and cash flow."
+  },
+  {
+   "question": "Which court forms or e-filing quirks cause the most rejections or delays in your jurisdiction, and what workarounds does your assistant use?",
+   "why_it_matters": "Local clerk practices are undocumented knowledge that costs time and hearing dates when missed."
+  },
+  {
+   "question": "How do judges in your courts differ in their expectations, and how do you keep track of standing orders and preferences?",
+   "why_it_matters": "Judge-specific habits affect strategy and preparation but aren't written in any one place."
+  },
+  {
+   "question": "What do you do when a client runs out of money mid-case, and how often do you continue unpaid or move to withdraw?",
+   "why_it_matters": "Shows how risk, ethics, and judicial reluctance to allow withdrawal play out in practice."
+  },
+  {
+   "question": "How do you handle the volume of client calls and emotional venting, and what is billed, written off, or redirected to therapists and coaches?",
+   "why_it_matters": "Reveals real revenue leakage and boundaries that vary by lawyer."
+  },
+  {
+   "question": "How do you capture small tasks such as short calls, texts, and emails for billing, and how much gets lost anyway?",
+   "why_it_matters": "Shows what tools or habits actually prevent lost billable time."
+  },
+  {
+   "question": "How is work divided between you and your assistant, and what tasks does the assistant do that technically border on legal judgment?",
+   "why_it_matters": "Division of labor and the line on unauthorized practice differ widely among solo offices."
+  },
+  {
+   "question": "Who covers your hearings when you are sick or on vacation, and how formal is that arrangement?",
+   "why_it_matters": "Solo coverage arrangements are a major continuity risk and vary by local bar culture."
+  },
+  {
+   "question": "How often do you seek interim fees from the higher-earning spouse, and how often do judges grant them?",
+   "why_it_matters": "Success rate affects who can afford representation and how aggressively fees are pursued."
+  },
+  {
+   "question": "How do you confirm safe communication channels with clients, and what have you seen go wrong with shared devices or accounts?",
+   "why_it_matters": "Practical safety and privilege protocols differ and carry serious consequences."
+  },
+  {
+   "question": "Which tools do you use for child support calculations, property spreadsheets, document intake, and billing, and which tasks are still manual?",
+   "why_it_matters": "Technology stacks vary and show where time is wasted or automated."
+  },
+  {
+   "question": "How often do cases involve post-decree problems like refinance failures, unpaid support, or QDRO errors, and what do you put in agreements to prevent them?",
+   "why_it_matters": "Drafting habits come from hard experience and reduce return litigation."
+  },
+  {
+   "question": "How do you decide when to recommend mediation, a custody evaluation, or a GAL, given costs clients can afford?",
+   "why_it_matters": "Judgment about expensive procedures versus client budgets shapes outcomes and is learned by experience."
+  },
+  {
+   "question": "Where do your new clients come from, and how much marketing or competing with online flat-fee services do you do?",
+   "why_it_matters": "Business development channels determine case flow and pricing pressure for solo practices."
+  }
+ ],
+ "next": "get_role_map returns any section in full. ask_role_map returns the claims most relevant to a question. request_verification logs a question for real practitioners."
+}

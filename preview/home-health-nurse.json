@@ -1,0 +1,285 @@
+{
+ "niche_id": "home-health-nurse",
+ "title": "Home health nurse",
+ "profession": "clinical",
+ "description": "registered nurse making home visits for a home health agency in the United States, managing a caseload of patients after hospital discharge or with chronic conditions",
+ "region": "United States",
+ "titles": [
+  "Home Health Registered Nurse",
+  "Home Health Case Manager RN",
+  "Visiting Nurse",
+  "Home Care RN",
+  "Home Health Clinical Nurse",
+  "Home Health Field Nurse"
+ ],
+ "context": {
+  "employer_types": [
+   "Freestanding Medicare-certified home health agencies",
+   "Hospital-affiliated or health-system home health agencies",
+   "Visiting nurse associations and nonprofit agencies",
+   "Hospice-and-home-health combined agencies",
+   "Medicare Advantage or payer-owned home health programs",
+   "Staffing agencies placing per-visit or contract nurses"
+  ],
+  "company_sizes": [
+   "Small independent agency (under 50 staff)",
+   "Mid-size regional agency (50-500 staff)",
+   "Large national chain or health system (500+ staff)",
+   "Per-visit contractor working for several agencies"
+  ],
+  "reports_to": [
+   "Clinical manager / director of clinical services",
+   "Team leader or field supervisor RN",
+   "Director of nursing",
+   "Administrator (indirectly)"
+  ],
+  "depends_on_them": [
+   "Homebound patients recovering after hospital discharge or living with chronic conditions",
+   "Family members and caregivers who need teaching and a contact",
+   "Referring and ordering physicians, nurse practitioners, and physician assistants who rely on accurate findings and timely reports",
+   "Therapists, aides, and social workers who rely on the RN's assessment and plan of care",
+   "Billing and intake or authorization staff who need complete OASIS, signed orders, and timely notes",
+   "Pharmacies, labs, infusion pharmacies, and DME vendors who act on the RN's orders and requests",
+   "Agency leadership who depend on compliant documentation and avoiding readmissions"
+  ]
+ },
+ "summary": "The home health RN visits patients in their homes after hospital discharge or for chronic conditions, performing skilled assessments and procedures such as wound care, infusions, lab draws, and medication reconciliation, and teaching patients and caregivers to manage their own care. The nurse completes OASIS assessments at start of care, resumption, recertification, and discharge, builds the plan of care with physician orders, and coordinates therapy, aide, social work, pharmacy, equipment, and follow-up appointments to keep the patient safe and out of the hospital. The nurse also manages the surrounding workload, including routing, calls for orders, documentation within billing deadlines, Medicare eligibility evidence such as homebound status, and mandated reporting of abuse or neglect.",
+ "statements": 1382,
+ "by_section": {
+  "workflow_step": 395,
+  "constraint": 227,
+  "pain": 295,
+  "judgment_call": 61,
+  "improvisation": 100,
+  "team_dynamics": 83,
+  "workaround": 157,
+  "limit": 64
+ },
+ "sample_claims": [
+  {
+   "claim_id": "home-health-nurse:0002",
+   "section": "workflow_step",
+   "statement": "The intake coordinator verifies insurance, usually Medicare, Medicare Advantage, or Medicaid, and checks whether the payer needs prior authorization.",
+   "workflow": "referral intake",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "home-health-nurse:0003",
+   "section": "constraint",
+   "statement": "Medicare requires a physician or allowed practitioner order, a documented face-to-face encounter, and certification of homebound status before the agency can bill for home health."
+  },
+  {
+   "claim_id": "home-health-nurse:0004",
+   "section": "workflow_step",
+   "statement": "An intake nurse or clinical manager reviews the discharge summary, medication list, and orders in the referral packet before accepting the case.",
+   "workflow": "referral intake",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "home-health-nurse:0007",
+   "section": "constraint",
+   "statement": "The initial assessment visit must occur within 48 hours of referral or of the patient's return home, or on the physician-ordered start date."
+  },
+  {
+   "claim_id": "home-health-nurse:0011",
+   "section": "workflow_step",
+   "statement": "The nurse loads the car with a bag containing a stethoscope, blood pressure cuff, pulse oximeter, thermometer, glucometer, scale, and gloves, plus wound care, lab, and teaching supplies.",
+   "workflow": "visit preparation",
+   "cadence": "daily"
+  },
+  {
+   "claim_id": "home-health-nurse:0012",
+   "section": "workflow_step",
+   "statement": "The nurse plans the day's route on a phone map app, grouping visits by neighborhood to limit driving.",
+   "workflow": "visit scheduling",
+   "cadence": "daily"
+  },
+  {
+   "claim_id": "home-health-nurse:0016",
+   "section": "workflow_step",
+   "statement": "The start-of-care visit opens with consent forms, the patient rights and responsibilities notice, privacy notice, and emergency plan, all signed on a tablet or on paper.",
+   "workflow": "start of care",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "home-health-nurse:0017",
+   "section": "constraint",
+   "statement": "A start-of-care visit with a full OASIS assessment typically takes 90 to 120 minutes, much longer than a routine follow-up visit of 30 to 60 minutes."
+  },
+  {
+   "claim_id": "home-health-nurse:0027",
+   "section": "workflow_step",
+   "statement": "The nurse looks over the home for hazards such as loose rugs, clutter, poor lighting, lack of grab bars, and blocked exits.",
+   "workflow": "home safety review",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "home-health-nurse:0036",
+   "section": "team_dynamics",
+   "statement": "Physicians and office staff are slow to return calls, so the nurse waits hours for orders on a patient who needs treatment today."
+  },
+  {
+   "claim_id": "home-health-nurse:0040",
+   "section": "constraint",
+   "statement": "Verbal orders must be documented and later signed by the physician, and unsigned orders can hold up billing."
+  },
+  {
+   "claim_id": "home-health-nurse:0047",
+   "section": "pain",
+   "statement": "Documentation usually takes 20 to 40 minutes per visit, and nurses often finish charting at night after the visits."
+  },
+  {
+   "claim_id": "home-health-nurse:0048",
+   "section": "workaround",
+   "statement": "The nurse jots brief notes on paper or a phone while in the home and writes the full note later."
+  },
+  {
+   "claim_id": "home-health-nurse:0049",
+   "section": "constraint",
+   "statement": "Notes must be completed within the agency's deadline, often 24 to 48 hours after the visit, or the visit cannot be billed."
+  },
+  {
+   "claim_id": "home-health-nurse:0056",
+   "section": "pain",
+   "statement": "Telemonitoring alerts are frequently false alarms from bad readings or unplugged devices, and chasing them uses up time."
+  },
+  {
+   "claim_id": "home-health-nurse:0063",
+   "section": "constraint",
+   "statement": "Wound care follows the physician or wound clinic order exactly, so a change in dressing type requires a new order."
+  },
+  {
+   "claim_id": "home-health-nurse:0064",
+   "section": "pain",
+   "statement": "The ordered dressing supplies are often not in the home, and the nurse has to wait for the supplier or use what is in the car."
+  },
+  {
+   "claim_id": "home-health-nurse:0074",
+   "section": "pain",
+   "statement": "Infusion pharmacy deliveries arrive late or to the wrong address, delaying doses."
+  },
+  {
+   "claim_id": "home-health-nurse:0080",
+   "section": "judgment_call",
+   "statement": "The nurse checks for cognitive impairment and decides whether the patient can manage medications on their own."
+  },
+  {
+   "claim_id": "home-health-nurse:0142",
+   "section": "pain",
+   "statement": "Patients leave the hospital without filling new prescriptions because of cost or transport, and the nurse finds this only at the first visit."
+  },
+  {
+   "claim_id": "home-health-nurse:0143",
+   "section": "workaround",
+   "statement": "The nurse asks the pharmacy to deliver or the physician to send a prescription to a pharmacy that delivers."
+  },
+  {
+   "claim_id": "home-health-nurse:0224",
+   "section": "workaround",
+   "statement": "Carries a spare kit in the trunk with gloves, saline, gauze, tape, and a sharps container because patients rarely have the supplies that were ordered."
+  },
+  {
+   "claim_id": "home-health-nurse:0335",
+   "section": "pain",
+   "statement": "Prescriptions go unfilled because of prior authorization, cost, or no transportation to the pharmacy."
+  },
+  {
+   "claim_id": "home-health-nurse:0336",
+   "section": "workaround",
+   "statement": "Asks the physician to send prescriptions to a delivering or mail-order pharmacy and follows up the next day to confirm they arrived."
+  },
+  {
+   "claim_id": "home-health-nurse:0378",
+   "section": "team_dynamics",
+   "statement": "Managers pressure nurses to schedule enough visits to avoid a LUPA, even when the patient is reluctant to have more visits."
+  },
+  {
+   "claim_id": "home-health-nurse:0381",
+   "section": "workaround",
+   "statement": "Nurses jot quick notes on a paper face sheet or in a phone notes app during the visit so they can recall functional details when answering QA questions later."
+  },
+  {
+   "claim_id": "home-health-nurse:0395",
+   "section": "workaround",
+   "statement": "Nurses keep a stash of common dressings, gauze, tape, and saline in the car trunk to cover gaps when supplies have not been delivered."
+  },
+  {
+   "claim_id": "home-health-nurse:0495",
+   "section": "team_dynamics",
+   "statement": "On referral from the nurse, the social worker helps with long-term planning, including assisted living placement, Medicaid applications, and community resources."
+  },
+  {
+   "claim_id": "home-health-nurse:0539",
+   "section": "limit",
+   "statement": "Competent patients have the right to refuse care and remain at home despite risk, and the nurse documents the refusal and the education provided."
+  },
+  {
+   "claim_id": "home-health-nurse:0571",
+   "section": "judgment_call",
+   "statement": "For diabetic patients, the nurse asks to see the glucometer and its memory log rather than relying on the handwritten log."
+  }
+ ],
+ "open_questions": [
+  {
+   "question": "Are you paid per visit, per point value, or salaried, and how are drive time, charting time, and cancelled visits counted?",
+   "why_it_matters": "Pay structure shapes how nurses schedule, how much unpaid work they absorb, and how they react to cancellations and LUPA pressure."
+  },
+  {
+   "question": "How many visits do you really complete on a typical day, and how much does that vary by urban versus rural territory?",
+   "why_it_matters": "Productivity expectations and travel burden differ greatly and determine what workflow tools would actually help."
+  },
+  {
+   "question": "How long do start-of-care visits, routine visits, and charting actually take you compared with agency expectations?",
+   "why_it_matters": "Real durations reveal where time is lost and which steps are rushed or moved to evenings."
+  },
+  {
+   "question": "How much charting do you finish after hours, and is that tolerated or expected?",
+   "why_it_matters": "Shows hidden unpaid work and the gap between policy deadlines and practice."
+  },
+  {
+   "question": "Which documentation or OASIS items cause the most rework or QA return, and who catches them?",
+   "why_it_matters": "Identifies the most frequent errors and the cost of correction loops between nurses and QA staff."
+  },
+  {
+   "question": "How quickly do physicians and offices return calls for orders, and what do you do when a patient needs treatment today?",
+   "why_it_matters": "Order delays are a major bottleneck; the workarounds used reveal risk and tolerated shortcuts."
+  },
+  {
+   "question": "How big is your problem with unsigned orders and plans of care, and what follow-up system do you use?",
+   "why_it_matters": "Unsigned paperwork blocks billing, and approaches to chasing it vary by agency."
+  },
+  {
+   "question": "What supplies are routinely missing at the home, and how do you handle the gap (car stash, agency stock, vendor rush orders)?",
+   "why_it_matters": "Shows how often stocked-in-trunk workarounds are used and what supply failures delay care."
+  },
+  {
+   "question": "How often are new prescriptions unfilled or wrong at the first visit, and what is your fix path with the pharmacy and physician?",
+   "why_it_matters": "Frequency and fix time of medication gaps affect readmission risk and visit workload."
+  },
+  {
+   "question": "If your agency uses telemonitoring, how many alerts do you get daily, what share are false, and what do you do with them?",
+   "why_it_matters": "Reveals alert fatigue and time lost, and which responses (calling versus visiting) are actually used."
+  },
+  {
+   "question": "How do you handle Medicare Advantage authorization limits, and what happens when approved visits run short of what the patient needs?",
+   "why_it_matters": "Differences in payer handling lead to early discharge, unpaid visits, or heavy justification work."
+  },
+  {
+   "question": "How much pressure do you feel from managers about visit counts, LUPA thresholds, or frequency, and how do you respond when a patient does not want more visits?",
+   "why_it_matters": "Shows the tension between productivity or revenue goals and patient-centered care."
+  },
+  {
+   "question": "How do you decide whether a patient is still homebound or still has a skilled need, and what happens when you doubt it?",
+   "why_it_matters": "Eligibility judgments are compliance-critical and handled differently across agencies."
+  },
+  {
+   "question": "What happens after hours: how often do patients or families call your work phone, and who covers the on-call line?",
+   "why_it_matters": "Boundary and workload expectations vary and affect burnout and responsiveness."
+  },
+  {
+   "question": "What shortcuts or workarounds are tolerated, such as personal phones for texting or notes, partial charting in the home, or skipping a step when time is short?",
+   "why_it_matters": "Informal practices indicate where official processes do not fit the real workday and where compliance risks lie."
+  }
+ ],
+ "next": "get_role_map returns any section in full. ask_role_map returns the claims most relevant to a question. request_verification logs a question for real practitioners."
+}

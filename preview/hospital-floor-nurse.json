@@ -1,0 +1,286 @@
+{
+ "niche_id": "hospital-floor-nurse",
+ "title": "Hospital floor nurse",
+ "profession": "clinical",
+ "description": "registered nurse on a medical-surgical floor of a community hospital in the United States, working 12-hour shifts",
+ "region": "United States",
+ "titles": [
+  "Registered Nurse (RN), Medical-Surgical",
+  "Staff Nurse, Med-Surg",
+  "Med-Surg RN",
+  "Clinical Nurse II (clinical ladder title)",
+  "Floor Nurse",
+  "Bedside Nurse"
+ ],
+ "context": {
+  "employer_types": [
+   "Community hospital (nonprofit)",
+   "For-profit hospital system",
+   "Critical access or rural hospital",
+   "Faith-based hospital",
+   "County or district hospital"
+  ],
+  "company_sizes": [
+   "Small hospital (25-100 beds)",
+   "Mid-size community hospital (100-300 beds)",
+   "Part of a multi-hospital regional or national health system"
+  ],
+  "reports_to": [
+   "Nurse manager / unit director",
+   "Charge nurse (shift-level)",
+   "House supervisor (off-hours)",
+   "Assistant nurse manager"
+  ],
+  "depends_on_them": [
+   "Patients on the unit",
+   "Patients' families",
+   "Hospitalists and other providers",
+   "CNAs / patient care techs",
+   "Pharmacy",
+   "Case management / discharge planning",
+   "Physical, respiratory and speech therapists",
+   "ED and bed management (for admissions)",
+   "Environmental services",
+   "Oncoming shift nurses"
+  ]
+ },
+ "summary": "The med-surg RN provides direct, hands-on care to roughly four to six acutely ill or post-operative adults per 12-hour shift, including assessments, vital sign review, medication administration with barcode scanning, infusions, wound care, blood transfusions, and mobility and fall-prevention measures. They monitor for deterioration (sepsis, arrhythmias, withdrawal), communicate with providers, activate rapid response, coordinate with pharmacy, therapy, case management and telemetry monitor techs, and document everything in the EHR. They also run admissions, discharges, and patient and family teaching, while managing interruptions, delays, infection control, privacy rules and handoff to the next shift.",
+ "statements": 1430,
+ "by_section": {
+  "workflow_step": 408,
+  "team_dynamics": 97,
+  "judgment_call": 80,
+  "constraint": 205,
+  "pain": 311,
+  "limit": 86,
+  "workaround": 172,
+  "improvisation": 71
+ },
+ "sample_claims": [
+  {
+   "claim_id": "hospital-floor-nurse:0001",
+   "section": "workflow_step",
+   "statement": "The nurse arrives about 15 to 30 minutes before the 7 AM or 7 PM shift start to review the assignment sheet and the patient list in the electronic health record.",
+   "workflow": "shift start",
+   "cadence": "daily"
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0002",
+   "section": "team_dynamics",
+   "statement": "The charge nurse posts the assignment, usually four to six patients per nurse on a community hospital med-surg floor, based on acuity, geography, and continuity from prior shifts."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0014",
+   "section": "workflow_step",
+   "statement": "Medications are pulled from an automated dispensing cabinet such as Pyxis or Omnicell using a fingerprint or badge login and the patient's profile.",
+   "workflow": "medication administration",
+   "cadence": "daily"
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0015",
+   "section": "workflow_step",
+   "statement": "At the bedside, the nurse scans the patient's wristband and then each medication barcode, which is barcode medication administration, before giving anything.",
+   "workflow": "medication administration",
+   "cadence": "daily"
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0019",
+   "section": "constraint",
+   "statement": "For high-alert drugs such as heparin drips, insulin infusions, and PCA opioids, two nurses independently verify the pump settings at the bedside at start and at each handoff."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0025",
+   "section": "pain",
+   "statement": "The nurse communicates with providers by secure text message, phone call, or overhead page, and then waits for a callback, which may take minutes or over an hour."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0027",
+   "section": "workflow_step",
+   "statement": "The nurse enters or acknowledges new orders in the EHR, and verbal or telephone orders are read back and cosigned by the provider later.",
+   "workflow": "provider communication",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0030",
+   "section": "workflow_step",
+   "statement": "For blood cultures, the nurse draws two sets from separate sites before starting antibiotics when sepsis is suspected.",
+   "workflow": "sepsis response",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0031",
+   "section": "workflow_step",
+   "statement": "Blood transfusions begin with two-nurse verification of the unit, the patient, and the consent, and vitals are taken before, 15 minutes after the start, and at the end.",
+   "workflow": "blood product handling",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0049",
+   "section": "team_dynamics",
+   "statement": "Patients on telemetry are monitored by a monitor tech who calls the nurse about alarms, such as runs of ventricular tachycardia or atrial fibrillation with rapid response."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0081",
+   "section": "constraint",
+   "statement": "Restraint use requires a provider order, frequent checks every 15 to 30 minutes, and periodic renewal, all of which the nurse documents."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0099",
+   "section": "pain",
+   "statement": "Medications from pharmacy are often late, with delays of an hour or more, and the nurse calls pharmacy or the tube system to track them."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0100",
+   "section": "pain",
+   "statement": "The barcode scanner fails when a wristband is smudged or a barcode is damaged, and the nurse has to override or reprint."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0107",
+   "section": "pain",
+   "statement": "Discharges are delayed by waiting for the provider order, transport, pharmacy meds-to-beds, or a skilled nursing facility bed, which holds up the next admission."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0112",
+   "section": "pain",
+   "statement": "Lifting and turning heavy patients without enough staff or working lift equipment causes back and shoulder strain."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0113",
+   "section": "pain",
+   "statement": "Shortages of supplies such as IV tubing, dressings, or linens send the nurse looking in other rooms or other units."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0127",
+   "section": "workaround",
+   "statement": "Nurses keep a paper brain sheet in a pocket because the EHR does not show tasks in a quick, time-ordered view."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0131",
+   "section": "workaround",
+   "statement": "Nurses keep extra flushes, tape, and alcohol caps in pockets to avoid walking back to the supply room."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0135",
+   "section": "workaround",
+   "statement": "Nurses call the pharmacy directly or use the pneumatic tube to chase missing medications rather than waiting for the delivery."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0138",
+   "section": "improvisation",
+   "statement": "Nurses give the family a role, such as walking or alerting staff, to keep a confused patient safe when no sitter is available."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0139",
+   "section": "workaround",
+   "statement": "Nurses move high-risk patients to rooms near the station so they can be seen more easily."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0141",
+   "section": "workaround",
+   "statement": "Nurses ask the day shift or the night shift to start discharge teaching or paperwork the evening before when a discharge is expected."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0149",
+   "section": "constraint",
+   "statement": "Patient privacy rules under HIPAA limit what can be told to callers and visitors, and the nurse verifies identity before giving information."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0150",
+   "section": "constraint",
+   "statement": "Visiting hours and isolation rules limit family presence, and the nurse enforces them with explanation."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0208",
+   "section": "constraint",
+   "statement": "Pharmacy verification delays hold up first doses, so antibiotics, pain medications, or home meds may arrive an hour or more after the order."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0224",
+   "section": "constraint",
+   "statement": "Patient satisfaction surveys, such as Press Ganey and HCAHPS, tie to hospital reputation and put pressure on the nurse to be agreeable even to unreasonable demands."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0246",
+   "section": "workaround",
+   "statement": "Nurses keep a folded paper brain sheet in a pocket because the electronic record does not show a timeline of the shift in a form they can use at a glance."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0255",
+   "section": "improvisation",
+   "statement": "When a provider is slow to respond, the nurse pages again with a more urgent framing, calls the charge nurse, or escalates to the house supervisor."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0303",
+   "section": "limit",
+   "statement": "Visitor policies and infection restrictions limit how many people can be at the bedside, and the nurse is often the one enforcing them."
+  },
+  {
+   "claim_id": "hospital-floor-nurse:0462",
+   "section": "improvisation",
+   "statement": "Supply shortages, such as missing IV tubing, dressings, or specific catheter sizes, force nurses to search other units."
+  }
+ ],
+ "open_questions": [
+  {
+   "question": "What is your usual patient ratio, and how often does it exceed the plan on your floor?",
+   "why_it_matters": "Actual load drives every other delay and risk and varies by hospital and staffing."
+  },
+  {
+   "question": "How early do you really arrive and how late do you really leave, and how much of that is paid?",
+   "why_it_matters": "Unpaid time is a hidden cost that differs by employer and culture."
+  },
+  {
+   "question": "Which delays hit you most often: pharmacy, provider callbacks, discharge orders, transport, or SNF placement, and how long does each take?",
+   "why_it_matters": "Identifies the biggest real bottlenecks and their actual durations."
+  },
+  {
+   "question": "How long does an ED admission take from phone report to completed admission database on a typical day?",
+   "why_it_matters": "Real timing shows workload spikes, often at shift change."
+  },
+  {
+   "question": "How often do barcode scans fail, and what do people actually do when they do?",
+   "why_it_matters": "Tolerated workarounds reveal safety risks and tool design gaps."
+  },
+  {
+   "question": "Do you take a real meal or bathroom break on most shifts, and who covers you?",
+   "why_it_matters": "Coverage practices differ widely and affect fatigue and safety."
+  },
+  {
+   "question": "How do you decide when to escalate a slow provider and when do you go to the charge nurse or supervisor?",
+   "why_it_matters": "Informal thresholds vary by unit and hospital culture."
+  },
+  {
+   "question": "What is on your brain sheet and what does the EHR fail to show?",
+   "why_it_matters": "Reveals gaps in software and the real task sequencing."
+  },
+  {
+   "question": "Is a second nurse for high-alert checks and transfusions usually available right away, or do you wait?",
+   "why_it_matters": "Wait times for independent checks create hidden delays and shortcuts."
+  },
+  {
+   "question": "How do you handle a confused or fall-risk patient when no sitter is available?",
+   "why_it_matters": "Reveals tolerated informal safety workarounds and resource gaps."
+  },
+  {
+   "question": "How many alarms do you get per shift, and which ones do you tune out or trust?",
+   "why_it_matters": "Alarm fatigue specifics differ by monitoring system and unit."
+  },
+  {
+   "question": "What supplies run out most often and where do you go to find them?",
+   "why_it_matters": "Shows supply chain failures and the informal stockpiling that results."
+  },
+  {
+   "question": "How often are you floated, called off, or asked to stay over, and what are the rules where you work?",
+   "why_it_matters": "Union, policy and staffing practices vary and affect planning and burnout."
+  },
+  {
+   "question": "How do boarding psychiatric patients or patients awaiting placement affect your assignment and what support do you get?",
+   "why_it_matters": "Support levels and bed pressure differ across hospitals."
+  },
+  {
+   "question": "How long do interpreter services and EHR downtime procedures really take, and what do you do in the meantime?",
+   "why_it_matters": "Reveals practical delays and tolerated workarounds, such as using family."
+  }
+ ],
+ "next": "get_role_map returns any section in full. ask_role_map returns the claims most relevant to a question. request_verification logs a question for real practitioners."
+}

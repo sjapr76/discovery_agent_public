@@ -1,0 +1,289 @@
+{
+ "niche_id": "accounts-payable-clerk",
+ "title": "Accounts payable clerk at a mid-size company",
+ "profession": "accounting",
+ "description": "accounts payable clerk in the finance team of a mid-size company (200 to 2,000 employees) in the United States, processing vendor invoices and payment runs in an ERP such as NetSuite or SAP",
+ "region": "United States",
+ "titles": [
+  "Accounts Payable Clerk",
+  "Accounts Payable Specialist",
+  "AP Processor",
+  "Accounts Payable Associate",
+  "Accounts Payable Coordinator",
+  "AP Analyst"
+ ],
+ "context": {
+  "employer_types": [
+   "Manufacturers and distributors",
+   "Healthcare systems and providers",
+   "Professional services and staffing firms",
+   "Retail and wholesale companies",
+   "Construction and real estate firms",
+   "Software, technology and SaaS companies",
+   "Nonprofits, universities and grant-funded organizations",
+   "Private-equity-backed or pre-audit/pre-sale private companies"
+  ],
+  "company_sizes": [
+   "200 to 500 employees",
+   "500 to 1,000 employees",
+   "1,000 to 2,000 employees"
+  ],
+  "reports_to": [
+   "AP Manager",
+   "Accounting Manager",
+   "Controller",
+   "Director of Finance"
+  ],
+  "depends_on_them": [
+   "Vendors and suppliers waiting for payment",
+   "Budget owners, department heads and requesters",
+   "Buyers and procurement",
+   "Warehouse and receiving staff",
+   "Controller and GL/staff accountants (accruals, close)",
+   "Treasury and cash management",
+   "Fixed asset accountant",
+   "Tax team (1099, use tax)",
+   "Internal and external auditors",
+   "Payroll and HR (expense reimbursements)"
+  ]
+ },
+ "summary": "The AP clerk receives vendor invoices from email, mail and supplier portals, captures and verifies them, codes them or matches them to purchase orders and receipts in the ERP, and routes them for approval under the company's approval matrix. They prepare and release payment runs by ACH, check, wire and virtual card, applying credits and discounts, sending remittances, and answering vendor payment inquiries. They also maintain vendor master data and controls (W-9s, bank-change verification, 1099 reporting, use tax, duplicate checks), support month-end accruals and close, and supply audit evidence.",
+ "statements": 1341,
+ "by_section": {
+  "workflow_step": 377,
+  "pain": 305,
+  "judgment_call": 93,
+  "constraint": 215,
+  "team_dynamics": 128,
+  "workaround": 130,
+  "improvisation": 38,
+  "limit": 55
+ },
+ "sample_claims": [
+  {
+   "claim_id": "accounts-payable-clerk:0001",
+   "section": "workflow_step",
+   "statement": "Each morning I open the shared AP inbox and sort new vendor emails into invoices, statements, and inquiries.",
+   "workflow": "invoice intake",
+   "cadence": "daily"
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0007",
+   "section": "judgment_call",
+   "statement": "I check that the invoice shows vendor name, invoice number, date, amount, remit-to address, and PO number before entering it."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0008",
+   "section": "pain",
+   "statement": "Invoices missing a PO number are common and get sent back to the vendor or the requester for the reference."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0013",
+   "section": "constraint",
+   "statement": "Non-PO invoices must be coded to a GL account, department, and sometimes class or location by me or the approver."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0016",
+   "section": "workflow_step",
+   "statement": "For PO invoices I perform a three-way match of PO, receipt, and invoice quantities and prices in the ERP.",
+   "workflow": "three-way match",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0017",
+   "section": "pain",
+   "statement": "Invoices fail the match because the warehouse or requester never entered the item receipt."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0024",
+   "section": "workaround",
+   "statement": "I send each approver a weekly list of pending items and copy their manager when invoices near the due date."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0028",
+   "section": "constraint",
+   "statement": "Segregation of duties prevents me from approving invoices I entered or from changing vendor bank details."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0029",
+   "section": "workflow_step",
+   "statement": "I track due dates from payment terms such as net 30, net 45, or 2/10 net 30.",
+   "workflow": "payment scheduling",
+   "cadence": "daily"
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0031",
+   "section": "workflow_step",
+   "statement": "A new vendor request starts with a W-9 and a vendor setup form from the requester or procurement.",
+   "workflow": "vendor setup",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0033",
+   "section": "workflow_step",
+   "statement": "I verify ACH bank details by calling a known contact at the vendor, not the number on the form.",
+   "workflow": "vendor setup",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0035",
+   "section": "pain",
+   "statement": "Business email compromise attempts send fake bank change requests that look like real vendor emails."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0039",
+   "section": "workflow_step",
+   "statement": "I mark vendors as 1099 eligible and assign the form type, such as 1099-NEC for services.",
+   "workflow": "vendor setup",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0076",
+   "section": "pain",
+   "statement": "Utility and telecom invoices arrive with varying amounts and many accounts, so they take extra coding effort."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0077",
+   "section": "constraint",
+   "statement": "Freight and carrier invoices are coded to inventory cost or freight expense per the company's rule."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0078",
+   "section": "constraint",
+   "statement": "Prepaid invoices such as annual software are coded to prepaid expense and amortized by the accounting team."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0080",
+   "section": "judgment_call",
+   "statement": "Vendors charge sales tax inconsistently, so I question invoices that tax exempt purchases."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0082",
+   "section": "constraint",
+   "statement": "The close calendar gives AP about three to five business days after month-end to enter all invoices dated in the period."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0089",
+   "section": "constraint",
+   "statement": "Once the period is locked, late invoices must be dated to the next period."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0123",
+   "section": "pain",
+   "statement": "After-the-fact POs are frequent, and invoices arrive before a PO exists."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0134",
+   "section": "team_dynamics",
+   "statement": "Employees forward invoices late with notes to pay immediately, bypassing the approval process."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0140",
+   "section": "improvisation",
+   "statement": "When a vendor insists on virtual card payment, I process it through the bank card platform and note the fee."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0141",
+   "section": "limit",
+   "statement": "Virtual card vendors surcharge 2 to 3 percent, and the fee has to be argued or accepted."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0198",
+   "section": "pain",
+   "statement": "Invoices come in as scans, photos, email bodies, and portal downloads, and OCR often misreads invoice numbers, dates, or line amounts."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0200",
+   "section": "team_dynamics",
+   "statement": "Vendors send invoices straight to the person who ordered the service, and the bill reaches AP only after the supplier calls to ask why it is past due."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0237",
+   "section": "workaround",
+   "statement": "The clerk keeps a personal Excel tracker of invoices stuck in approval, with approver names and last-chased dates, because the ERP workflow view is too limited."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0238",
+   "section": "workaround",
+   "statement": "The clerk uses Outlook rules and color-coded folders to separate vendor statements, urgent requests, and ordinary invoices in the AP mailbox."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0239",
+   "section": "workaround",
+   "statement": "Before releasing a run the clerk sorts the payment proposal by vendor and amount in Excel to spot duplicates and unusual totals the system did not flag."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0240",
+   "section": "workaround",
+   "statement": "The clerk keeps a cheat sheet of vendor quirks, such as which suppliers always put the PO number in the notes field or invoice by project code."
+  },
+  {
+   "claim_id": "accounts-payable-clerk:0242",
+   "section": "workaround",
+   "statement": "The clerk walks over or messages the approver on Teams for urgent invoices because workflow notifications get ignored."
+  }
+ ],
+ "open_questions": [
+  {
+   "question": "Which invoice problems come up most often at your company (missing PO, missing receipt, price variance, duplicates, wrong entity), and roughly what share of invoices do they affect?",
+   "why_it_matters": "Shows where time actually goes and which fixes or automation would matter most."
+  },
+  {
+   "question": "How long does a typical invoice take from arrival to approved, and where does it usually wait?",
+   "why_it_matters": "Reveals real cycle-time bottlenecks, often approvers or receiving, rather than AP processing."
+  },
+  {
+   "question": "What share of invoices come through email, mail, portals, or EDI, and how much OCR or capture correction is needed?",
+   "why_it_matters": "Determines the manual effort and the value of capture tooling."
+  },
+  {
+   "question": "Which workarounds around the ERP workflow are tolerated (personal trackers, Teams nudges, email approvals, after-the-fact POs)?",
+   "why_it_matters": "Exposes gaps in the official system and informal practices that auditors or tools must account for."
+  },
+  {
+   "question": "How are urgent pay-immediately requests handled, and who can authorize skipping the normal process?",
+   "why_it_matters": "Shows the real control exceptions and escalation paths."
+  },
+  {
+   "question": "How often are payment runs (daily, weekly, twice weekly), and what is the cutoff for invoices to make a run?",
+   "why_it_matters": "Sets the rhythm of work and vendor expectations on payment timing."
+  },
+  {
+   "question": "What payment-method mix do you have (ACH, check, wire, virtual card), and how hard do you push vendors to switch?",
+   "why_it_matters": "Affects cost, fraud risk, rebates, and workload for each run."
+  },
+  {
+   "question": "How do you decide on surcharges for card payments and whether to take early-pay discounts?",
+   "why_it_matters": "Reveals the decision rules and who owns the cash versus savings tradeoff."
+  },
+  {
+   "question": "How do you verify bank detail changes in practice, and how often do suspected BEC attempts arrive and get caught?",
+   "why_it_matters": "Shows real fraud exposure and whether controls are followed under time pressure."
+  },
+  {
+   "question": "How many vendor inquiry calls and emails do you handle per day, and what share could be answered by a self-service portal?",
+   "why_it_matters": "Quantifies interruption load and the potential of vendor self-service."
+  },
+  {
+   "question": "How long do large multi-line or multi-PO invoices take to match, and which vendors cause the most trouble?",
+   "why_it_matters": "Identifies the heaviest manual tasks and vendor-specific quirks."
+  },
+  {
+   "question": "How tight is the month-end close for AP, and what happens to invoices that arrive after the lock (controller approval, next-period dating, manual accrual)?",
+   "why_it_matters": "Shows close pressure and the real handling of cutoff exceptions."
+  },
+  {
+   "question": "How is sales and use tax handled: who decides, how many invoices are questioned, and how often do vendors correct them?",
+   "why_it_matters": "Indicates tax knowledge required and the volume of rework with vendors."
+  },
+  {
+   "question": "What happens with 1099 and W-9 collection in practice: how many vendors lack TINs, and how late does January prep get?",
+   "why_it_matters": "Shows seasonal workload and compliance risk."
+  },
+  {
+   "question": "What does audit support look like: how many samples are requested, how long to retrieve, and what evidence is often missing?",
+   "why_it_matters": "Reveals documentation discipline and the burden of audit time."
+  }
+ ],
+ "next": "get_role_map returns any section in full. ask_role_map returns the claims most relevant to a question. request_verification logs a question for real practitioners."
+}

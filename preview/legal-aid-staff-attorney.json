@@ -1,0 +1,285 @@
+{
+ "niche_id": "legal-aid-staff-attorney",
+ "title": "Legal aid staff attorney",
+ "profession": "legal",
+ "description": "staff attorney at a civil legal aid organisation in the United States, representing low-income clients in housing, benefits and family matters",
+ "region": "United States",
+ "titles": [
+  "Staff Attorney",
+  "Legal Aid Attorney",
+  "Housing Attorney",
+  "Public Benefits Attorney",
+  "Family Law Attorney",
+  "Staff Attorney, Housing Unit"
+ ],
+ "context": {
+  "employer_types": [
+   "LSC-funded civil legal aid nonprofit",
+   "Non-LSC legal services nonprofit",
+   "Regional or statewide legal aid society",
+   "Medical-legal partnership housed in a hospital or clinic",
+   "Law school clinic affiliated legal services organization"
+  ],
+  "company_sizes": [
+   "Small rural program (10-30 staff)",
+   "Mid-size regional program (50-150 staff)",
+   "Large urban or statewide program (200-500+ staff)"
+  ],
+  "reports_to": [
+   "Supervising attorney",
+   "Managing attorney",
+   "Practice group director or unit director",
+   "Directing attorney of a branch office",
+   "Executive director or deputy director (in small offices)"
+  ],
+  "depends_on_them": [
+   "Low-income clients facing eviction, benefit terminations or family crises",
+   "Intake staff and hotline workers who route matters to them",
+   "Paralegals and legal assistants",
+   "Pro bono volunteer attorneys who take overflow cases",
+   "Law students and interns under their supervision",
+   "Medical-legal partnership clinicians and social workers who refer patients",
+   "Domestic violence advocates and community partners who refer clients",
+   "Funders and grant managers who rely on case-outcome and case-count reporting"
+  ]
+ },
+ "summary": "A staff attorney at a civil legal aid organisation represents income-eligible clients in housing (eviction defense, subsidized housing and voucher terminations, repairs), public benefits (SNAP, Medicaid, TANF, unemployment, SSI/SSDI) and family matters (protective orders, custody, support, guardianship). They review intake and notices, calendar short deadlines, gather documents, draft answers, fair hearing requests, petitions and stipulations, and appear in high-volume dockets and administrative hearings. They also negotiate settlements, follow up to ensure agencies actually restore benefits, supervise students and volunteers, refer out-of-scope matters, and work with social workers and advocates, all under heavy caseloads, limited funding, and funder eligibility rules.",
+ "statements": 1376,
+ "by_section": {
+  "workflow_step": 397,
+  "constraint": 198,
+  "pain": 303,
+  "judgment_call": 127,
+  "workaround": 136,
+  "team_dynamics": 71,
+  "limit": 69,
+  "improvisation": 75
+ },
+ "sample_claims": [
+  {
+   "claim_id": "legal-aid-staff-attorney:0001",
+   "section": "workflow_step",
+   "statement": "A matter begins when a client phones the central intake line or submits an online application, and an intake worker records the problem in the case management system, commonly LegalServer.",
+   "workflow": "intake and screening",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0002",
+   "section": "constraint",
+   "statement": "Intake staff check household income against the funder ceiling, usually 125 percent of the federal poverty guideline for Legal Services Corporation funded work, before a matter is accepted."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0003",
+   "section": "workflow_step",
+   "statement": "A conflict check runs against the case management database for adverse parties such as the landlord, the housing authority, or the other parent.",
+   "workflow": "intake and screening",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0012",
+   "section": "workflow_step",
+   "statement": "The attorney asks the client to photograph or bring every paper, including the notice, lease, summons, rent receipts, and any landlord ledger.",
+   "workflow": "eviction defense",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0017",
+   "section": "workflow_step",
+   "statement": "The attorney drafts an answer raising defenses such as defective notice, payment, retaliation, breach of the warranty of habitability, and discrimination.",
+   "workflow": "eviction defense",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0030",
+   "section": "pain",
+   "statement": "Code inspectors can take weeks to schedule a visit, and the eviction hearing often arrives first."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0036",
+   "section": "judgment_call",
+   "statement": "The attorney checks whether the property is covered by the CARES Act thirty day notice requirement, for example through a federally backed mortgage or subsidy."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0038",
+   "section": "pain",
+   "statement": "Eviction filings continue to appear on tenant screening reports even after dismissal, and clients keep being denied apartments."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0043",
+   "section": "workflow_step",
+   "statement": "On eviction docket days the attorney appears in a batch of thirty to forty cases and waits for each case to be called.",
+   "workflow": "eviction defense",
+   "cadence": "weekly"
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0055",
+   "section": "workflow_step",
+   "statement": "For a domestic violence survivor the attorney assembles VAWA protections, including the HUD certification form and an emergency transfer request.",
+   "workflow": "subsidized housing termination",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0058",
+   "section": "constraint",
+   "statement": "Voucher holders have only sixty to one hundred twenty days to find a unit, and landlords who refuse vouchers make this hard to meet."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0069",
+   "section": "improvisation",
+   "statement": "The attorney asks the court for a continuance while an assistance application is pending."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0083",
+   "section": "workaround",
+   "statement": "Attorneys keep direct email addresses for agency liaisons and advocate lines to bypass the public call center."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0087",
+   "section": "judgment_call",
+   "statement": "Because of immigrant eligibility restrictions the attorney verifies the immigration category before advising on benefits and sometimes refers the case to an immigration partner."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0140",
+   "section": "team_dynamics",
+   "statement": "A supervising attorney reviews cases in weekly or biweekly meetings, and newer attorneys have pleadings reviewed before filing."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0164",
+   "section": "constraint",
+   "statement": "LSC-funded programs screen income against 125 percent of the federal poverty guidelines, so working clients just above the line get turned away despite real need."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0178",
+   "section": "pain",
+   "statement": "Landlord ledgers frequently lump late fees, repair charges, and utilities into rent, making the real balance hard to establish."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0186",
+   "section": "pain",
+   "statement": "Code enforcement inspections can take weeks to schedule, and the report often arrives after the hearing."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0222",
+   "section": "limit",
+   "statement": "When a benefits problem raises public charge or immigration concerns, attorneys refer the question to immigration specialists rather than handling it themselves."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0230",
+   "section": "constraint",
+   "statement": "Because LSC rules limit fee-generating cases, attorneys usually refer fee-eligible Social Security cases to private counsel unless the client cannot find anyone."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0286",
+   "section": "team_dynamics",
+   "statement": "Pro bono coordinators place overflow cases with volunteer attorneys, and staff attorneys mentor them."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0288",
+   "section": "team_dynamics",
+   "statement": "Staff attorneys supervise law school clinic students and interns on research and client interviews."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0290",
+   "section": "team_dynamics",
+   "statement": "Attorneys lean on social workers and housing counselors to explain a client's situation and handle the non-legal needs."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0313",
+   "section": "team_dynamics",
+   "statement": "Attorneys debrief with trusted colleagues after a hard hearing, often using dark humor."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0317",
+   "section": "pain",
+   "statement": "Salaries well below private practice, combined with student loans, drive turnover, and attorneys regularly weigh leaving."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0318",
+   "section": "workaround",
+   "statement": "Attorneys use public service loan forgiveness and employer loan repayment assistance to stay in the job."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0325",
+   "section": "constraint",
+   "statement": "Pandemic eviction moratoria and emergency rental assistance expired, and eviction caseloads returned to or exceeded earlier levels."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0332",
+   "section": "constraint",
+   "statement": "Before a matter reaches the attorney, intake paralegals or hotline staff screen the caller's household income against the program's eligibility ceiling, typically around 125 percent of the federal poverty guidelines for LSC-funded programs."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0344",
+   "section": "workaround",
+   "statement": "When clients cannot come into the office, attorneys collect signatures through e-signature tools or by having the client photograph a signed page and text it back."
+  },
+  {
+   "claim_id": "legal-aid-staff-attorney:0354",
+   "section": "judgment_call",
+   "statement": "The attorney checks whether the property is federally backed or subsidized, using public databases of subsidized and tax-credit housing, because that affects notice periods and defenses such as the CARES Act 30-day notice requirement."
+  }
+ ],
+ "open_questions": [
+  {
+   "question": "Which problems come up most often in your caseload (nonpayment evictions, holdovers, subsidized-housing terminations, benefits cutoffs, DV-related family cases), and has the mix shifted recently?",
+   "why_it_matters": "Case mix determines which skills, forms and relationships matter most and differs by region and program."
+  },
+  {
+   "question": "How many days do you typically have between service of the summons and the first hearing or answer deadline in your court, and how often is that really enough?",
+   "why_it_matters": "Actual timelines vary by state and county and drive triage and workload."
+  },
+  {
+   "question": "What does a typical eviction docket day look like in your courthouse, including how many cases, where negotiations happen, and how much time you get with each client?",
+   "why_it_matters": "Docket practices vary widely and shape how much real lawyering is possible."
+  },
+  {
+   "question": "How long do steps really take: code inspections, fair hearing scheduling, SSA hearings, GAL reports, housing authority file requests?",
+   "why_it_matters": "Actual delays versus official timelines affect strategy such as continuances and emergency requests."
+  },
+  {
+   "question": "Which workarounds are tolerated or even encouraged in your office, such as texting clients, photographed signatures, or informal agency contacts?",
+   "why_it_matters": "Informal practices determine real efficiency and differ by supervisor and ethics guidance."
+  },
+  {
+   "question": "How is the income eligibility line handled for clients just above 125 percent, and are there exceptions, other funding sources or referral options in your program?",
+   "why_it_matters": "Programs have different funders and waiver policies, changing who can actually be served."
+  },
+  {
+   "question": "How much of your time goes to administrative work like e-filing problems, fee waivers, case notes and funder reporting?",
+   "why_it_matters": "Administrative burden is a major source of lost time and burnout."
+  },
+  {
+   "question": "How do you decide between full representation, limited-scope help and brief advice when capacity runs out?",
+   "why_it_matters": "Triage criteria are informal and vary by office and funder priorities."
+  },
+  {
+   "question": "What is your caseload, and how many hearings or deadlines are you juggling in a typical week?",
+   "why_it_matters": "Caseload size varies and affects quality of work and turnover."
+  },
+  {
+   "question": "How reliable are pro bono volunteers and law students, and how often do you end up taking cases back?",
+   "why_it_matters": "The real value of volunteers depends on screening, training and supervision capacity."
+  },
+  {
+   "question": "How do local clerks and judges differ in handling e-filing, fee waivers, interpreters and continuances, and how do you learn those quirks?",
+   "why_it_matters": "Local practice often outweighs written rules and is learned only by experience."
+  },
+  {
+   "question": "Which agency contacts or liaisons are most valuable, and what happens when they leave or stop responding?",
+   "why_it_matters": "Relationship-based escalation channels are fragile and not documented anywhere."
+  },
+  {
+   "question": "How often do clients go silent or miss hearings, and what works best to keep in touch?",
+   "why_it_matters": "Client loss is a major risk, and effective contact practices vary by population."
+  },
+  {
+   "question": "How do you handle rental assistance applications that landlords or agencies push onto your office, and how much time does it take?",
+   "why_it_matters": "It shows hidden work outside core legal services that varies by locality."
+  },
+  {
+   "question": "What supports keep you in the job (loan forgiveness, supervision, debriefing, EAP), and what would make you leave?",
+   "why_it_matters": "Retention factors differ across organisations and shape staffing and workplace design."
+  }
+ ],
+ "next": "get_role_map returns any section in full. ask_role_map returns the claims most relevant to a question. request_verification logs a question for real practitioners."
+}

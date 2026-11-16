@@ -1,0 +1,285 @@
+{
+ "niche_id": "property-claims-adjuster",
+ "title": "Property claims adjuster",
+ "profession": "insurance",
+ "description": "property claims adjuster handling homeowner and small commercial property claims for an insurance carrier in the United States, including field inspections and estimates",
+ "region": "United States",
+ "titles": [
+  "Property Claims Adjuster",
+  "Field Property Adjuster",
+  "Property Claims Representative",
+  "Homeowner Property Adjuster",
+  "Casualty/Property Claims Specialist",
+  "Staff Property Adjuster"
+ ],
+ "context": {
+  "employer_types": [
+   "National and regional property and casualty insurance carriers",
+   "Mutual and regional insurers",
+   "Third-party administrators and independent adjusting firms contracted by carriers",
+   "Managing general agents and surplus lines carriers"
+  ],
+  "company_sizes": [
+   "Small regional carrier or independent adjusting firm (under 500 employees)",
+   "Mid-size carrier (500 to 5,000 employees)",
+   "Large national carrier (over 5,000 employees)"
+  ],
+  "reports_to": [
+   "Claims supervisor or team manager",
+   "Property claims unit manager",
+   "Catastrophe (CAT) team lead or field manager",
+   "Independent adjusting firm branch manager"
+  ],
+  "depends_on_them": [
+   "Policyholders waiting on inspections, estimates and payments",
+   "Mortgage companies awaiting payment and documentation",
+   "Contractors and mitigation vendors needing agreed scope",
+   "Subrogation and special investigations units needing evidence",
+   "Carrier management and reinsurers relying on accurate reserves",
+   "Regulators and litigators who review the claim file"
+  ]
+ },
+ "summary": "A property claims adjuster investigates homeowner and small commercial property losses by confirming coverage, checking weather and claim history, inspecting damage in the field, and documenting it with photos, measurements and notes. They write estimates in Xactimate, apply deductibles, depreciation, overhead and profit, and issue payments within their authority, explaining the results to insureds, contractors and mortgage companies. They also manage reserves, regulatory deadlines, denials, reservations of rights, appraisal, subrogation and fraud referrals, while keeping a complete file that can withstand audit or litigation.",
+ "statements": 1354,
+ "by_section": {
+  "workflow_step": 433,
+  "judgment_call": 99,
+  "constraint": 247,
+  "improvisation": 59,
+  "limit": 68,
+  "pain": 272,
+  "team_dynamics": 79,
+  "workaround": 97
+ },
+ "sample_claims": [
+  {
+   "claim_id": "property-claims-adjuster:0001",
+   "section": "workflow_step",
+   "statement": "A new claim lands in the adjuster's queue in the claims system (Guidewire ClaimCenter, Duck Creek, or a carrier-specific platform) after first notice of loss is taken by a call center, agent, or app.",
+   "workflow": "claim intake",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "property-claims-adjuster:0005",
+   "section": "judgment_call",
+   "statement": "The adjuster notes the deductible type, such as flat dollar or a percentage of Coverage A, because wind/hail percentage deductibles in many states change the whole claim math."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0006",
+   "section": "workflow_step",
+   "statement": "The adjuster checks the claim for prior losses on the property using the carrier's history and an ISO ClaimSearch report to spot prior unrepaired damage or duplicate claims.",
+   "workflow": "claim intake",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "property-claims-adjuster:0013",
+   "section": "workflow_step",
+   "statement": "Before leaving, the adjuster reviews satellite or aerial imagery (EagleView, Nearmap, or Google Earth) to see roof type, pitch, and prior condition.",
+   "workflow": "site inspection",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "property-claims-adjuster:0014",
+   "section": "workflow_step",
+   "statement": "The adjuster checks weather verification reports for the date of loss, such as hail and wind data from CoreLogic or Verisk, to see whether the reported event occurred at that address.",
+   "workflow": "site inspection",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "property-claims-adjuster:0020",
+   "section": "workflow_step",
+   "statement": "For hail claims, the adjuster draws a 10 by 10 foot test square on each slope and counts hail hits to compare to the carrier's threshold, often 8 to 10 per square for replacement.",
+   "workflow": "site inspection",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "property-claims-adjuster:0021",
+   "section": "workflow_step",
+   "statement": "The adjuster checks soft metals such as vents, flashing, gutters, and window screens for dents to corroborate hail size and direction.",
+   "workflow": "site inspection",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "property-claims-adjuster:0040",
+   "section": "judgment_call",
+   "statement": "The adjuster adds overhead and profit to the estimate when three or more trades are reasonably needed, a rule of thumb in the industry that is often disputed."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0044",
+   "section": "constraint",
+   "statement": "Reserve changes above the adjuster's authority limit require supervisor or claims manager approval, and the adjuster waits on that before issuing payment."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0048",
+   "section": "limit",
+   "statement": "For a mortgaged home, the check is often made out jointly to the insured and the mortgage company, which then holds funds and releases them in draws as repairs progress."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0049",
+   "section": "constraint",
+   "statement": "The adjuster explains recoverable depreciation, which is released after the insured submits proof of completed repairs, such as invoices or a completion certificate."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0051",
+   "section": "constraint",
+   "statement": "When coverage is uncertain, the adjuster sends a reservation of rights letter before continuing to investigate."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0069",
+   "section": "team_dynamics",
+   "statement": "After catastrophe events, independent adjusters under contract with the carrier often handle overflow, and staff adjusters review their files."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0072",
+   "section": "limit",
+   "statement": "For a business income claim the adjuster often works with a forensic accountant assigned by the carrier, and waits on the accountant's calculations."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0077",
+   "section": "constraint",
+   "statement": "When a tree falls on a house, the adjuster checks the coverage for tree debris removal and the sublimit for removal of the tree when it did not hit a covered structure."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0086",
+   "section": "constraint",
+   "statement": "State fair claims settlement practices rules set deadlines to acknowledge a claim, often within 10 to 15 days, and to accept or deny after proof of loss, often within 30 to 45 days."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0087",
+   "section": "constraint",
+   "statement": "Adjusters hold a state adjuster license, or a temporary emergency license during catastrophes, and must follow continuing education rules in each licensing state."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0100",
+   "section": "limit",
+   "statement": "Insureds, mortgage companies, and contractors have to be reachable for the adjuster to close out payment steps, so claim timing depends on them."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0105",
+   "section": "team_dynamics",
+   "statement": "Contractors and public adjusters frequently arrive before the carrier adjuster and tell the insured the roof is a full replacement, which creates conflict at the inspection."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0114",
+   "section": "pain",
+   "statement": "Mortgage company check endorsement and disbursement can take weeks, and insureds blame the adjuster for delays outside the carrier's control."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0132",
+   "section": "workaround",
+   "statement": "Adjusters build their own Xactimate templates and macro line-item sets for common repairs, such as a standard roof replacement and bathroom water losses."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0138",
+   "section": "workaround",
+   "statement": "When the claims system lacks a feature, adjusters keep a personal spreadsheet of open claims with diary dates and pending items."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0139",
+   "section": "workaround",
+   "statement": "Adjusters share difficult scope questions with senior adjusters or a team chat group to get quick opinions before sending an estimate."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0203",
+   "section": "pain",
+   "statement": "Catastrophe deployments mean twelve-hour days for weeks, hotel living, and eight to ten inspections a day."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0220",
+   "section": "limit",
+   "statement": "Once an attorney represents the insured, the adjuster communicates only through counsel."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0226",
+   "section": "judgment_call",
+   "statement": "Small commercial policies add business income and extra expense coverage, so larger losses need a forensic accountant."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0236",
+   "section": "pain",
+   "statement": "Insureds often expect a full roof replacement when the findings support only repair or a few slopes."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0267",
+   "section": "workaround",
+   "statement": "Blocks calls into morning and afternoon batches so inspections are not interrupted."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0272",
+   "section": "improvisation",
+   "statement": "Flies a drone over roofs that are too steep, too high, or too wet to climb safely."
+  },
+  {
+   "claim_id": "property-claims-adjuster:0398",
+   "section": "judgment_call",
+   "statement": "For small commercial properties, the adjuster checks for coinsurance clauses and compares the stated building value with an estimated replacement value to see if a penalty applies."
+  }
+ ],
+ "open_questions": [
+  {
+   "question": "Which claim types or problems take up most of your week (hail, water, wind, theft, disputes with contractors)?",
+   "why_it_matters": "Shows where time and skill actually go versus how the job is described."
+  },
+  {
+   "question": "How long do inspection, estimate writing, and file documentation each really take on a typical claim?",
+   "why_it_matters": "Official cycle-time targets often differ from real time per step, and this sets realistic workload expectations."
+  },
+  {
+   "question": "How many open claims do you carry, and how many inspections do you do on a normal day versus during a CAT?",
+   "why_it_matters": "Caseload drives quality, stress and which shortcuts people use."
+  },
+  {
+   "question": "What is your settlement authority and how long does it take to get approval above it?",
+   "why_it_matters": "Authority limits and approval delays differ by carrier and create bottlenecks."
+  },
+  {
+   "question": "What hail hit threshold per test square does your carrier use, and how much room is there for judgment?",
+   "why_it_matters": "Thresholds and flexibility vary by carrier and change repair versus replace outcomes."
+  },
+  {
+   "question": "How does your carrier handle O&P, and how often is it disputed or conceded in practice?",
+   "why_it_matters": "Rules of thumb are applied inconsistently and cause many supplements."
+  },
+  {
+   "question": "Which tasks in your claims system do you work around, and what personal trackers do you keep?",
+   "why_it_matters": "Reveals tool gaps and informal workflows the official process omits."
+  },
+  {
+   "question": "What do contractors or public adjusters do that most complicates your inspections, and how do you handle it?",
+   "why_it_matters": "Relationships with outside parties vary by market and shape inspection outcomes."
+  },
+  {
+   "question": "When do you use a drone, and what ladder or roof safety rules are really followed or relaxed?",
+   "why_it_matters": "Safety policies and actual practice can diverge and affect inspection quality and risk."
+  },
+  {
+   "question": "How much do mortgage company delays affect your claims, and how do you manage frustrated insureds?",
+   "why_it_matters": "Delays outside the carrier's control strongly affect satisfaction and call volume."
+  },
+  {
+   "question": "How are your files audited, and what findings come up most often?",
+   "why_it_matters": "Audit focus differs by carrier and shapes documentation habits."
+  },
+  {
+   "question": "How do you decide when to send a file to appraisal, litigation, SIU or subrogation, and who makes the call?",
+   "why_it_matters": "Escalation norms differ and affect how much discretion adjusters have."
+  },
+  {
+   "question": "What state-specific rules (depreciation of labor, matching, deadlines) trip you up most?",
+   "why_it_matters": "Regulatory variation is a major source of errors and workload for multi-state adjusters."
+  },
+  {
+   "question": "How do you work with vendor panels, and when are you allowed to go outside them?",
+   "why_it_matters": "Vendor rules and exceptions determine speed and quality of mitigation, contents and engineering work."
+  },
+  {
+   "question": "What is the CAT deployment experience like in terms of hours, pay, housing and file review by staff adjusters?",
+   "why_it_matters": "Working conditions and review practices differ between staff and independent adjusters and between carriers."
+  },
+  {
+   "question": "What do you do when an estimate you wrote is disputed by senior adjusters, and what informal peer help do you rely on?",
+   "why_it_matters": "Informal review and mentoring networks influence consistency and learning and are rarely documented."
+  }
+ ],
+ "next": "get_role_map returns any section in full. ask_role_map returns the claims most relevant to a question. request_verification logs a question for real practitioners."
+}

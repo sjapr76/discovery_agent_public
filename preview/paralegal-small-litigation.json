@@ -1,0 +1,281 @@
+{
+ "niche_id": "paralegal-small-litigation",
+ "title": "Paralegal at a small litigation firm",
+ "profession": "legal",
+ "description": "paralegal at a small civil litigation law firm (2 to 10 lawyers) in the United States, supporting attorneys with filings, discovery, calendaring and client contact",
+ "region": "United States",
+ "titles": [
+  "Litigation Paralegal",
+  "Civil Litigation Paralegal",
+  "Senior Litigation Paralegal",
+  "Paralegal",
+  "Legal Assistant / Paralegal",
+  "Case Manager (litigation)"
+ ],
+ "context": {
+  "employer_types": [
+   "Small civil litigation law firm",
+   "Plaintiff personal injury firm",
+   "Insurance defense firm",
+   "Employment law firm",
+   "General practice firm with a litigation group"
+  ],
+  "company_sizes": [
+   "2 to 10 attorneys",
+   "Total staff of about 4 to 20",
+   "Often 1 to 3 paralegals plus a receptionist or bookkeeper"
+  ],
+  "reports_to": [
+   "Supervising or responsible attorney",
+   "Managing partner",
+   "Several associates and partners at once (competing assignments)",
+   "Office manager (administrative matters)"
+  ],
+  "depends_on_them": [
+   "Attorneys (deadlines, filings, exhibits, trial and deposition prep)",
+   "Clients (status, document collection, plain-language explanations)",
+   "Bookkeeper (settlement disbursement sheets, lien payoffs, cost ledger)",
+   "Court clerks and opposing counsel's staff (scheduling, service, exchange of documents)",
+   "Court reporters, process servers, interpreters and records custodians (coordination)"
+  ]
+ },
+ "summary": "A paralegal at a small civil litigation firm supports attorneys across the life of a case: opening matters and running conflict checks, calendaring deadlines under federal and state rules, formatting and e-filing pleadings and briefs, and managing discovery, subpoenas, records requests, depositions, mediation, trial preparation and settlement or closing paperwork. They are the day-to-day contact for clients and for opposing counsel's staff, collecting documents, explaining logistics and deadlines in plain language, and routing any legal-advice question to an attorney. They may not sign pleadings, appear as counsel or give legal advice, so every work product goes to an attorney for review, while the paralegal also tracks time and costs, protects confidentiality, and often covers office tasks in a small shop.",
+ "statements": 1403,
+ "by_section": {
+  "workflow_step": 535,
+  "limit": 73,
+  "pain": 220,
+  "constraint": 206,
+  "judgment_call": 83,
+  "workaround": 136,
+  "improvisation": 71,
+  "team_dynamics": 79
+ },
+ "sample_claims": [
+  {
+   "claim_id": "paralegal-small-litigation:0001",
+   "section": "workflow_step",
+   "statement": "When a signed engagement letter comes back, the paralegal opens a new matter in the firm's case management system (Clio, MyCase, PracticePanther or similar) and assigns the next matter number.",
+   "workflow": "open new matter",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0010",
+   "section": "workflow_step",
+   "statement": "The paralegal has the client sign HIPAA authorizations and records releases at intake so medical, employment and agency record requests can start right away.",
+   "workflow": "client intake",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0012",
+   "section": "workflow_step",
+   "statement": "To collect client documents, the paralegal sends a secure portal upload link or points the client to a phone scanning app, then files everything into the matter folder.",
+   "workflow": "client document collection",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0015",
+   "section": "workflow_step",
+   "statement": "The paralegal computes response deadlines from the rules of civil procedure and the local rules, for example 21 days to answer a federal complaint, or the state's 20 to 30 day period.",
+   "workflow": "deadline docketing",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0019",
+   "section": "workflow_step",
+   "statement": "When a scheduling order issues, the paralegal enters every date: discovery cutoff, expert disclosures, dispositive motions, mediation, pretrial conference and trial.",
+   "workflow": "deadline docketing",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0022",
+   "section": "workflow_step",
+   "statement": "The paralegal checks PACER or the state e-filing portal (Odyssey, TrueFiling, File & Serve) daily for new docket entries on active cases.",
+   "workflow": "docket monitoring",
+   "cadence": "daily"
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0024",
+   "section": "improvisation",
+   "statement": "When a hearing notice is unclear or conflicts with another setting, the paralegal calls the clerk or the judge's courtroom deputy to confirm the date and time."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0026",
+   "section": "constraint",
+   "statement": "Some firms use rules-based docketing software such as CompuLaw, while others calculate deadlines manually from a rules cheat sheet the paralegal maintains."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0040",
+   "section": "pain",
+   "statement": "Clerks reject filings for formatting problems or a wrong event type, and the paralegal must correct and refile, sometimes close to a deadline."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0041",
+   "section": "constraint",
+   "statement": "E-filing portals slow down or go down near the end of the day, and a last-minute filing then depends on the paralegal getting it through before midnight."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0044",
+   "section": "improvisation",
+   "statement": "Hard-to-find defendants lead to repeated failed service attempts, and the paralegal drafts a motion for alternative service for the attorney when they run out."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0063",
+   "section": "judgment_call",
+   "statement": "A redaction applied as a black box instead of through the redact function leaves the text recoverable, so the paralegal checks every redacted file again before it goes out."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0111",
+   "section": "constraint",
+   "statement": "Paralegals cannot give legal advice to clients, so any question about what to do or what a case is worth must be routed to an attorney."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0116",
+   "section": "improvisation",
+   "statement": "Some clients go silent, so the paralegal tries phone, text, email, letter and an emergency contact in turn and documents each attempt for the attorney."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0129",
+   "section": "team_dynamics",
+   "statement": "Attorneys often finish a brief late the night before the deadline, so the paralegal finalizes, assembles exhibits and files in a compressed evening crunch."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0155",
+   "section": "constraint",
+   "statement": "Clerical work such as scanning, copying and calendaring is generally not billable to clients, so the paralegal separates it from substantive time."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0158",
+   "section": "team_dynamics",
+   "statement": "Several attorneys give the paralegal competing assignments with the same deadline, so the paralegal has to ask which one comes first."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0160",
+   "section": "workaround",
+   "statement": "To avoid lost assignments, the paralegal writes each request as a task with a due date in the case management system and confirms it back by email."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0189",
+   "section": "workaround",
+   "statement": "Document review software is too expensive for a small firm to license for every case, so I do much of the review in folders, spreadsheets and PDF markup."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0192",
+   "section": "workaround",
+   "statement": "I keep a personal paper or spreadsheet tickler of the next ten deadlines across all my cases as a backup to the firm calendar software."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0212",
+   "section": "constraint",
+   "statement": "I cannot give legal advice to clients, so when they ask what will happen or what they should do, I route the question to the attorney."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0213",
+   "section": "constraint",
+   "statement": "I cannot sign pleadings, appear for the firm in court as counsel, or take a deposition, so every filing needs an attorney's review and signature."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0345",
+   "section": "pain",
+   "statement": "Clients now expect near-immediate replies by text or email, and that expectation has blurred my working hours."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0351",
+   "section": "judgment_call",
+   "statement": "Many paralegals check every calculated deadline against a second source, such as a rules-based calendaring tool like CompuLaw or LawToolBox or a hand count on a printed calendar."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0359",
+   "section": "workaround",
+   "statement": "Some paralegals keep a paper or spreadsheet reminder list as a backup to the electronic calendar in case syncing between the practice management system and Outlook fails."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0370",
+   "section": "pain",
+   "statement": "Last-minute edits by the attorney throw off the page numbers in the tables, so the paralegal has to rebuild them minutes before the filing deadline."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0380",
+   "section": "team_dynamics",
+   "statement": "Attorneys often finish briefs on the evening of the due date, which pushes the paralegal into late-night filing sessions from home."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0381",
+   "section": "workaround",
+   "statement": "Paralegals ask attorneys for an internal deadline a day or several hours before the court's deadline and prepare exhibits and tables while the brief is still being edited."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0386",
+   "section": "pain",
+   "statement": "Defendants who avoid service cause repeated failed attempts and force the paralegal to prepare motions asking the court to allow another method of service."
+  },
+  {
+   "claim_id": "paralegal-small-litigation:0390",
+   "section": "limit",
+   "statement": "Paralegals cannot sign pleadings, give legal advice or appear in court, so every draft goes to an attorney for review and signature."
+  }
+ ],
+ "open_questions": [
+  {
+   "question": "Which docketing method does your firm actually use (CompuLaw, LawToolBox, practice management rules, a hand-kept cheat sheet), and who double-checks deadlines?",
+   "why_it_matters": "Determines error risk, the workload of calendaring, and what tools a product would need to integrate with or replace."
+  },
+  {
+   "question": "How often do e-filing rejections or portal outages happen, and what do you do when one hits near the deadline?",
+   "why_it_matters": "Reveals how frequent and costly last-minute failures are and what workarounds are tolerated."
+  },
+  {
+   "question": "How late does the attorney typically hand off a final brief, and how much internal lead time do you actually get versus what you request?",
+   "why_it_matters": "Shows the real size of the evening crunch and whether internal deadlines are honored."
+  },
+  {
+   "question": "How long does it really take to assemble a filing from final draft to accepted file-stamped copy, including tables, exhibits and redaction?",
+   "why_it_matters": "Actual timings differ from the 10 to 20 minute e-filing step and determine where time is lost."
+  },
+  {
+   "question": "How do you learn about extensions or schedule changes agreed between attorneys, and how often does the calendar lag behind?",
+   "why_it_matters": "Identifies a common source of missed or wrong deadlines and the manual fixes people use."
+  },
+  {
+   "question": "How do you handle document review in practice (review platform, folders, spreadsheets, PDF markup), and what volume per case is typical?",
+   "why_it_matters": "Shows the cost-driven workarounds small firms use and where tooling gaps exist."
+  },
+  {
+   "question": "What share of your week goes to client contact, and what are the most common client questions that you must hand off to an attorney?",
+   "why_it_matters": "Sizes the communication burden and the boundary between permitted help and legal advice."
+  },
+  {
+   "question": "What do you do when clients go silent or are slow to produce documents, and how many attempts and how long before it is escalated?",
+   "why_it_matters": "Reveals real timelines and escalation norms that affect discovery deadlines."
+  },
+  {
+   "question": "How do you split work when several attorneys give competing same-day assignments, and who resolves conflicts?",
+   "why_it_matters": "Shows firm politics and how task intake and prioritization actually work."
+  },
+  {
+   "question": "Which tasks do you do that cannot be billed (clerical work, insurer guideline limits), and how do you record that time?",
+   "why_it_matters": "Affects realized revenue, time-entry habits and which tasks are candidates for automation."
+  },
+  {
+   "question": "How often do hard-to-serve defendants or failed service attempts occur, and how long does it take to resolve them?",
+   "why_it_matters": "Quantifies delay and effort behind service problems and alternative-service motions."
+  },
+  {
+   "question": "What shortcuts or workarounds are tolerated for sharing large files or client data (portal, encrypted email, personal devices, texting)?",
+   "why_it_matters": "Highlights confidentiality practices that vary by firm and security risks to account for."
+  },
+  {
+   "question": "How much of your time goes to non-paralegal work such as reception, IT, office management or bookkeeping support?",
+   "why_it_matters": "Small firms differ widely in role scope and this affects capacity for core litigation work."
+  },
+  {
+   "question": "Which courts or judges you appear before have unusual requirements (paper courtesy copies, chambers delivery times, word-count certificates), and how do you keep track of them?",
+   "why_it_matters": "Local variation is a frequent source of rejected or deficient filings and is usually tribal knowledge."
+  },
+  {
+   "question": "How do you prepare for trial or mediation in practice, and how many hours of lead time do exhibits, binders and net-to-client sheets really require?",
+   "why_it_matters": "Shows true effort and timing for peak workload events that differ by case type and attorney preference."
+  }
+ ],
+ "next": "get_role_map returns any section in full. ask_role_map returns the claims most relevant to a question. request_verification logs a question for real practitioners."
+}

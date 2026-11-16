@@ -1,0 +1,292 @@
+{
+ "niche_id": "residential-real-estate-agent",
+ "title": "Residential real estate agent",
+ "profession": "real_estate",
+ "description": "residential real estate sales agent in the United States, affiliated with a brokerage, representing home buyers and sellers",
+ "region": "United States",
+ "titles": [
+  "Real Estate Agent",
+  "Realtor",
+  "Real Estate Sales Associate",
+  "Real Estate Salesperson",
+  "Buyer's Agent",
+  "Listing Agent"
+ ],
+ "context": {
+  "employer_types": [
+   "Independent residential brokerage (franchise or non-franchise)",
+   "National franchise brokerage (e.g., Keller Williams, RE/MAX, Coldwell Banker)",
+   "Discount or flat-fee brokerage",
+   "Real estate team operating within a brokerage",
+   "Homebuilder sales office (as a co-broke agent or employee)",
+   "Boutique or luxury brokerage"
+  ],
+  "company_sizes": [
+   "Solo broker with a handful of agents",
+   "Small brokerage (10-50 agents)",
+   "Mid-size brokerage (50-250 agents)",
+   "Large franchise office (hundreds of agents)",
+   "National brokerage with thousands of agents",
+   "Team of 2-15 agents within a brokerage"
+  ],
+  "reports_to": [
+   "Supervising (managing or designated) broker",
+   "Team leader or team rainmaker",
+   "Branch or office manager",
+   "Brokerage compliance or transaction coordinator for file review"
+  ],
+  "depends_on_them": [
+   "Home buyers",
+   "Home sellers",
+   "Loan officers and mortgage lenders",
+   "Title and escrow officers",
+   "Home inspectors and contractors",
+   "Listing agents and buyer agents on the other side of deals",
+   "Referring agents who send out-of-area clients",
+   "Brokerage, which earns its split from the agent's closings"
+  ]
+ },
+ "summary": "A residential real estate agent represents buyers and sellers in home purchases and sales, working under a supervising broker. For buyers, the agent signs a written representation agreement, finds and shows homes, advises on price using comparable sales, writes and negotiates offers, and coordinates inspection, appraisal, financing, and title through to closing. For sellers, the agent prices the home, prepares and markets the listing, presents and negotiates offers, and manages the contract to closing, all while prospecting for new clients, complying with license, fair housing, and disclosure rules, and being paid commission only when a deal closes.",
+ "statements": 1378,
+ "by_section": {
+  "workflow_step": 379,
+  "pain": 291,
+  "constraint": 275,
+  "judgment_call": 117,
+  "improvisation": 83,
+  "team_dynamics": 66,
+  "limit": 76,
+  "workaround": 91
+ },
+ "sample_claims": [
+  {
+   "claim_id": "residential-real-estate-agent:0004",
+   "section": "workflow_step",
+   "statement": "The agent holds a first conversation by phone or video, usually 15 to 30 minutes, to learn the buyer's timeline, budget, areas, must-haves, and whether they own a home to sell.",
+   "workflow": "buyer onboarding",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0005",
+   "section": "workflow_step",
+   "statement": "The agent asks whether the buyer has been pre-approved and refers them to a trusted loan officer if not.",
+   "workflow": "buyer onboarding",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0006",
+   "section": "workflow_step",
+   "statement": "The agent schedules an in-person or video buyer consultation that covers the buying process, agency relationship, and how the agent is paid.",
+   "workflow": "buyer onboarding",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0007",
+   "section": "constraint",
+   "statement": "Since the 2024 NAR settlement, the agent must have a signed written buyer representation agreement before touring a home with a buyer, and compensation must be stated in it."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0008",
+   "section": "workflow_step",
+   "statement": "The agent explains the buyer agreement terms, such as length of term, fee as a percentage or flat amount, and what happens if the seller offers less compensation than the agreement states.",
+   "workflow": "buyer onboarding",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0011",
+   "section": "workflow_step",
+   "statement": "The agent sets up an automated MLS search in the local MLS portal, such as Bright, CRMLS, or Stellar, that emails the buyer new listings matching their criteria.",
+   "workflow": "buyer search",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0012",
+   "section": "pain",
+   "statement": "Buyers often see listings on Zillow before the agent's MLS alert reaches them, and then text the agent about homes that are already pending or stale."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0014",
+   "section": "workflow_step",
+   "statement": "The agent books showings through ShowingTime, Showingtime+, Supra, or by calling the listing agent, then waits for sellers or tenants to approve times.",
+   "workflow": "buyer tours",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0016",
+   "section": "constraint",
+   "statement": "The agent opens lockboxes with a Supra eKey app on a phone, which logs the entry and requires an active license and MLS access."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0027",
+   "section": "pain",
+   "statement": "The agent waits hours or days for the listing agent's reply and can get no update on how many offers came in."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0044",
+   "section": "pain",
+   "statement": "When an appraisal comes in below the contract price, the agent must renegotiate with the seller, ask the buyer to cover the gap, or file a reconsideration of value with comparables."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0045",
+   "section": "improvisation",
+   "statement": "The agent gathers comparable sales to support an appraisal reconsideration and sends them to the loan officer."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0050",
+   "section": "constraint",
+   "statement": "Under TRID rules, the buyer must receive the closing disclosure at least three business days before closing, so changes to loan terms can push closing back."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0052",
+   "section": "pain",
+   "statement": "Closings slip by a day or more when funding, wire receipts, or lender conditions are late, and the agent fields anxious calls from buyers, sellers, and movers."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0055",
+   "section": "constraint",
+   "statement": "The agent receives commission through the brokerage, which splits it according to the agent's plan, takes fees, and pays the agent after closing."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0061",
+   "section": "pain",
+   "statement": "Sellers often interview several agents and choose the one who suggests the highest price, which pressures the agent to either overprice or lose the listing."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0063",
+   "section": "constraint",
+   "statement": "Since the NAR settlement, offers of compensation to buyer brokers can no longer be published in the MLS, so the agent discusses concessions with the seller as a separate negotiation."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0079",
+   "section": "pain",
+   "statement": "Sellers become anxious after a week or two without offers and call the agent to ask about price drops or whether the photos are the problem."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0085",
+   "section": "constraint",
+   "statement": "The agent must present all offers to the seller promptly, including ones the seller is unlikely to accept, as required by license law and fiduciary duties."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0099",
+   "section": "improvisation",
+   "statement": "For a seller who is also buying, the agent aligns two contracts and may negotiate a rent-back or a contingent sale."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0139",
+   "section": "limit",
+   "statement": "Sellers in a competitive market often reject offers using FHA or VA loans because they think these buyers have a harder time closing."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0143",
+   "section": "limit",
+   "statement": "Builder contracts are written by the builder, favor the builder, and give the agent less room to negotiate."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0167",
+   "section": "improvisation",
+   "statement": "The agent has the buyer sign a form by phone in a parking lot to meet an offer deadline."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0178",
+   "section": "limit",
+   "statement": "Buyers sometimes go around the agent and contact the listing agent or builder directly, which risks losing the commission."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0261",
+   "section": "limit",
+   "statement": "Estate sales involving several heirs can stall because the siblings disagree on price, timing, or who gets what in the house."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0287",
+   "section": "workaround",
+   "statement": "Agents write offer cover letters or send a short video from the buyer to appeal to a seller emotionally, though some now avoid personal letters because of fair housing concerns."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0290",
+   "section": "improvisation",
+   "statement": "Agents use escalation clauses, appraisal gap coverage, or shortened inspection periods to make a buyer's offer more competitive."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0306",
+   "section": "workaround",
+   "statement": "Agents pair with a trusted agent in the same office as backup to cover showings or signings during vacations or illness."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0307",
+   "section": "improvisation",
+   "statement": "Agents offer sellers a cost-saving trade, such as a lower commission in exchange for a quick listing agreement, to win business against discount competitors."
+  },
+  {
+   "claim_id": "residential-real-estate-agent:0345",
+   "section": "limit",
+   "statement": "Showing instructions and offer review deadlines are set by the seller, so the agent cannot accept or reject offers on their behalf."
+  }
+ ],
+ "open_questions": [
+  {
+   "question": "Which parts of a deal most often go wrong or slip in your market (financing, appraisal, inspection, title, seller delays), and how often?",
+   "why_it_matters": "Frequency of failure points differs by market and shows where agents actually spend problem-solving time."
+  },
+  {
+   "question": "How long do steps really take from first contact to signed buyer agreement, and from signed agreement to accepted offer?",
+   "why_it_matters": "Real timelines vary widely by market and affect how agents budget unpaid time."
+  },
+  {
+   "question": "How do you handle buyers who resist signing a buyer agreement or negotiating the fee, and what do you do if they walk?",
+   "why_it_matters": "Post-settlement practices vary, and approaches to fee conversations differ by agent and brokerage."
+  },
+  {
+   "question": "How do you learn the buyer-broker compensation a seller is offering now that it is not in the MLS, and how reliably do you get answers?",
+   "why_it_matters": "Practical methods and reliability differ by market and affect offer strategy."
+  },
+  {
+   "question": "What share of your time is spent on prospecting versus servicing active clients, and which lead sources actually produce closings?",
+   "why_it_matters": "Lead source mix and time split determine income stability and differ greatly by agent."
+  },
+  {
+   "question": "What are the real brokerage costs you pay (split, cap, desk, transaction, franchise, E and O), and what do they add up to per year?",
+   "why_it_matters": "Fee structures vary by brokerage and drive the true take-home income."
+  },
+  {
+   "question": "Which tools do you actually use for transactions, CRM, e-sign, and deadline tracking, and which ones did the brokerage force on you?",
+   "why_it_matters": "Tool stacks and workarounds differ by brokerage and reveal friction in the workflow."
+  },
+  {
+   "question": "What informal workarounds around showing access, lockbox rules, or offer submission are tolerated in your office or market?",
+   "why_it_matters": "Tolerated shortcuts are local culture and are not in written procedures."
+  },
+  {
+   "question": "How do you decide how much unpaid work to put into a buyer who may never close, and when do you cut them off?",
+   "why_it_matters": "Judgment about client qualification is individual and shapes effective hourly pay."
+  },
+  {
+   "question": "How do you handle sellers who want a price you think is too high, and how often do you decline or lose such listings?",
+   "why_it_matters": "Pricing pressure and the tradeoff between winning listings and honest advice vary by agent."
+  },
+  {
+   "question": "How much does your transaction coordinator, assistant, or team do versus you, and what do you still insist on doing personally?",
+   "why_it_matters": "Division of labor differs by support level and affects what the role actually consists of."
+  },
+  {
+   "question": "How do you handle offers and negotiation in your market's current conditions (multiple offers, concessions, price cuts)?",
+   "why_it_matters": "Market conditions change tactics, and typical negotiation patterns vary by area."
+  },
+  {
+   "question": "What does your brokerage's compliance review look like, and what errors or missing documents most often get a file kicked back?",
+   "why_it_matters": "Review rigor and common errors differ by broker and indicate where paperwork time goes."
+  },
+  {
+   "question": "How do you manage personal safety and availability limits, such as evenings, weekends, open houses, and vacations?",
+   "why_it_matters": "Practices and boundaries vary by person and market and affect workload and sustainability."
+  },
+  {
+   "question": "How do you keep past clients and referral sources warm, and what share of your business is repeat or referral?",
+   "why_it_matters": "The mix of repeat versus purchased leads determines marketing spend and varies by experience."
+  },
+  {
+   "question": "Which local contract forms, disclosures, or customs (attorney review, escrow vs. title, state-specific timelines) change how you run a deal?",
+   "why_it_matters": "Practices differ sharply by state and county and change steps, timing, and who is involved."
+  }
+ ],
+ "next": "get_role_map returns any section in full. ask_role_map returns the claims most relevant to a question. request_verification logs a question for real practitioners."
+}

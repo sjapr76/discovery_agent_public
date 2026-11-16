@@ -1,0 +1,284 @@
+{
+ "niche_id": "in-house-counsel-contracts",
+ "title": "In-house counsel reviewing contracts",
+ "profession": "legal",
+ "description": "in-house commercial counsel at a mid-size technology or services company in the United States, reviewing and negotiating customer and vendor contracts for sales and procurement teams",
+ "region": "United States",
+ "titles": [
+  "In-House Commercial Counsel",
+  "Corporate Counsel, Commercial Contracts",
+  "Commercial Counsel",
+  "Senior Counsel, Commercial Transactions",
+  "Contracts Counsel",
+  "Associate General Counsel, Commercial"
+ ],
+ "context": {
+  "employer_types": [
+   "B2B SaaS and software companies",
+   "IT and managed services providers",
+   "Technology-enabled services firms",
+   "Data, analytics and fintech platforms",
+   "Healthtech and health-services companies selling to providers or payers"
+  ],
+  "company_sizes": [
+   "Mid-size, roughly 200 to 5,000 employees",
+   "Legal team of one to five lawyers, often with one or two contracts-focused counsel",
+   "Limited outside counsel budget"
+  ],
+  "reports_to": [
+   "General Counsel",
+   "Deputy General Counsel or Associate General Counsel",
+   "Chief Legal Officer (in smaller legal teams)"
+  ],
+  "depends_on_them": [
+   "Sales reps and sales leadership",
+   "Deal desk and sales operations",
+   "Procurement and business owners buying software or services",
+   "Finance and revenue accounting",
+   "Information security and privacy teams",
+   "Risk management, insurance broker and tax team",
+   "Compliance (export control and sanctions screening)",
+   "Product and engineering",
+   "Legal operations and CLM administrators"
+  ]
+ },
+ "summary": "This person reviews, drafts and negotiates customer agreements (MSAs, order forms, SOWs, DPAs, NDAs, amendments, reseller and public sector terms) and vendor agreements for procurement, applying the company's playbook and escalating positions that fall outside it. They manage risk on liability caps, indemnities, data protection, IP, insurance, payment and AI terms by coordinating with security, finance, tax, risk and revenue accounting. They also route agreements to authorized signers, file executed contracts with key metadata in the CLM or repository, and manage expectations with sales and procurement on turnaround and deal timing.",
+ "statements": 1357,
+ "by_section": {
+  "workflow_step": 416,
+  "pain": 255,
+  "workaround": 132,
+  "judgment_call": 142,
+  "limit": 77,
+  "constraint": 171,
+  "improvisation": 42,
+  "team_dynamics": 122
+ },
+ "sample_claims": [
+  {
+   "claim_id": "in-house-counsel-contracts:0011",
+   "section": "workflow_step",
+   "statement": "When the customer insists on its paper, counsel reads the full document once end to end before marking anything, to catch cross-references and definitions that change meaning.",
+   "workflow": "contract redline",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0012",
+   "section": "workflow_step",
+   "statement": "Counsel runs a comparison of the customer's returned draft against the last version sent, using Word compare or the CLM's redline tool.",
+   "workflow": "contract redline",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0013",
+   "section": "pain",
+   "statement": "Customers return documents with silent changes and no tracked changes, so counsel must run a compare on every turn."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0015",
+   "section": "workflow_step",
+   "statement": "Counsel consults the negotiation playbook to find the preferred position, first fallback, and the point at which escalation is needed for each clause.",
+   "workflow": "contract redline",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0017",
+   "section": "judgment_call",
+   "statement": "Limitation of liability is checked first on most deals, looking at the cap amount, whether it is tied to fees paid in twelve months, and which claims are carved out."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0025",
+   "section": "judgment_call",
+   "statement": "Counsel checks the order of precedence clause to make sure the negotiated order form controls over the customer's purchase order terms."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0032",
+   "section": "constraint",
+   "statement": "Counsel reviews data protection terms and attaches the company's standard data processing addendum when personal data of EU, UK, or California residents is involved."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0034",
+   "section": "pain",
+   "statement": "Security and privacy reviewers have their own backlog, so a one-day contract turn can stall for several days waiting on a technical answer."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0037",
+   "section": "workflow_step",
+   "statement": "Counsel responds to customer security questionnaires by routing them to the security team and tying answers back to the contract language.",
+   "workflow": "security questionnaire",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0039",
+   "section": "workflow_step",
+   "statement": "Insurance requirements are checked against the company's actual coverage, and counsel confirms limits for cyber, E&O, and general liability.",
+   "workflow": "insurance requirements check",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0040",
+   "section": "workflow_step",
+   "statement": "Counsel asks the risk or finance team for an insurance certificate when the customer requires one and waits for the broker to issue it.",
+   "workflow": "insurance requirements check",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0072",
+   "section": "judgment_call",
+   "statement": "Counsel checks the vendor request for spend, data access, and whether the vendor will touch personal or confidential information, to decide review depth."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0075",
+   "section": "judgment_call",
+   "statement": "In vendor deals, counsel seeks a liability cap that reflects the risk, such as a higher cap for data breach and an uncapped indemnity for IP claims."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0078",
+   "section": "workaround",
+   "statement": "Counsel asks procurement to track renewal and notice dates in the procurement system rather than relying on legal's calendar."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0150",
+   "section": "constraint",
+   "statement": "Supplier onboarding portals include click-through terms that conflict with the signed agreement and cannot be negotiated."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0182",
+   "section": "judgment_call",
+   "statement": "Counsel reviews limitation of liability, indemnities, and IP ownership first because they drive most of the risk."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0195",
+   "section": "pain",
+   "statement": "Sales reps often send contracts to legal only days before quarter end, after the customer has been told the deal is nearly done."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0230",
+   "section": "workaround",
+   "statement": "Counsel asks sales to complete a short intake form covering data types, deal value, and deadline before review begins."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0238",
+   "section": "improvisation",
+   "statement": "Counsel proposes a super-cap for data breach liability, set as a multiple of fees, instead of agreeing to unlimited liability."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0243",
+   "section": "judgment_call",
+   "statement": "On counterparty paper, counsel reads the definitions and termination sections before anything else."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0261",
+   "section": "constraint",
+   "statement": "Delegation of authority limits who can sign, and counsel cannot approve deals above the signature thresholds."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0263",
+   "section": "constraint",
+   "statement": "Privacy laws such as the CCPA and CPRA require specific service-provider terms in contracts that involve personal data."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0264",
+   "section": "constraint",
+   "statement": "HIPAA requires business associate agreements when the company handles protected health information for healthcare customers."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0266",
+   "section": "constraint",
+   "statement": "Export control and sanctions rules such as OFAC and the EAR limit which customers and countries the company can serve and call for contract representations."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0303",
+   "section": "team_dynamics",
+   "statement": "An unwritten rule holds that reps own the customer relationship, so counsel does not contact the customer's business people directly."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0332",
+   "section": "pain",
+   "statement": "Customers now ask for AI-specific terms on training use, output ownership, and indemnity, and the market has not settled on standards."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0422",
+   "section": "pain",
+   "statement": "Sales reps frequently send contracts to legal days before quarter end, expecting a complex customer-paper agreement to be turned around within twenty-four hours."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0425",
+   "section": "pain",
+   "statement": "Customers sometimes accept tracked changes selectively or make untracked edits, so counsel must run compares on every turn to catch hidden changes."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0428",
+   "section": "limit",
+   "statement": "Large enterprise customers often refuse to negotiate their own paper, leaving counsel to decide whether to accept terms beyond the playbook."
+  },
+  {
+   "claim_id": "in-house-counsel-contracts:0434",
+   "section": "team_dynamics",
+   "statement": "Business teams often sign up for SaaS tools with a credit card and click-through terms, bypassing procurement and legal entirely."
+  }
+ ],
+ "open_questions": [
+  {
+   "question": "Which clauses do you end up negotiating most often, and which are customers most stubborn about (liability cap, data breach super-cap, indemnity, insurance, AI terms)?",
+   "why_it_matters": "Shows where time actually goes and how much the playbook matches real customer demands."
+  },
+  {
+   "question": "How long does a customer-paper MSA really take from intake to signature, and where does the time go?",
+   "why_it_matters": "Stated turnaround targets rarely match reality, and the bottlenecks differ by company."
+  },
+  {
+   "question": "How far can you move beyond the playbook on your own before you must escalate, and who approves exceptions?",
+   "why_it_matters": "Counsel authority and escalation paths vary widely and shape deal speed."
+  },
+  {
+   "question": "What is your actual liability cap and super-cap range you will accept, and how is it tied to your cyber insurance limits?",
+   "why_it_matters": "Acceptable risk depends on coverage and risk appetite, which differ by company."
+  },
+  {
+   "question": "How long does the security team take to answer questionnaires and exhibits, and what do you do to avoid deals stalling?",
+   "why_it_matters": "Dependencies on InfoSec backlog are a major source of delay, and workarounds vary."
+  },
+  {
+   "question": "How do you handle sales reps who send contracts at quarter end, and what intake rules or tools actually work?",
+   "why_it_matters": "Reveals real enforcement of process and the culture around deadline pressure."
+  },
+  {
+   "question": "Which workarounds do you tolerate, such as reps negotiating minor points directly, using self-service NDAs, or signing before full review?",
+   "why_it_matters": "Informal practices show where the formal process bends and what risk legal accepts."
+  },
+  {
+   "question": "How often do customers make untracked changes, and do you compare every turn or only on certain deals?",
+   "why_it_matters": "Diligence in comparing documents varies and determines how much hidden risk gets through."
+  },
+  {
+   "question": "How do you manage business teams that buy software with a credit card or start work before a vendor contract is signed?",
+   "why_it_matters": "Shadow IT and retroactive contracting are common, and responses range from policy enforcement to cleanup."
+  },
+  {
+   "question": "Who owns the contract calendar and renewal notices, and how often do auto-renewals slip through?",
+   "why_it_matters": "Ownership differs between legal, procurement and business owners, and missed notices cause real cost."
+  },
+  {
+   "question": "How do you deal with procurement portal and click-through terms that conflict with the signed agreement?",
+   "why_it_matters": "Practices on accepting, rejecting or overriding portal terms differ, and carry legal risk."
+  },
+  {
+   "question": "What are your approval limits and process for signature, and how often are signers hard to reach?",
+   "why_it_matters": "Signature delays are workplace-specific and affect close dates."
+  },
+  {
+   "question": "How much outside counsel can you use, and for what kinds of matters (public sector, AI, healthcare, international)?",
+   "why_it_matters": "Budget limits determine which specialties counsel must handle alone."
+  },
+  {
+   "question": "What do you do when a customer asks for AI-specific terms, and how do you verify what product and engineering actually do with customer data?",
+   "why_it_matters": "Standards are unsettled, so approaches and consistency with actual practice vary."
+  },
+  {
+   "question": "How do you coordinate with finance, revenue accounting, tax and compliance, and at what stage do they get involved?",
+   "why_it_matters": "Late involvement causes post-signature surprises, and the timing differs by company."
+  }
+ ],
+ "next": "get_role_map returns any section in full. ask_role_map returns the claims most relevant to a question. request_verification logs a question for real practitioners."
+}

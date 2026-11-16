@@ -1,0 +1,285 @@
+{
+ "niche_id": "external-auditor",
+ "title": "External auditor at an accounting firm",
+ "profession": "accounting",
+ "description": "external auditor (senior associate to manager) at a public accounting firm in the United States, performing financial statement audits of client companies",
+ "region": "United States",
+ "titles": [
+  "Audit Senior Associate",
+  "Senior Auditor",
+  "Audit Senior",
+  "Assurance Senior",
+  "Audit Manager",
+  "Assurance Manager"
+ ],
+ "context": {
+  "employer_types": [
+   "Big Four firm",
+   "National or large regional public accounting firm",
+   "Mid-sized regional CPA firm",
+   "Local CPA firm with PCAOB registration"
+  ],
+  "company_sizes": [
+   "Small local firm (under 100 staff)",
+   "Mid-sized firm (100 to 1,000 staff)",
+   "Large national firm (1,000 to 10,000 staff)",
+   "Global Big Four (10,000+ US staff)",
+   "Clients ranging from private companies with a few million in revenue to SEC registrants and multinational groups"
+  ],
+  "reports_to": [
+   "Audit Manager (for seniors)",
+   "Senior Manager",
+   "Engagement Partner (for managers)",
+   "Audit Committee or CFO (as the client-facing counterpart)"
+  ],
+  "depends_on_them": [
+   "Engagement partner, who relies on the file supporting the opinion",
+   "Staff and associate auditors, who need direction, review and feedback",
+   "Client controller and CFO, who need timely PBC lists, status and adjustments",
+   "Audit committee, which receives communications on findings and control deficiencies",
+   "Component auditors and offshore or centralized teams, who need clear instructions",
+   "Tax and valuation specialists and IT audit teams, who need defined scopes",
+   "Engagement quality reviewer, who needs a complete file before release",
+   "Lenders, investors and regulators who rely on the audited financial statements"
+  ]
+ },
+ "summary": "A senior associate to manager external auditor plans and executes financial statement audits of US clients under AICPA GAAS or PCAOB standards, including risk assessment, materiality, controls walkthroughs, substantive testing of accounts such as revenue, receivables, inventory, debt, payroll and estimates, and evaluation of misstatements and control deficiencies. They coordinate the PBC list, confirmations, component and offshore teams, and client contacts while reviewing staff work, clearing review notes, tracking budget against actual hours, and escalating overruns or issues to the manager and partner. They also prepare or review the draft financial statements tie-out, representation letter, communications to those charged with governance and audit report, and ensure the file is complete, independent, and defensible to peer review and PCAOB inspection before release and archiving.",
+ "statements": 1376,
+ "by_section": {
+  "workflow_step": 437,
+  "judgment_call": 83,
+  "pain": 288,
+  "workaround": 106,
+  "constraint": 225,
+  "improvisation": 72,
+  "limit": 73,
+  "team_dynamics": 92
+ },
+ "sample_claims": [
+  {
+   "claim_id": "external-auditor:0001",
+   "section": "workflow_step",
+   "statement": "After a client is accepted or continued, the manager and partner confirm the engagement letter is signed by the client's audit committee chair or CFO before fieldwork starts.",
+   "workflow": "engagement setup",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "external-auditor:0004",
+   "section": "workflow_step",
+   "statement": "The team holds a planning meeting, often a one-hour Teams call, with the partner, manager, senior, and staff to discuss client changes, risks, and fraud brainstorming.",
+   "workflow": "audit planning",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "external-auditor:0006",
+   "section": "workflow_step",
+   "statement": "Materiality is calculated from a benchmark such as pretax income, revenue, or total assets, using the firm's template and then approved by the manager and partner.",
+   "workflow": "audit planning",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "external-auditor:0008",
+   "section": "workflow_step",
+   "statement": "The senior sends the client a provided-by-client (PBC) request list, typically in Excel or through a portal such as Suralink or Engage, one to two months before year-end or interim fieldwork.",
+   "workflow": "pbc request management",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "external-auditor:0014",
+   "section": "workflow_step",
+   "statement": "The team performs a risk assessment by assertion for each significant account and class of transactions, identifying significant risks such as revenue recognition and management override.",
+   "workflow": "audit planning",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "external-auditor:0018",
+   "section": "workflow_step",
+   "statement": "For group audits, the senior sends instructions to component auditors and sets deadlines for reporting packages.",
+   "workflow": "group audit coordination",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "external-auditor:0023",
+   "section": "constraint",
+   "statement": "Busy season for calendar-year clients runs roughly January through April, with 55 to 70 hour weeks common for seniors and managers."
+  },
+  {
+   "claim_id": "external-auditor:0024",
+   "section": "constraint",
+   "statement": "Public company audits under PCAOB standards require additional documentation, such as ICFR testing and AS 2201, and different report wording than private company audits under AICPA GAAS."
+  },
+  {
+   "claim_id": "external-auditor:0042",
+   "section": "pain",
+   "statement": "Confirmation responses from customers and banks come slowly or not at all, requiring second requests and alternative procedures such as subsequent cash receipts testing."
+  },
+  {
+   "claim_id": "external-auditor:0077",
+   "section": "pain",
+   "statement": "Management explanations for variances are frequently vague, and the senior must corroborate them with documents rather than accept them."
+  },
+  {
+   "claim_id": "external-auditor:0099",
+   "section": "constraint",
+   "statement": "For public company audits and some high-risk private audits, an engagement quality reviewer who is independent of the team reviews the file before the report date."
+  },
+  {
+   "claim_id": "external-auditor:0105",
+   "section": "constraint",
+   "statement": "Public company filers must file the 10-K within 60, 75, or 90 days after year-end depending on filer status, which fixes the report deadline."
+  },
+  {
+   "claim_id": "external-auditor:0106",
+   "section": "constraint",
+   "statement": "Under PCAOB rules, audit documentation must be assembled within 45 days after the report release date and retained for seven years."
+  },
+  {
+   "claim_id": "external-auditor:0107",
+   "section": "constraint",
+   "statement": "AICPA standards require the audit file to be assembled within 60 days after the report release date."
+  },
+  {
+   "claim_id": "external-auditor:0161",
+   "section": "pain",
+   "statement": "Clients may change systems mid-year, such as an ERP migration, creating extra data and controls testing for old and new systems."
+  },
+  {
+   "claim_id": "external-auditor:0176",
+   "section": "judgment_call",
+   "statement": "Management's own SOX testing is reviewed for use by the auditor, who decides what to rely on based on the objectivity and competence of the testers."
+  },
+  {
+   "claim_id": "external-auditor:0182",
+   "section": "judgment_call",
+   "statement": "Materiality is set by applying a benchmark percentage, often to pretax income, revenue, or total assets, and then deriving performance materiality and a clearly trivial threshold for the audit file."
+  },
+  {
+   "claim_id": "external-auditor:0238",
+   "section": "team_dynamics",
+   "statement": "Clients often view the audit fee as a cost to be negotiated, and the team hears about price complaints indirectly through the partner."
+  },
+  {
+   "claim_id": "external-auditor:0272",
+   "section": "improvisation",
+   "statement": "Seniors informally trade help with other seniors, borrowing a colleague with a staff member free for a day during peak crunch."
+  },
+  {
+   "claim_id": "external-auditor:0365",
+   "section": "workaround",
+   "statement": "Seniors hand clear written instructions to offshore or centralized teams, including screenshots of what good looks like, to reduce rework."
+  },
+  {
+   "claim_id": "external-auditor:0440",
+   "section": "pain",
+   "statement": "Busy season from January to mid-March routinely demands 55 to 70 hour weeks, including Saturdays, which leaves little time for family or personal life."
+  },
+  {
+   "claim_id": "external-auditor:0459",
+   "section": "pain",
+   "statement": "Overnight handoffs to offshore teams can fail when instructions are unclear, meaning the senior wakes up to work that must be redone."
+  },
+  {
+   "claim_id": "external-auditor:0475",
+   "section": "limit",
+   "statement": "Clients with weak accounting departments often expect the auditor to fix their entries, but independence rules limit how much the auditor can help."
+  },
+  {
+   "claim_id": "external-auditor:0536",
+   "section": "pain",
+   "statement": "Clients sometimes perceive the audit as a cost center and question why fees rise each year, putting managers in difficult fee negotiations."
+  },
+  {
+   "claim_id": "external-auditor:0562",
+   "section": "judgment_call",
+   "statement": "Planning materiality is set from a benchmark such as pretax income, revenue, or total assets, and the manager commonly uses 5 percent of pretax income or about 0.5 to 1 percent of revenue for a stable operating company."
+  },
+  {
+   "claim_id": "external-auditor:0563",
+   "section": "judgment_call",
+   "statement": "When pretax income is volatile or near zero, the team switches to a revenue or total assets benchmark and documents why, rather than letting materiality swing from year to year."
+  },
+  {
+   "claim_id": "external-auditor:0589",
+   "section": "workaround",
+   "statement": "Where banks are slow to respond, the senior sends the confirmation through a confirmation service such as Confirmation.com and keeps follow-up logs."
+  },
+  {
+   "claim_id": "external-auditor:0644",
+   "section": "judgment_call",
+   "statement": "When a sample shows an error, the senior asks whether it is isolated or systemic before extending the sample, and often tests a few more items in the same stratum."
+  },
+  {
+   "claim_id": "external-auditor:0774",
+   "section": "workaround",
+   "statement": "Seniors ask staff directly about their other commitments and then negotiate with the other engagement senior, bypassing the scheduling group."
+  },
+  {
+   "claim_id": "external-auditor:0917",
+   "section": "limit",
+   "statement": "Accounting estimates such as the allowance for credit losses under CECL, goodwill impairment, and stock compensation rely on management assumptions the auditor can challenge but not replace."
+  }
+ ],
+ "open_questions": [
+  {
+   "question": "Which audit platform and tools does your firm use (e.g., Aura, Omnia, CaseWare, Suralink, IDEA, Alteryx), and what do you find most cumbersome?",
+   "why_it_matters": "Tool choice shapes daily workflow, review efficiency and training needs, and varies widely by firm."
+  },
+  {
+   "question": "How late do PBC items typically arrive versus the due date, and which items are chronically late?",
+   "why_it_matters": "Late PBC items drive overruns and weekend work, and the specific culprits differ by client and industry."
+  },
+  {
+   "question": "How many hours per week do you actually work in busy season, and how does that differ outside of busy season?",
+   "why_it_matters": "Stated norms of 55 to 70 hours vary by firm, and real workload affects burnout and staffing."
+  },
+  {
+   "question": "How many engagements do you manage or supervise at once, and how many staff per engagement?",
+   "why_it_matters": "Span of control varies by firm size and determines how much time goes to review versus fieldwork."
+  },
+  {
+   "question": "How long does your review of a staff member's workpapers really take, and how many review rounds are typical before sign-off?",
+   "why_it_matters": "Review time and rework are major hidden budget drivers and differ by staff quality and firm culture."
+  },
+  {
+   "question": "What are the most common reasons budgets are overrun, and how are overruns handled with partners and clients?",
+   "why_it_matters": "Practices on billing, write-offs and fee negotiation differ and affect how seniors are evaluated."
+  },
+  {
+   "question": "How slow are confirmation responses in practice, and at what point do you move to alternative procedures?",
+   "why_it_matters": "Thresholds and tolerance for alternatives vary by firm policy and risk level."
+  },
+  {
+   "question": "What workarounds are tolerated when clients give incomplete or poorly prepared schedules?",
+   "why_it_matters": "Acceptable shortcuts versus required escalation differ and affect audit quality and independence boundaries."
+  },
+  {
+   "question": "How often do you encounter clients who ask you to book entries or prepare statements, and how do you respond?",
+   "why_it_matters": "Independence safeguards and handling of these requests vary by firm and client type."
+  },
+  {
+   "question": "How do you work with offshore or centralized teams, and what tasks are delegated to them versus kept onshore?",
+   "why_it_matters": "The scope delegated and the rework rate differ across firms and affect efficiency."
+  },
+  {
+   "question": "How is staffing determined and how much say do you have over who is on your team?",
+   "why_it_matters": "Staffing practices, such as using scheduling systems or informal trading, change team quality and morale."
+  },
+  {
+   "question": "When a late-breaking issue arises, such as a covenant breach, ERP change, or a restatement, how does escalation work and how long does it delay issuance?",
+   "why_it_matters": "Escalation paths and delays differ by firm and drive timeline risk."
+  },
+  {
+   "question": "How much of your time goes to public versus private clients, and how different is the daily work?",
+   "why_it_matters": "PCAOB and AICPA engagements differ in documentation, ICFR testing and deadlines, shaping the role."
+  },
+  {
+   "question": "What are the rules at your firm for using AI and data analytics tools on client data, and how are they used in practice?",
+   "why_it_matters": "Policies and adoption vary widely and change how testing and sampling are done."
+  },
+  {
+   "question": "How is performance evaluated and promoted from senior to manager at your firm, and what matters most beyond passing the CPA exam?",
+   "why_it_matters": "Promotion criteria, timelines and the weight of utilization, client skills and technical skills differ by firm."
+  }
+ ],
+ "next": "get_role_map returns any section in full. ask_role_map returns the claims most relevant to a question. request_verification logs a question for real practitioners."
+}

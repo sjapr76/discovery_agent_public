@@ -1,0 +1,284 @@
+{
+ "niche_id": "outpatient-family-physician",
+ "title": "Outpatient family physician",
+ "profession": "clinical",
+ "description": "family medicine physician seeing patients in an outpatient primary care clinic in the United States, employed by a health system or a group practice",
+ "region": "United States",
+ "titles": [
+  "Family Medicine Physician",
+  "Family Physician",
+  "Primary Care Physician (PCP)",
+  "Outpatient Family Medicine Physician",
+  "Staff Physician, Family Medicine",
+  "Attending Physician, Primary Care"
+ ],
+ "context": {
+  "employer_types": [
+   "Integrated health systems and hospital-owned clinics",
+   "Independent or multispecialty physician group practices",
+   "Academic medical centers and residency teaching clinics",
+   "Federally qualified health centers and other safety-net clinics",
+   "Large payer-owned or venture-backed primary care organizations"
+  ],
+  "company_sizes": [
+   "Small group practice (2-10 physicians)",
+   "Mid-size group or clinic network (10-100 physicians)",
+   "Large health system or medical group (hundreds to thousands of physicians)"
+  ],
+  "reports_to": [
+   "Medical director of the clinic or site",
+   "Chief of family medicine or primary care service line",
+   "Regional or system chief medical officer",
+   "Practice managing partner (in physician-owned groups)"
+  ],
+  "depends_on_them": [
+   "Panel patients (about 1,500-2,500) needing continuity of care",
+   "Medical assistants and nurses who work under their orders and protocols",
+   "Nurse practitioners and physician assistants whose notes they co-sign or review",
+   "Residents and students in teaching clinics",
+   "Referral coordinators, coders, and billing staff who need accurate orders and documentation",
+   "Specialists, hospitals, and pharmacies receiving referrals, orders, and prescriptions",
+   "Health system leadership relying on quality metrics, productivity, and risk-adjusted revenue",
+   "Patients' families and caregivers"
+  ]
+ },
+ "summary": "The family medicine physician provides continuing, comprehensive outpatient care for a panel of patients of all ages, including acute problems, chronic disease management, preventive care and screening, well-child and wellness visits, mental health and substance use treatment, and minor office procedures. Beyond the visit itself, they work the EHR inbox (results, portal messages, refills, forms), coordinate referrals, hospital follow-up, and prior authorizations, and complete documentation that supports billing, coding, and quality reporting, often finishing notes after hours. They do this within fixed scheduling templates, productivity targets, payer rules, and limited specialist and behavioral health access, working with MAs, nurses, advanced practice clinicians, pharmacists, and behavioral health staff and managing legal and regulatory obligations such as controlled-substance monitoring, mandatory reporting, and board certification.",
+ "statements": 1385,
+ "by_section": {
+  "workflow_step": 312,
+  "pain": 346,
+  "team_dynamics": 105,
+  "constraint": 256,
+  "workaround": 104,
+  "judgment_call": 111,
+  "limit": 69,
+  "improvisation": 82
+ },
+ "sample_claims": [
+  {
+   "claim_id": "outpatient-family-physician:0001",
+   "section": "workflow_step",
+   "statement": "Before clinic starts, the physician opens the EHR schedule, usually Epic, and reviews a day of about 16 to 22 patients booked in 15 to 20 minute slots.",
+   "workflow": "pre-visit prep",
+   "cadence": "daily"
+  },
+  {
+   "claim_id": "outpatient-family-physician:0002",
+   "section": "workflow_step",
+   "statement": "Chart prep for each patient takes 1 to 3 minutes and covers the last note, open results, outside records, and care gaps shown in the health maintenance tab.",
+   "workflow": "pre-visit prep",
+   "cadence": "daily"
+  },
+  {
+   "claim_id": "outpatient-family-physician:0006",
+   "section": "constraint",
+   "statement": "Slot length is set by scheduling templates, typically 20 minutes for established patients and 40 minutes for new patients or Medicare annual wellness visits, and the physician rarely controls it."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0010",
+   "section": "team_dynamics",
+   "statement": "The MA reconciles medications and runs screening questionnaires such as PHQ-2 or PHQ-9, GAD-7, fall risk, tobacco use, and social needs before the physician enters."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0019",
+   "section": "workflow_step",
+   "statement": "Orders for labs, imaging, referrals, and prescriptions are entered in the EHR during or just after the visit, and prescriptions are e-prescribed to the pharmacy the patient names.",
+   "workflow": "patient visit",
+   "cadence": "daily"
+  },
+  {
+   "claim_id": "outpatient-family-physician:0025",
+   "section": "workflow_step",
+   "statement": "When the patient needs an interpreter, the MA connects a phone or video interpreter service, and the physician speaks in short segments.",
+   "workflow": "patient visit",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "outpatient-family-physician:0029",
+   "section": "team_dynamics",
+   "statement": "For a Medicare annual wellness visit, the team completes a health risk assessment, cognitive screening, and depression screening, and offers advance care planning."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0030",
+   "section": "constraint",
+   "statement": "The visit level, usually 99213, 99214, or 99215, must be supported in the note by medical decision making or total time, so documentation shapes reimbursement."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0033",
+   "section": "workflow_step",
+   "statement": "At a diabetes follow-up, the physician reviews glucose logs or CGM data, checks A1c and urine albumin results, performs a foot exam with monofilament, and adjusts medications.",
+   "workflow": "chronic disease follow-up",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "outpatient-family-physician:0037",
+   "section": "limit",
+   "statement": "Referrals to outside psychiatry or therapy face waitlists of weeks to months, so the primary care physician keeps managing patients beyond comfort."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0041",
+   "section": "workflow_step",
+   "statement": "For well-child visits, the physician plots growth, screens development with tools such as ASQ or M-CHAT, and orders age-due vaccines.",
+   "workflow": "well-child visit",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "outpatient-family-physician:0047",
+   "section": "judgment_call",
+   "statement": "Before prescribing opioids, benzodiazepines, or stimulants, the physician checks the state prescription drug monitoring program."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0052",
+   "section": "pain",
+   "statement": "Many physicians finish notes at home in the evening, commonly 1 to 2 hours, which is widely called pajama time."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0058",
+   "section": "pain",
+   "statement": "Immediate release of results under the Cures Act means patients often read abnormal results before the physician, and anxious messages arrive before the physician has seen the result."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0069",
+   "section": "constraint",
+   "statement": "Wait times for dermatology, GI, neurology, orthopedics, and psychiatry can run from weeks to several months."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0070",
+   "section": "workaround",
+   "statement": "The physician uses e-consults or a quick call to a specialist to get advice, so the patient need not wait for a visit."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0072",
+   "section": "pain",
+   "statement": "Denials require a peer-to-peer call of 10 to 30 minutes with a payer medical director, often during clinic hours."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0083",
+   "section": "pain",
+   "statement": "Discharge summaries arrive late or incomplete, so the physician sees the patient without knowing what happened in the hospital."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0086",
+   "section": "pain",
+   "statement": "Paperwork, such as FMLA, disability, school and sports forms, DMV forms, and handicap placards, arrives in bulk and interrupts clinic work."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0089",
+   "section": "team_dynamics",
+   "statement": "For chronic care management and remote patient monitoring, nurses do monthly 20-minute calls and document time for billing."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0091",
+   "section": "constraint",
+   "statement": "Many family physicians no longer round in the hospital, since hospitalists take over inpatient care and communicate by discharge summary."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0094",
+   "section": "constraint",
+   "statement": "A typical full-time schedule is 8 clinic half-days per week, with the remaining time given to administrative blocks, inbox time, or teaching."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0114",
+   "section": "constraint",
+   "statement": "The practice offers telehealth by video or phone for follow-ups, medication checks, and mental health visits."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0130",
+   "section": "workaround",
+   "statement": "The physician sends a quick text or secure chat to a colleague or specialist for a curbside opinion instead of placing a formal referral."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0152",
+   "section": "judgment_call",
+   "statement": "When a caregiver or family member is in the room, the physician confirms the patient's permission before discussing sensitive information."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0168",
+   "section": "team_dynamics",
+   "statement": "The medical assistant rooms the patient, takes vitals, runs PHQ-2 or PHQ-9 and fall-risk screens, and does a first-pass medication reconciliation before the physician enters."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0224",
+   "section": "pain",
+   "statement": "Patient satisfaction scores and online reviews can punish physicians for declining antibiotics, opioids, or imaging that is not indicated."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0262",
+   "section": "workaround",
+   "statement": "Physicians write refills for 90 days with refills to cut how often the same patient generates a request."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0270",
+   "section": "improvisation",
+   "statement": "Physicians use GoodRx-style discount programs or samples when a patient cannot afford a medication and insurance will not move."
+  },
+  {
+   "claim_id": "outpatient-family-physician:0272",
+   "section": "workaround",
+   "statement": "Physicians phone the specialist directly or use e-consults to avoid long referral waits for simple questions."
+  }
+ ],
+ "open_questions": [
+  {
+   "question": "How many patients are actually scheduled per half-day, and how often do overbooks, same-day add-ons, or double-books push the schedule past the template?",
+   "why_it_matters": "The real load differs from the template and drives running late, rushed visits, and after-hours work."
+  },
+  {
+   "question": "How much time do you spend on pajama time or inbox work each week, and is any of it protected or paid in the schedule?",
+   "why_it_matters": "Protected inbox time varies widely and is a major factor in burnout and workflow design."
+  },
+  {
+   "question": "Who triages and handles the inbox (nurses, MAs, pools, or you), and which message types still land on you?",
+   "why_it_matters": "Inbox delegation models differ and determine the physician's true volume."
+  },
+  {
+   "question": "How reliable is MA pre-visit work (med rec, screenings, pended orders), and what do you redo yourself?",
+   "why_it_matters": "MA turnover and training differ by site and change how much time the physician must spend per visit."
+  },
+  {
+   "question": "How long does a typical referral to dermatology, psychiatry, neurology, or GI actually take, and which workarounds (e-consults, curbsides, direct calls) are accepted at your site?",
+   "why_it_matters": "Access and workaround culture differ by market and by network and shape what primary care manages."
+  },
+  {
+   "question": "What do you do for patients with severe mental illness or substance use when psychiatry is unavailable, and what behavioral health support is embedded in your clinic?",
+   "why_it_matters": "Embedded behavioral health or collaborative care changes the scope the physician carries."
+  },
+  {
+   "question": "How often do you do peer-to-peer calls or prior authorizations, how long do they take, and who handles the routine ones?",
+   "why_it_matters": "Payer friction consumes clinic time unevenly depending on payer mix and staff support."
+  },
+  {
+   "question": "How is referral tracking done, and how often do you discover a referral never completed?",
+   "why_it_matters": "Closed-loop tracking varies and affects patient safety and rework."
+  },
+  {
+   "question": "How complete and timely are hospital discharge summaries, and how do you learn about ED visits and admissions?",
+   "why_it_matters": "Information exchange differs by system and shapes how safe transition visits are."
+  },
+  {
+   "question": "Is there an ambient AI scribe or human scribe, and how much editing does the note need?",
+   "why_it_matters": "Scribe tools differ by site and may or may not reduce note time."
+  },
+  {
+   "question": "How is your compensation set (salary, RVU-based, quality bonuses), and how do metrics affect your behavior?",
+   "why_it_matters": "Pay structure drives visit volume, coding habits, and perceived pressure."
+  },
+  {
+   "question": "How are paperwork and forms (FMLA, disability, DMV, school) handled, and is anyone besides you completing them?",
+   "why_it_matters": "Form handling is a common time sink and differs by staffing and policy."
+  },
+  {
+   "question": "How do you handle abnormal results that patients see before you do, and what workflow or policy exists for delayed release or call-backs?",
+   "why_it_matters": "Practices differ in who calls and how fast, affecting patient anxiety and workload."
+  },
+  {
+   "question": "What is your panel size, is it open or closed, and how do access rules decide between overbooking and sending patients to urgent care?",
+   "why_it_matters": "Panel and access policies determine continuity, wait times, and pressure on daily schedules."
+  },
+  {
+   "question": "What support do you have from clinical pharmacists, social workers, community health workers, and NP/PA colleagues, and what supervision or co-signing is required?",
+   "why_it_matters": "Team composition and state rules differ and alter how work is split and how much falls on the physician."
+  }
+ ],
+ "next": "get_role_map returns any section in full. ask_role_map returns the claims most relevant to a question. request_verification logs a question for real practitioners."
+}

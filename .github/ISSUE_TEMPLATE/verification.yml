@@ -1,0 +1,23 @@
+name: Ask real practitioners
+description: Log a question you want answered by people who do this job (waitlist)
+labels: [verification-request]
+body:
+  - type: markdown
+    attributes:
+      value: "Verification by real practitioners is not available yet. Requests decide which jobs get verified first. Planned price: 10 euros per answer. This form is public. Do not include personal or confidential information."
+  - type: input
+    id: job
+    attributes:
+      label: Which job?
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: What do you want practitioners to confirm or answer?
+    validations:
+      required: true
+  - type: input
+    id: building
+    attributes:
+      label: What are you building? (optional)

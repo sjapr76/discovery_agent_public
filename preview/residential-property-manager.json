@@ -1,0 +1,282 @@
+{
+ "niche_id": "residential-property-manager",
+ "title": "Residential property manager",
+ "profession": "real_estate",
+ "description": "residential property manager at a property management company in the United States, managing single-family rentals and small apartment buildings for owners",
+ "region": "United States",
+ "titles": [
+  "Residential Property Manager",
+  "Property Manager",
+  "Portfolio Manager",
+  "Leasing and Property Manager",
+  "Single-Family Rental Manager",
+  "Community Manager"
+ ],
+ "context": {
+  "employer_types": [
+   "Third-party residential property management company",
+   "Real estate brokerage with a property management division",
+   "Boutique single-family rental management firm",
+   "Regional multifamily and small-building management company"
+  ],
+  "company_sizes": [
+   "Small (1-10 staff, 50-200 doors)",
+   "Mid-size (10-50 staff, 200-1,500 doors)",
+   "Large (50+ staff, 1,500+ doors, dedicated leasing, maintenance and accounting teams)"
+  ],
+  "reports_to": [
+   "Broker of record / principal broker",
+   "Director of property management",
+   "Owner or president of the management company",
+   "Regional manager"
+  ],
+  "depends_on_them": [
+   "Property owners (income, compliance and asset protection)",
+   "Tenants (repairs, safe housing, lease administration)",
+   "Vendors and contractors (dispatch and payment)",
+   "Company attorney or eviction service",
+   "Accounting and trust account staff",
+   "Leasing agents and maintenance technicians",
+   "Prospective tenants and applicants"
+  ]
+ },
+ "summary": "This person runs day-to-day operations for rental properties owned by others, acting under a management agreement that defines their authority, repair limits and fees. They handle the full tenancy cycle: marketing and screening, leasing, rent collection and delinquency, maintenance triage and vendor coordination, inspections, renewals, move-outs and evictions. They do this while following fair housing, deposit, notice and trust accounting laws, and keeping owners informed and tenants housed safely.",
+ "statements": 1362,
+ "by_section": {
+  "workflow_step": 454,
+  "pain": 272,
+  "constraint": 262,
+  "workaround": 91,
+  "team_dynamics": 87,
+  "judgment_call": 75,
+  "improvisation": 74,
+  "limit": 47
+ },
+ "sample_claims": [
+  {
+   "claim_id": "residential-property-manager:0001",
+   "section": "workflow_step",
+   "statement": "A tenant submits a maintenance request through the portal in AppFolio, Buildium, or Rent Manager, which creates a work order tied to the unit and tenant.",
+   "workflow": "maintenance work orders",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "residential-property-manager:0003",
+   "section": "workflow_step",
+   "statement": "The manager triages each new request into emergency, urgent, or routine, with emergencies handled within minutes and routine items within a few business days.",
+   "workflow": "maintenance work orders",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "residential-property-manager:0005",
+   "section": "constraint",
+   "statement": "After-hours calls route to an answering service or a rotating on-call phone that a different staff member carries each week."
+  },
+  {
+   "claim_id": "residential-property-manager:0010",
+   "section": "constraint",
+   "statement": "Each management agreement sets a repair approval limit, often 250 to 500 dollars, above which the owner must approve before work starts."
+  },
+  {
+   "claim_id": "residential-property-manager:0011",
+   "section": "workflow_step",
+   "statement": "For a repair above the owner's limit, the manager gets a vendor estimate and emails or texts it to the owner for approval.",
+   "workflow": "owner repair approval",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "residential-property-manager:0015",
+   "section": "constraint",
+   "statement": "Vendors must have a current W-9, general liability insurance certificate, and often a license on file before they can be paid or dispatched."
+  },
+  {
+   "claim_id": "residential-property-manager:0017",
+   "section": "constraint",
+   "statement": "State landlord-tenant law usually requires 24 to 48 hours written notice before entering a occupied unit for non-emergency work."
+  },
+  {
+   "claim_id": "residential-property-manager:0025",
+   "section": "constraint",
+   "statement": "Managers keep a required reserve balance, such as 300 to 1,000 dollars per property, in the owner account so small repairs can be paid without waiting for a contribution."
+  },
+  {
+   "claim_id": "residential-property-manager:0032",
+   "section": "constraint",
+   "statement": "Late fees are charged automatically or manually after the grace period in the lease, commonly the fifth of the month, subject to state caps."
+  },
+  {
+   "claim_id": "residential-property-manager:0034",
+   "section": "workflow_step",
+   "statement": "The manager sends a friendly reminder by text, email, or phone call to each delinquent tenant right after the grace period.",
+   "workflow": "delinquency collections",
+   "cadence": "monthly"
+  },
+  {
+   "claim_id": "residential-property-manager:0036",
+   "section": "workflow_step",
+   "statement": "If rent stays unpaid, the manager serves a pay-or-quit or similar notice, the form and number of days depending on the state, often 3 to 14 days.",
+   "workflow": "eviction process",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "residential-property-manager:0040",
+   "section": "workflow_step",
+   "statement": "When the notice period expires without payment, the manager hands the file to the company's attorney or eviction service with the lease, ledger, and notice.",
+   "workflow": "eviction process",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "residential-property-manager:0045",
+   "section": "improvisation",
+   "statement": "The manager offers payment plans or cash-for-keys agreements in some cases when it is quicker and cheaper than completing an eviction."
+  },
+  {
+   "claim_id": "residential-property-manager:0124",
+   "section": "pain",
+   "statement": "After a loss, the manager must coordinate the mitigation company, adjuster, owner, and displaced tenant, all of whom move at different speeds."
+  },
+  {
+   "claim_id": "residential-property-manager:0142",
+   "section": "workaround",
+   "statement": "Managers keep a spreadsheet of lease expirations, inspection dates, and license renewals as a backup to the software's reminders."
+  },
+  {
+   "claim_id": "residential-property-manager:0158",
+   "section": "limit",
+   "statement": "Owners delay capital work to save money, and small problems turn into larger repairs, making the manager's reports harder."
+  },
+  {
+   "claim_id": "residential-property-manager:0172",
+   "section": "judgment_call",
+   "statement": "Some states restrict charging late fees or require specific wording, so the manager checks the lease clause before posting a fee."
+  },
+  {
+   "claim_id": "residential-property-manager:0179",
+   "section": "pain",
+   "statement": "A tenant leaving early leaves the owner with lost rent unless the unit is re-rented quickly, so the manager has to balance both parties."
+  },
+  {
+   "claim_id": "residential-property-manager:0186",
+   "section": "judgment_call",
+   "statement": "Calls the applicant's prior landlord, not only the current one, because a current landlord may say anything to get rid of a bad tenant."
+  },
+  {
+   "claim_id": "residential-property-manager:0199",
+   "section": "pain",
+   "statement": "Voucher unit inspections and approval can leave a unit empty for several weeks while the housing authority schedules, and the owner blames the manager for the vacancy."
+  },
+  {
+   "claim_id": "residential-property-manager:0236",
+   "section": "improvisation",
+   "statement": "Offers a written payment plan to a tenant with a temporary job loss, signed by both sides, when the owner agrees, to avoid the cost of court."
+  },
+  {
+   "claim_id": "residential-property-manager:0266",
+   "section": "pain",
+   "statement": "Owners who previously self-managed hand over leases with missing clauses, handwritten changes, or undocumented deposits, which become the manager's problem."
+  },
+  {
+   "claim_id": "residential-property-manager:0269",
+   "section": "pain",
+   "statement": "An owner selling mid-lease means the manager handles buyer showings, deposit transfers, and tenant anxiety, then loses the management contract."
+  },
+  {
+   "claim_id": "residential-property-manager:0273",
+   "section": "pain",
+   "statement": "Many tenants never buy renters insurance, so a fire or leak turns into a dispute over who pays for their belongings."
+  },
+  {
+   "claim_id": "residential-property-manager:0409",
+   "section": "judgment_call",
+   "statement": "For assistance animal requests with online-sourced documentation, the manager checks whether the letter shows a provider relationship before approving, without charging pet fees or pet rent."
+  },
+  {
+   "claim_id": "residential-property-manager:0442",
+   "section": "limit",
+   "statement": "Owners who live out of state or abroad can take days to approve a repair, leaving the manager in the middle between an angry tenant and an owner who will not answer."
+  },
+  {
+   "claim_id": "residential-property-manager:0446",
+   "section": "limit",
+   "statement": "Plumbing and HVAC vendors fill up quickly in heat waves and freezes, so emergency work orders wait in a queue the manager cannot shorten."
+  },
+  {
+   "claim_id": "residential-property-manager:0469",
+   "section": "team_dynamics",
+   "statement": "Owners who self-managed before hiring the company hand over incomplete leases, missing deposit records and undocumented side agreements with tenants."
+  },
+  {
+   "claim_id": "residential-property-manager:0484",
+   "section": "workaround",
+   "statement": "Many managers ask for bank statements or use income verification services that connect to payroll or bank accounts, because pay stubs are easy to fake."
+  },
+  {
+   "claim_id": "residential-property-manager:0501",
+   "section": "workaround",
+   "statement": "Managers use translation apps or a bilingual coworker for important calls and translate key notices informally, while sending the legal notice in its required form."
+  }
+ ],
+ "open_questions": [
+  {
+   "question": "Which maintenance problems come up most often in your portfolio, and which are seasonal?",
+   "why_it_matters": "Shows where time, vendor capacity and budgets actually go."
+  },
+  {
+   "question": "How long do things really take from work order creation to completion for routine, urgent and emergency items?",
+   "why_it_matters": "Actual timelines differ from stated targets and set tenant and owner expectations."
+  },
+  {
+   "question": "What is your actual owner approval limit, and how often do you act above it anyway?",
+   "why_it_matters": "Reveals tolerated workarounds and risk in the authority structure."
+  },
+  {
+   "question": "How does your after-hours coverage work, and how many calls are real emergencies?",
+   "why_it_matters": "Determines workload, burnout and dispatch decisions."
+  },
+  {
+   "question": "Which software do you use, and what tasks do you still do by spreadsheet or by hand?",
+   "why_it_matters": "Shows tool gaps and manual workarounds."
+  },
+  {
+   "question": "How many doors do you personally manage, and what mix of houses and small buildings?",
+   "why_it_matters": "Workload and complexity vary widely."
+  },
+  {
+   "question": "How do you handle owners who are slow to respond or refuse repairs?",
+   "why_it_matters": "Informal escalation practices are rarely written down."
+  },
+  {
+   "question": "Where do eviction cases stall in your county, and how long do they take?",
+   "why_it_matters": "Local court timelines drive owner communication and strategy."
+  },
+  {
+   "question": "When do you offer payment plans or cash for keys, and who decides?",
+   "why_it_matters": "Judgment calls and owner involvement differ by company."
+  },
+  {
+   "question": "How do you verify income and what fraud do you actually see?",
+   "why_it_matters": "Practical screening methods go beyond written policy."
+  },
+  {
+   "question": "How long do units sit vacant between tenants and what causes the delays?",
+   "why_it_matters": "Vacancy time is a key owner metric with many local causes."
+  },
+  {
+   "question": "How do you manage vendors: who is reliable, how do you onboard them, and what happens when they are unavailable?",
+   "why_it_matters": "Vendor networks decide response speed and quality."
+  },
+  {
+   "question": "What parts of compliance (licensing, registration, lead paint, deposits) are hardest to keep current?",
+   "why_it_matters": "Shows where mistakes and exposure occur."
+  },
+  {
+   "question": "How do you handle voucher tenants, and how much delay does the housing authority cause?",
+   "why_it_matters": "Process and delay vary greatly by authority."
+  },
+  {
+   "question": "What does your typical day or week look like, and what interrupts it most?",
+   "why_it_matters": "Reveals real time allocation versus formal duties."
+  }
+ ],
+ "next": "get_role_map returns any section in full. ask_role_map returns the claims most relevant to a question. request_verification logs a question for real practitioners."
+}

@@ -1,0 +1,288 @@
+{
+ "niche_id": "hospitalist",
+ "title": "Hospitalist",
+ "profession": "clinical",
+ "description": "hospitalist physician caring for admitted adult patients on the general medicine service of a hospital in the United States",
+ "region": "United States",
+ "titles": [
+  "Hospitalist",
+  "Hospital Medicine Physician",
+  "Internal Medicine Hospitalist",
+  "Inpatient Attending Physician",
+  "Nocturnist (night-shift hospitalist)",
+  "Hospital Medicine Attending"
+ ],
+ "context": {
+  "employer_types": [
+   "Community hospitals and health systems",
+   "Academic medical centers and teaching hospitals",
+   "Physician-owned or private hospitalist groups",
+   "National hospitalist staffing companies",
+   "Safety-net and public hospitals",
+   "Veterans Affairs hospitals",
+   "Critical access and rural hospitals (including telehospitalist coverage)"
+  ],
+  "company_sizes": [
+   "Small hospital (under 100 beds), often with a few hospitalists",
+   "Mid-size community hospital (100-400 beds), group of roughly 10-30 hospitalists",
+   "Large academic or system hospital (400+ beds), group of 30-100+ hospitalists with NPs/PAs and residents",
+   "Multi-hospital health system or national staffing company with hundreds of hospitalists"
+  ],
+  "reports_to": [
+   "Hospitalist medical director or group leader",
+   "Chief of hospital medicine / division chief",
+   "Chief medical officer (CMO) or chief of staff",
+   "Department of medicine chair (academic settings)"
+  ],
+  "depends_on_them": [
+   "Admitted patients and their families, who rely on them for diagnosis, treatment plan, and updates",
+   "ED physicians who need timely admission decisions to clear boarding",
+   "Bedside nurses and charge nurses who need orders and clarity on the plan",
+   "Case managers and social workers who need medical readiness for discharge",
+   "Consultants and intensivists who rely on clear questions and accurate summaries",
+   "Primary care physicians and post-acute facilities who receive the discharge summary and handoff",
+   "Hospital leadership for length of stay, readmissions, throughput, and billing/coding accuracy",
+   "Residents, medical students, NPs, and PAs who are supervised and taught",
+   "Hospice, palliative care, and addiction medicine teams who receive referrals"
+  ]
+ },
+ "summary": "The hospitalist is the attending physician for admitted adults on the general medicine service, taking handoff, rounding on a census of roughly 14-20 patients, ordering tests and treatments, adjusting plans daily, and responding to deteriorations and ICU transfers. They evaluate and admit patients from the ED and transfer centers, choose inpatient versus observation status, reconcile medications, coordinate consultants, therapy, pharmacy, nursing, and case management, and document medical necessity in daily notes. They also lead goals-of-care and family discussions, manage discharge (medication reconciliation, summary, prescriptions, follow-up, peer-to-peer and appeals with insurers), handle deaths and hospice certification, and hand patients off to the next physician at the end of a 12-hour or longer shift in a seven-on, seven-off block.",
+ "statements": 1364,
+ "by_section": {
+  "workflow_step": 389,
+  "constraint": 215,
+  "pain": 262,
+  "judgment_call": 141,
+  "workaround": 92,
+  "team_dynamics": 91,
+  "limit": 71,
+  "improvisation": 103
+ },
+ "sample_claims": [
+  {
+   "claim_id": "hospitalist:0002",
+   "section": "workflow_step",
+   "statement": "The hospitalist receives verbal sign-out from the outgoing night hospitalist, usually in a workroom or by phone, and it lasts roughly 15 to 30 minutes for a full census.",
+   "workflow": "morning handoff prep",
+   "cadence": "daily"
+  },
+  {
+   "claim_id": "hospitalist:0011",
+   "section": "judgment_call",
+   "statement": "Patients are prioritized so that the sickest or those with overnight events are seen first and anticipated discharges are seen early."
+  },
+  {
+   "claim_id": "hospitalist:0015",
+   "section": "workflow_step",
+   "statement": "Hospitalists perform hand hygiene and follow isolation precautions at each door for contact, droplet, or airborne patients, donning gowns and gloves or N95 respirators as indicated.",
+   "workflow": "bedside patient care",
+   "cadence": "daily"
+  },
+  {
+   "claim_id": "hospitalist:0019",
+   "section": "workaround",
+   "statement": "Many hospitalists use dictation software such as Dragon to write notes faster, then correct transcription errors afterward."
+  },
+  {
+   "claim_id": "hospitalist:0020",
+   "section": "workflow_step",
+   "statement": "The hospitalist places orders through computerized provider order entry, including labs for the next morning, imaging, medication changes, diet, and activity.",
+   "workflow": "order entry",
+   "cadence": "daily"
+  },
+  {
+   "claim_id": "hospitalist:0022",
+   "section": "workflow_step",
+   "statement": "Around 9:00 to 10:00 AM the hospitalist attends multidisciplinary rounds with the bedside nurse, case manager, social worker, and sometimes pharmacy and physical therapy.",
+   "workflow": "interdisciplinary rounds",
+   "cadence": "daily"
+  },
+  {
+   "claim_id": "hospitalist:0023",
+   "section": "workflow_step",
+   "statement": "At multidisciplinary rounds, the group reviews each patient's expected discharge date, barriers such as insurance authorization or placement, and pending consultant input.",
+   "workflow": "interdisciplinary rounds",
+   "cadence": "daily"
+  },
+  {
+   "claim_id": "hospitalist:0028",
+   "section": "workflow_step",
+   "statement": "When a patient deteriorates, the hospitalist responds to a rapid response call, evaluating at bedside with the nurse and rapid response team and deciding on ICU transfer.",
+   "workflow": "rapid response escalation",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "hospitalist:0029",
+   "section": "constraint",
+   "statement": "For possible sepsis, the hospitalist orders lactate, blood cultures, broad-spectrum antibiotics, and fluids per the hospital sepsis bundle, with timing targets of within one to three hours."
+  },
+  {
+   "claim_id": "hospitalist:0037",
+   "section": "constraint",
+   "statement": "The admitting physician must choose between inpatient and observation status, and the Medicare two-midnight rule guides whether a stay is expected to cross two midnights."
+  },
+  {
+   "claim_id": "hospitalist:0038",
+   "section": "pain",
+   "statement": "Observation versus inpatient status decisions affect patient out-of-pocket costs and hospital reimbursement, and patients are often upset by being observation without understanding why."
+  },
+  {
+   "claim_id": "hospitalist:0040",
+   "section": "pain",
+   "statement": "Patients board in the ED for hours waiting for an inpatient bed, so the hospitalist often sees them in the ED while orders and bed assignment lag."
+  },
+  {
+   "claim_id": "hospitalist:0044",
+   "section": "workaround",
+   "statement": "To verify medications, the hospitalist or a pharmacy technician calls the outpatient pharmacy or reads bottles that family brings in."
+  },
+  {
+   "claim_id": "hospitalist:0054",
+   "section": "judgment_call",
+   "statement": "For diabetic patients, the hospitalist orders basal-bolus insulin with correction scale and glucose checks before meals and at bedtime."
+  },
+  {
+   "claim_id": "hospitalist:0066",
+   "section": "limit",
+   "statement": "The hospitalist waits hours or even a full day for consultants to see patients, and the timing is unpredictable."
+  },
+  {
+   "claim_id": "hospitalist:0075",
+   "section": "pain",
+   "statement": "Imaging backlogs, especially MRI and echocardiograms, delay diagnosis and extend length of stay, particularly on weekends."
+  },
+  {
+   "claim_id": "hospitalist:0079",
+   "section": "team_dynamics",
+   "statement": "Pharmacists contact the hospitalist about dose adjustments, renal dosing, antibiotic de-escalation, and drug interactions, and the hospitalist accepts or declines each."
+  },
+  {
+   "claim_id": "hospitalist:0080",
+   "section": "team_dynamics",
+   "statement": "Antimicrobial stewardship teams review broad-spectrum antibiotic orders and may call the hospitalist to narrow or stop therapy after 48 to 72 hours."
+  },
+  {
+   "claim_id": "hospitalist:0091",
+   "section": "constraint",
+   "statement": "Patients who are medically ready to leave stay days longer waiting for skilled nursing facility acceptance, insurance authorization, or guardianship."
+  },
+  {
+   "claim_id": "hospitalist:0100",
+   "section": "pain",
+   "statement": "Discharge prescriptions are rejected or require prior authorization at the pharmacy, which the hospitalist or case manager must resolve before the patient leaves."
+  },
+  {
+   "claim_id": "hospitalist:0101",
+   "section": "workaround",
+   "statement": "Meds-to-beds programs let the hospital pharmacy fill and deliver discharge prescriptions at the bedside so patients leave with medications in hand."
+  },
+  {
+   "claim_id": "hospitalist:0108",
+   "section": "pain",
+   "statement": "Primary care appointments within seven days are hard to get, and patients without a primary care physician have no clear follow-up."
+  },
+  {
+   "claim_id": "hospitalist:0118",
+   "section": "constraint",
+   "statement": "Restraint orders, when required, must be renewed and documented per hospital policy and regulatory rules, with a face-to-face evaluation."
+  },
+  {
+   "claim_id": "hospitalist:0120",
+   "section": "constraint",
+   "statement": "Opioid prescribing decisions at discharge are constrained by state monitoring programs and require checking the prescription drug monitoring database."
+  },
+  {
+   "claim_id": "hospitalist:0121",
+   "section": "judgment_call",
+   "statement": "The hospitalist checks the state prescription drug monitoring program before prescribing controlled substances."
+  },
+  {
+   "claim_id": "hospitalist:0128",
+   "section": "constraint",
+   "statement": "Typical shift patterns are seven days on and seven days off, with 12-hour or longer shifts, so continuity with a given patient is limited to the block."
+  },
+  {
+   "claim_id": "hospitalist:0136",
+   "section": "team_dynamics",
+   "statement": "Nurse practitioners and physician assistants on the hospitalist team may carry part of the census, and the physician cosigns or sees patients as required."
+  },
+  {
+   "claim_id": "hospitalist:0137",
+   "section": "team_dynamics",
+   "statement": "Residents or medical students, in teaching hospitals, present patients to the hospitalist attending on rounds, and the attending teaches, edits notes, and cosigns."
+  },
+  {
+   "claim_id": "hospitalist:0141",
+   "section": "team_dynamics",
+   "statement": "Clinical documentation integrity specialists send queries asking the hospitalist to clarify diagnoses such as acute respiratory failure, malnutrition, or encephalopathy for accurate coding."
+  },
+  {
+   "claim_id": "hospitalist:0147",
+   "section": "pain",
+   "statement": "Insurer denials for inpatient days require the hospitalist to write appeals or participate in peer reviews, usually after discharge."
+  }
+ ],
+ "open_questions": [
+  {
+   "question": "How many patients are on your census on a typical day versus a bad day, and how many floors are they spread across?",
+   "why_it_matters": "Census size and geographic scatter drive time per patient, nurse communication, and burnout, and vary widely by group."
+  },
+  {
+   "question": "What time do you actually get signout, and how long does it really take compared with the nominal 15-30 minutes?",
+   "why_it_matters": "Real handoff practice and start times differ and affect safety and shift length."
+  },
+  {
+   "question": "How much charting do you finish after the shift ends, and where (hospital or home)?",
+   "why_it_matters": "Reveals true workday length and whether documentation burden is tolerated or compensated."
+  },
+  {
+   "question": "Which delays hold up discharges most often at your hospital: SNF acceptance, insurance authorization, imaging, consultants, transport, or guardianship?",
+   "why_it_matters": "Bottleneck mix differs by site and determines where effort and workarounds go."
+  },
+  {
+   "question": "How long do consultants typically take to see a patient, and which services are fastest or slowest?",
+   "why_it_matters": "Consult latency shapes planning, calls to escalate, and length of stay."
+  },
+  {
+   "question": "What workarounds do you use to get consults or imaging done faster, and which are tolerated by leadership?",
+   "why_it_matters": "Informal escalation paths (direct calls, hallway asks) are rarely documented."
+  },
+  {
+   "question": "Who do you share the work with: NPs/PAs, residents, scribes, pharmacists doing med histories? How is the census divided and how much cosigning/supervision do you do?",
+   "why_it_matters": "Team structure changes workload, supervision duties, and the physician's role."
+  },
+  {
+   "question": "How often do you do procedures (paracentesis, thoracentesis, LP) yourself versus sending them to IR, and how long does IR take?",
+   "why_it_matters": "Credentialing and local policy differ and affect delays."
+  },
+  {
+   "question": "How many peer-to-peer calls or denial appeals do you handle per week, how long do they take, and how often do you win?",
+   "why_it_matters": "Payer burden varies by market and Medicare Advantage mix."
+  },
+  {
+   "question": "How do you decide observation versus inpatient in borderline cases, and do you get help from physician advisors or UM nurses?",
+   "why_it_matters": "Status decisions have financial consequences and local processes differ."
+  },
+  {
+   "question": "How reliable is the ED's medication list, and what do you actually do when the true home list can't be established?",
+   "why_it_matters": "Real-world reconciliation shortcuts and risk tolerance vary."
+  },
+  {
+   "question": "What does a typical night look like for the nocturnist at your hospital, including admission volume, cross-cover load, and whether remote/virtual coverage exists?",
+   "why_it_matters": "Night coverage models differ and affect handoff quality and morning workload."
+  },
+  {
+   "question": "How do you handle copy-forward and templates in notes, and what documentation does your group or CDI actually push back on?",
+   "why_it_matters": "Documentation norms and compliance enforcement vary and consume time."
+  },
+  {
+   "question": "How often do you face unsafe or abusive patients/families, and how responsive are security and behavioral response teams?",
+   "why_it_matters": "Safety support differs by site and affects stress and workflow."
+  },
+  {
+   "question": "What metrics (length of stay, readmissions, discharge before noon, documentation) is your group measured on, and does it affect pay or bonuses?",
+   "why_it_matters": "Incentives shape daily behavior and differ across employers."
+  }
+ ],
+ "next": "get_role_map returns any section in full. ask_role_map returns the claims most relevant to a question. request_verification logs a question for real practitioners."
+}

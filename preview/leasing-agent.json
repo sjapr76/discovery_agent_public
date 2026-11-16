@@ -1,0 +1,282 @@
+{
+ "niche_id": "leasing-agent",
+ "title": "Leasing agent",
+ "profession": "real_estate",
+ "description": "leasing agent at a multifamily apartment community in the United States, handling inquiries, tours, applications and move-ins",
+ "region": "United States",
+ "titles": [
+  "Leasing Agent",
+  "Leasing Consultant",
+  "Leasing Professional",
+  "Apartment Leasing Specialist",
+  "Community Leasing Associate",
+  "Sales and Leasing Consultant"
+ ],
+ "context": {
+  "employer_types": [
+   "Third-party property management companies",
+   "Owner-operator multifamily real estate firms",
+   "Real estate investment trusts (REITs)",
+   "Student and affordable/subsidized housing operators",
+   "Build-to-rent and luxury high-rise developers"
+  ],
+  "company_sizes": [
+   "Single community owner-operators (under 50 employees)",
+   "Regional management firms (50-500 employees)",
+   "Large national operators (thousands of employees, hundreds of properties)"
+  ],
+  "reports_to": [
+   "Community/Property Manager",
+   "Assistant Property Manager",
+   "Leasing Manager",
+   "Regional Manager (indirectly)"
+  ],
+  "depends_on_them": [
+   "Prospective residents (information, tours, accurate quotes)",
+   "Applicants and new residents (approvals, lease signing, move-in)",
+   "Current residents (renewals, work orders, transfers, events)",
+   "Property manager and owners (occupancy, lease-up pace, renewal retention, revenue)",
+   "Maintenance supervisor (accurate move-in dates and notice of on-notice units)",
+   "Housing authorities and guarantor services (paperwork, timelines)"
+  ]
+ },
+ "summary": "The leasing agent is the face of the community, responsible for turning inquiries into signed leases by answering calls, texts and online leads, quoting accurate pricing from the revenue management system, giving tours and following up until the prospect applies. They guide applicants through income, rental history and screening checks, collect fees, issue approvals, conditional approvals or adverse action notices, prepare the lease and move-in, and complete the move-in inspection. They also handle renewals, notices to vacate, pre-leasing, work orders, transfers, roommate changes and resident events, all while following fair housing, fee-disclosure and company policy and referring legal, negotiation and accommodation questions to the manager.",
+ "statements": 1386,
+ "by_section": {
+  "workflow_step": 451,
+  "pain": 256,
+  "judgment_call": 86,
+  "constraint": 264,
+  "limit": 95,
+  "improvisation": 87,
+  "workaround": 94,
+  "team_dynamics": 53
+ },
+ "sample_claims": [
+  {
+   "claim_id": "leasing-agent:0001",
+   "section": "workflow_step",
+   "statement": "The agent opens the leasing office, turns on lights and music, and logs into the property management system, usually Yardi, RealPage, Entrata, or ResMan, before the 9 a.m. opening.",
+   "workflow": "opening routine",
+   "cadence": "daily"
+  },
+  {
+   "claim_id": "leasing-agent:0006",
+   "section": "workflow_step",
+   "statement": "The agent reviews the pricing sheet or revenue management output, often from RealPage or Yieldstar, to know the current rent for each floor plan and lease term.",
+   "workflow": "opening routine",
+   "cadence": "daily"
+  },
+  {
+   "claim_id": "leasing-agent:0010",
+   "section": "pain",
+   "statement": "Leads from listing sites often arrive with missing phone numbers or fake emails, which makes follow-up impossible."
+  },
+  {
+   "claim_id": "leasing-agent:0012",
+   "section": "workflow_step",
+   "statement": "When answering a call, the agent asks the prospect's name, desired move-in date, bedroom count, budget, pets, and number of occupants before quoting anything.",
+   "workflow": "inquiry handling",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "leasing-agent:0013",
+   "section": "workflow_step",
+   "statement": "The agent quotes the rent for matching available units, explaining base rent, lease term pricing, and any current concession.",
+   "workflow": "inquiry handling",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "leasing-agent:0021",
+   "section": "constraint",
+   "statement": "The agent must not steer prospects toward or away from floors, buildings, or areas based on family status, disability, or other protected traits."
+  },
+  {
+   "claim_id": "leasing-agent:0022",
+   "section": "constraint",
+   "statement": "When a prospect asks about the neighborhood or schools, the agent points to objective sources such as a map or the school district website rather than giving opinions."
+  },
+  {
+   "claim_id": "leasing-agent:0023",
+   "section": "workflow_step",
+   "statement": "For virtual inquiries, the agent offers a video tour, self-guided tour, or live video call using a tool such as Zoom, FaceTime, or a vendor like Rently.",
+   "workflow": "virtual tour handling",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "leasing-agent:0024",
+   "section": "workflow_step",
+   "statement": "For self-guided tours, the agent verifies the prospect's identity, often by ID photo upload, before sending an access code.",
+   "workflow": "self guided tour",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "leasing-agent:0025",
+   "section": "pain",
+   "statement": "Self-guided tours leave the agent unable to answer questions or close, and prospects sometimes leave doors unlocked or lights on."
+  },
+  {
+   "claim_id": "leasing-agent:0061",
+   "section": "constraint",
+   "statement": "When an applicant is denied, the agent sends an adverse action notice that names the screening company and explains the applicant's rights."
+  },
+  {
+   "claim_id": "leasing-agent:0072",
+   "section": "constraint",
+   "statement": "Assistance animals and service animals are not pets under fair housing rules, so the agent routes those requests through the proper process and does not charge pet fees."
+  },
+  {
+   "claim_id": "leasing-agent:0074",
+   "section": "constraint",
+   "statement": "Many communities do not accept cash, personal checks, or large payments at the office, so the agent directs the applicant to approved payment methods."
+  },
+  {
+   "claim_id": "leasing-agent:0082",
+   "section": "improvisation",
+   "statement": "When a unit will not be ready, the agent calls the resident early, offers a later date or another unit, and sometimes arranges a rent credit with manager approval."
+  },
+  {
+   "claim_id": "leasing-agent:0109",
+   "section": "constraint",
+   "statement": "Entering an occupied unit for a showing requires advance notice to the resident according to the lease and state law."
+  },
+  {
+   "claim_id": "leasing-agent:0154",
+   "section": "limit",
+   "statement": "The agent handles lease termination requests for military, domestic violence, or other protected reasons by passing documentation to the manager."
+  },
+  {
+   "claim_id": "leasing-agent:0160",
+   "section": "pain",
+   "statement": "Automated chat bots give wrong answers on pricing or availability, so the agent has to correct them with prospects."
+  },
+  {
+   "claim_id": "leasing-agent:0169",
+   "section": "pain",
+   "statement": "Touring unfamiliar people alone in vacant units creates safety risk, and agents sometimes feel unsafe on evening appointments."
+  },
+  {
+   "claim_id": "leasing-agent:0210",
+   "section": "pain",
+   "statement": "Prospects get upset about add-on fees such as admin fees, amenity fees, pest, trash and package fees, even though the agent did not set them."
+  },
+  {
+   "claim_id": "leasing-agent:0214",
+   "section": "pain",
+   "statement": "Scammers copy the community's listings and photos on Craigslist or Facebook Marketplace, and the agent fields calls from victims who already paid a deposit."
+  },
+  {
+   "claim_id": "leasing-agent:0236",
+   "section": "workaround",
+   "statement": "The agent keeps a personal spreadsheet or notebook of hot leads, pending apps and follow-up dates because the CRM view is cluttered."
+  },
+  {
+   "claim_id": "leasing-agent:0247",
+   "section": "judgment_call",
+   "statement": "Where fees surprise people, the agent quotes the total monthly cost including mandatory fees up front instead of waiting for the application."
+  },
+  {
+   "claim_id": "leasing-agent:0253",
+   "section": "workaround",
+   "statement": "The agent builds a personal relationship with the maintenance supervisor, bringing coffee or snacks, to get make-ready rushed on important units."
+  },
+  {
+   "claim_id": "leasing-agent:0279",
+   "section": "limit",
+   "statement": "Lease terms, rent amounts and fees are set by ownership and the revenue management system, and the agent cannot negotiate outside approved concessions."
+  },
+  {
+   "claim_id": "leasing-agent:0305",
+   "section": "team_dynamics",
+   "statement": "Turnover on the team is high, and the remaining agents cover extra hours and train new hires repeatedly."
+  },
+  {
+   "claim_id": "leasing-agent:0365",
+   "section": "limit",
+   "statement": "Change over the years: AI assistants now answer first-contact inquiries, book tours and send follow-ups, shifting the agent's role toward in-person closing and problem solving."
+  },
+  {
+   "claim_id": "leasing-agent:0495",
+   "section": "team_dynamics",
+   "statement": "Turnover among leasing staff is high, so agents often cover for open positions and train new hires while still hitting their own goals."
+  },
+  {
+   "claim_id": "leasing-agent:0518",
+   "section": "workaround",
+   "statement": "Agents send a confirmation text an hour before a tour to cut down no-shows and know whether to wait."
+  },
+  {
+   "claim_id": "leasing-agent:0519",
+   "section": "workaround",
+   "statement": "Agents keep a personal spreadsheet or notebook of hot leads and promised follow-ups because the CRM task list gets cluttered."
+  },
+  {
+   "claim_id": "leasing-agent:0521",
+   "section": "workaround",
+   "statement": "Agents print a quote sheet showing the exact unit, rent, lease term, fees and date so prospects cannot later dispute what they were told."
+  }
+ ],
+ "open_questions": [
+  {
+   "question": "Which PMS, CRM, revenue management and tour tools does your community actually use, and which do you really rely on day to day?",
+   "why_it_matters": "Tool stacks differ widely and determine daily workflow and training needs."
+  },
+  {
+   "question": "What are the most common reasons a prospect who toured does not apply?",
+   "why_it_matters": "Reveals real objections (fees, price, unit readiness, location) that scripts miss."
+  },
+  {
+   "question": "How long do steps really take: lead response, screening results, prior landlord verification, voucher inspection, make-ready?",
+   "why_it_matters": "Actual timelines differ from policy and shape what promises can be made."
+  },
+  {
+   "question": "What workarounds do you use when the CRM or system is cluttered or slow, and which does your manager tolerate?",
+   "why_it_matters": "Personal spreadsheets and informal habits show system gaps."
+  },
+  {
+   "question": "How often do AI chatbots or auto-responders give wrong information, and what errors are most common?",
+   "why_it_matters": "Shows how automation changes the job and where agents spend corrective effort."
+  },
+  {
+   "question": "How do you handle fee surprises, and how much of the total cost do you disclose before the tour?",
+   "why_it_matters": "Disclosure practice varies by market and law and drives trust and conversion."
+  },
+  {
+   "question": "What concessions can you offer on your own, which need approval, and how fast does approval come?",
+   "why_it_matters": "Authority limits differ by company and affect closing speed."
+  },
+  {
+   "question": "How do you deal with unreachable, fake or uncooperative prior landlords and doctored documents?",
+   "why_it_matters": "Verification practices and fraud exposure vary and affect approval time."
+  },
+  {
+   "question": "What happens when a unit is not ready by the promised move-in date, and who decides the remedy?",
+   "why_it_matters": "Reveals real coordination with maintenance and compensation practices."
+  },
+  {
+   "question": "How do you stay safe on evening or vacant-unit tours, and what protocols does your site actually enforce?",
+   "why_it_matters": "Safety rules vary and are often informal."
+  },
+  {
+   "question": "What does your weekend and evening schedule look like, and how is coverage handled when staff leave?",
+   "why_it_matters": "Workload and burnout differ by site and staffing."
+  },
+  {
+   "question": "How is your pay structured (hourly, commission, renewal bonus), and which goals count most?",
+   "why_it_matters": "Incentives shape behavior and vary by employer."
+  },
+  {
+   "question": "How do you handle voucher, assistance-animal and accommodation requests in practice, and who makes the final call?",
+   "why_it_matters": "Process and escalation paths differ by company and local law."
+  },
+  {
+   "question": "What issues come up in self-guided tours (damage, unlocked doors, no-shows), and how do you manage them?",
+   "why_it_matters": "Shows hidden costs of tour technology."
+  },
+  {
+   "question": "What do you do to get on-notice or renewal residents to respond, and what works best?",
+   "why_it_matters": "Retention tactics and response rates differ by property and resident base."
+  }
+ ],
+ "next": "get_role_map returns any section in full. ask_role_map returns the claims most relevant to a question. request_verification logs a question for real practitioners."
+}

@@ -1,0 +1,282 @@
+{
+ "niche_id": "independent-agency-account-manager",
+ "title": "Account manager at an independent insurance agency",
+ "profession": "insurance",
+ "description": "account manager (customer service representative) at an independent insurance agency in the United States, servicing personal and small commercial lines policies across several carriers",
+ "region": "United States",
+ "titles": [
+  "Account Manager",
+  "Customer Service Representative (CSR)",
+  "Commercial Lines Account Manager",
+  "Personal Lines Account Manager",
+  "Client Service Specialist",
+  "Account Service Representative"
+ ],
+ "context": {
+  "employer_types": [
+   "Independent insurance agencies",
+   "Multi-line independent agency/brokerage groups",
+   "Agency networks or aggregator-owned agencies",
+   "Regional brokerages with personal and small commercial books"
+  ],
+  "company_sizes": [
+   "Small agency (3-10 staff)",
+   "Mid-size agency (10-50 staff)",
+   "Large regional agency or brokerage (50-250+ staff)"
+  ],
+  "reports_to": [
+   "Agency principal/owner",
+   "Service or operations manager",
+   "Account executive/producer (for day-to-day direction)",
+   "Personal lines or commercial lines department manager"
+  ],
+  "depends_on_them": [
+   "Policyholders needing changes, certificates, and billing help",
+   "Producers/salespeople who rely on them to service and retain accounts",
+   "Mortgage lenders, title companies, and lienholders needing proof of insurance",
+   "Contractors and their customers needing certificates and additional insured status",
+   "Accounting/billing staff who reconcile agency-billed payments",
+   "Carrier underwriters and claims departments who need accurate, complete submissions",
+   "Agency principal, whose errors-and-omissions exposure depends on documentation"
+  ]
+ },
+ "summary": "The account manager is the day-to-day service contact for an agency's personal and small commercial clients, processing policy changes (vehicles, drivers, addresses, mortgagees), issuing certificates of insurance, handling billing and cancellation questions, and logging all activity in the agency management system. They manage renewals by reviewing carrier offers, gathering updated commercial information, and flagging premium or coverage changes, and they help clients report claims and follow up with carriers, while the adjuster alone decides coverage. They work within licensing, carrier appointment, binding authority, and regulatory limits, documenting advice, declinations, and signed forms to protect the client and the agency.",
+ "statements": 1391,
+ "by_section": {
+  "workflow_step": 418,
+  "pain": 346,
+  "constraint": 247,
+  "limit": 60,
+  "judgment_call": 88,
+  "improvisation": 63,
+  "team_dynamics": 56,
+  "workaround": 113
+ },
+ "sample_claims": [
+  {
+   "claim_id": "independent-agency-account-manager:0001",
+   "section": "workflow_step",
+   "statement": "The account manager starts the day by opening the agency management system (Applied Epic, AMS360, HawkSoft, or similar) and reviewing the activity and task list sorted by due date.",
+   "workflow": "daily work queue",
+   "cadence": "daily"
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0002",
+   "section": "workflow_step",
+   "statement": "Next they scan the shared service inbox and their own inbox for overnight client emails, carrier notices, and certificate requests.",
+   "workflow": "daily work queue",
+   "cadence": "daily"
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0005",
+   "section": "workflow_step",
+   "statement": "After every substantive call or email they write a note in the AMS account activity log summarizing what was requested, what was done, and what the client was told.",
+   "workflow": "client service call",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0007",
+   "section": "workflow_step",
+   "statement": "For a vehicle add, they log into the carrier portal and submit the change, or email the carrier service address when the carrier has no portal endorsement function.",
+   "workflow": "vehicle add endorsement",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0016",
+   "section": "workflow_step",
+   "statement": "The account manager emails the mortgagee clause and evidence of insurance to the title company or lender, who usually needs it a few days before closing.",
+   "workflow": "home purchase binding",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0018",
+   "section": "workflow_step",
+   "statement": "For certificate of insurance requests, they receive the holder name, address, and any wording requirements from the client, the client's customer, or a general contractor.",
+   "workflow": "certificate of insurance",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0020",
+   "section": "pain",
+   "statement": "Simple certificates take about five to ten minutes, while those with additional insured wording, waiver of subrogation, or primary and noncontributory language take longer."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0073",
+   "section": "constraint",
+   "statement": "They request a policy change effective date in the past only with carrier consent, because most carriers do not allow backdating."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0079",
+   "section": "pain",
+   "statement": "Carrier phone lines for agents can have hold times of 15 to 45 minutes, especially on Mondays and after storms."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0086",
+   "section": "limit",
+   "statement": "Clients sometimes expect the account manager to know claim status, but the adjuster controls that information and may not respond for days."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0089",
+   "section": "pain",
+   "statement": "Mortgage companies change servicers, and the account manager has to update mortgagee information on policies multiple times."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0100",
+   "section": "pain",
+   "statement": "Workers compensation audits lead to unexpected premium bills that clients dispute with the account manager."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0115",
+   "section": "pain",
+   "statement": "Premium finance companies send their own cancellation notices on a separate schedule, which confuses clients."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0119",
+   "section": "workaround",
+   "statement": "Many account managers keep a personal spreadsheet or sticky note list of urgent follow-ups because the AMS activity list is too crowded."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0142",
+   "section": "constraint",
+   "statement": "Account managers must hold a state insurance license, and many must complete continuing education hours every renewal period."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0153",
+   "section": "limit",
+   "statement": "Claims are handled by the carrier's adjusters, and the account manager does not adjust, approve, or deny claims."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0160",
+   "section": "limit",
+   "statement": "Carrier appointments, commissions, and system access are controlled by the agency principal, so the account manager cannot add a new carrier on their own."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0213",
+   "section": "pain",
+   "statement": "Contractors send a request for a certificate with wording copied from a contract that is impossible for the policy to satisfy, such as primary and noncontributory with waiver of subrogation on a carrier that does not offer it."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0256",
+   "section": "workaround",
+   "statement": "Uses a browser password manager and bookmark folder organized by carrier to move between portals quickly."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0294",
+   "section": "constraint",
+   "statement": "State insurance licensing requires the account manager to hold a property and casualty license and complete continuing education credits on a set cycle."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0300",
+   "section": "constraint",
+   "statement": "Uninsured motorist and other statutory coverages require a signed rejection form in many states before limits can be lowered."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0301",
+   "section": "constraint",
+   "statement": "Flood insurance through the NFIP has a standard 30-day waiting period, so a client cannot buy coverage the day a storm is announced."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0303",
+   "section": "constraint",
+   "statement": "Surplus lines placements require using a licensed surplus lines broker and disclosing that the policy is not backed by the state guaranty fund."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0313",
+   "section": "limit",
+   "statement": "Fair credit rules apply to credit-based insurance scores, so adverse action notices come from the carrier and the agency cannot override them."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0315",
+   "section": "limit",
+   "statement": "Carriers cap the number of claims, losses, or violations they will accept, so the account manager cannot place certain risks no matter how long the client has been loyal."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0375",
+   "section": "judgment_call",
+   "statement": "For an address change, the account manager checks whether the move crosses state lines, because a new state usually means rewriting the policy with a different carrier or policy form rather than a simple endorsement."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0381",
+   "section": "judgment_call",
+   "statement": "Before issuing a certificate, the account manager checks that the requested endorsements actually exist on the policy, either as blanket forms or as scheduled additions."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0388",
+   "section": "workaround",
+   "statement": "Some account managers save certificate templates by holder in the management system so that repeat requests from the same general contractor take only minutes."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0423",
+   "section": "limit",
+   "statement": "Claims handling and coverage decisions belong to the carrier's adjuster, so the account manager cannot promise a client that a loss will be paid."
+  },
+  {
+   "claim_id": "independent-agency-account-manager:0449",
+   "section": "workaround",
+   "statement": "Account managers use password managers or bookmarked portal lists to move quickly between carrier sites."
+  }
+ ],
+ "open_questions": [
+  {
+   "question": "Which carriers in your book allow endorsements directly in their portal, and which force email or phone changes, and how long does each really take?",
+   "why_it_matters": "Turnaround and workload differ widely by carrier mix, shaping how quickly clients get ID cards and confirmations."
+  },
+  {
+   "question": "How many accounts does each account manager carry, and what mix of personal versus commercial?",
+   "why_it_matters": "Book size and complexity determine how much proactive service is realistic."
+  },
+  {
+   "question": "What actually takes up most of your day: calls, certificates, billing issues, or data entry?",
+   "why_it_matters": "Reveals where time goes versus the formal job description."
+  },
+  {
+   "question": "How long do carrier agent hotlines typically make you wait, and which carriers do you avoid calling?",
+   "why_it_matters": "Hold times drive workarounds like using underwriter emails or marketing reps."
+  },
+  {
+   "question": "What can you bind or approve yourself, and what needs a producer or principal's sign-off?",
+   "why_it_matters": "Binding authority limits determine delays and who is the bottleneck on urgent requests."
+  },
+  {
+   "question": "How do you handle certificate requests with wording the policy can't satisfy, and is it ever sent with caution?",
+   "why_it_matters": "Practices on risky certificates vary and carry real E&O exposure."
+  },
+  {
+   "question": "How long do additional insured endorsements take from your main carriers, and what do you tell the client in the meantime?",
+   "why_it_matters": "Delays collide with job start dates and shape how the account manager manages expectations."
+  },
+  {
+   "question": "Do you use certificate templates or automation, and who can issue certificates without review?",
+   "why_it_matters": "Determines whether certificates take two minutes or twenty and how errors are caught."
+  },
+  {
+   "question": "How do you track follow-ups: the AMS task list, a spreadsheet, or notes, and what falls through the cracks?",
+   "why_it_matters": "Unofficial tracking methods point to system weaknesses and common missed items."
+  },
+  {
+   "question": "How early do you really start renewals, and what percent of commercial clients return questionnaires on time?",
+   "why_it_matters": "Actual renewal practice differs from the 60-90 day ideal and affects pricing and retention."
+  },
+  {
+   "question": "How do you handle clients who call to cancel because of a cheaper quote, and is the producer notified?",
+   "why_it_matters": "Retention workflows differ and affect whether the agency gets a chance to requote."
+  },
+  {
+   "question": "What happens when a policy cancels for nonpayment, and which carriers reinstate, and how fast?",
+   "why_it_matters": "Reinstatement rules and agency handling affect client outcomes and E&O risk."
+  },
+  {
+   "question": "Can you accept card or ACH payments directly, or must you route to accounting or a carrier portal?",
+   "why_it_matters": "Payment handling steps affect how fast cancellation threats can be resolved."
+  },
+  {
+   "question": "How do you deal with workers comp audit disputes, and how much support do you get from the carrier or principal?",
+   "why_it_matters": "Audit disputes are emotionally and financially charged, and support levels vary."
+  },
+  {
+   "question": "What documentation do you require for declined coverages, driver exclusions, and UM rejections, and how strictly is it enforced?",
+   "why_it_matters": "Documentation standards differ by agency and determine protection against failure-to-advise claims."
+  }
+ ],
+ "next": "get_role_map returns any section in full. ask_role_map returns the claims most relevant to a question. request_verification logs a question for real practitioners."
+}

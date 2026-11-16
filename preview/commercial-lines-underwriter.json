@@ -1,0 +1,285 @@
+{
+ "niche_id": "commercial-lines-underwriter",
+ "title": "Commercial lines underwriter",
+ "profession": "insurance",
+ "description": "commercial lines underwriter at an insurance carrier in the United States, evaluating and pricing small to mid-size business submissions that arrive from agents and brokers",
+ "region": "United States",
+ "titles": [
+  "Commercial Lines Underwriter",
+  "Commercial Underwriter",
+  "Underwriter, Small Business / Middle Market",
+  "Casualty Underwriter (GL/Auto/WC)",
+  "Property Underwriter, Commercial",
+  "Account Underwriter"
+ ],
+ "context": {
+  "employer_types": [
+   "Regional property and casualty carriers",
+   "National commercial insurers",
+   "Excess and surplus lines carriers (admitted and non-admitted)",
+   "Mutual insurance companies",
+   "Managing general agents (MGAs) writing on carrier paper"
+  ],
+  "company_sizes": [
+   "Small regional carrier (under 500 employees)",
+   "Mid-size carrier (500 to 5,000 employees)",
+   "Large national carrier (5,000+ employees)"
+  ],
+  "reports_to": [
+   "Underwriting Manager",
+   "Senior Underwriter / Team Lead",
+   "Branch or Regional Underwriting Manager",
+   "Chief Underwriting Officer (via authority letter)"
+  ],
+  "depends_on_them": [
+   "Retail agents and wholesale brokers who need quotes, terms and answers",
+   "Underwriting assistants and intake/service teams who need decisions and referral guidance",
+   "Claims managers who rely on correct coverage terms and large-loss reviews",
+   "Loss control / risk engineering who need survey requests prioritized",
+   "Premium audit, who need classification and exposure decisions explained",
+   "Reinsurance and facultative desk who need accurate referral data",
+   "Insureds, who need coverage bound and renewed on time",
+   "Management, who need hit ratio, rate change, retention and loss ratio results",
+   "Regulators and internal audit, who need documented files"
+  ]
+ },
+ "summary": "A commercial lines underwriter reviews small to mid-size business submissions from agents and brokers, assessing exposure, loss history and class eligibility against the carrier's guidelines, then prices within state-filed rates and schedule rating ranges and sets coverage forms, endorsements, deductibles and conditions. They work within a written authority letter, referring accounts above their premium, limit or class caps to senior underwriters or managers, and coordinate with reinsurance when treaty capacity is exceeded. They also manage renewals, notice deadlines, audit and certificate disputes, and keep file documentation that stands up to regulatory and internal audits while balancing pricing discipline against retention and turnaround targets.",
+ "statements": 1364,
+ "by_section": {
+  "workflow_step": 358,
+  "pain": 272,
+  "constraint": 253,
+  "judgment_call": 167,
+  "limit": 48,
+  "workaround": 122,
+  "improvisation": 45,
+  "team_dynamics": 99
+ },
+ "sample_claims": [
+  {
+   "claim_id": "commercial-lines-underwriter:0002",
+   "section": "workflow_step",
+   "statement": "Submissions typically arrive as email with ACORD 125 and ACORD 126 applications, a loss run, and sometimes a statement of values attached.",
+   "workflow": "submission intake triage",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0003",
+   "section": "workflow_step",
+   "statement": "An underwriting assistant or intake team first logs each submission into the policy administration system and assigns it to an underwriter by territory, class, or appetite.",
+   "workflow": "submission intake triage",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0018",
+   "section": "constraint",
+   "statement": "Loss runs must be currently valued, usually within 60 to 90 days of the effective date, or the underwriter will not rely on them."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0021",
+   "section": "workflow_step",
+   "statement": "The underwriter reviews loss runs for frequency, severity, open reserves, and large single losses over a threshold such as fifty thousand dollars.",
+   "workflow": "loss run review",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0024",
+   "section": "improvisation",
+   "statement": "When loss runs are late, the underwriter may issue a quote subject to receipt and satisfactory review of currently valued loss runs."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0031",
+   "section": "judgment_call",
+   "statement": "When values look low, the underwriter adds an insurance-to-value requirement or applies a coinsurance condition instead of rejecting the account."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0032",
+   "section": "workflow_step",
+   "statement": "For general liability, the underwriter assigns the ISO class codes and exposure bases such as sales, payroll, or square footage.",
+   "workflow": "liability classification",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0034",
+   "section": "workflow_step",
+   "statement": "For workers compensation, class codes, experience modification factors, and payroll are validated against the rating bureau's experience rating worksheet.",
+   "workflow": "workers comp validation",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0036",
+   "section": "workflow_step",
+   "statement": "For commercial auto, the underwriter reviews the vehicle schedule, driver list, radius of operation, and motor vehicle reports.",
+   "workflow": "commercial auto review",
+   "cadence": "event-driven"
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0049",
+   "section": "constraint",
+   "statement": "State filed rates, rules, and forms limit how the underwriter can price, so pricing flexibility is limited to filed schedule rating or individual risk rating ranges."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0056",
+   "section": "pain",
+   "statement": "Brokers often share only the expiring premium and not the competing quotes, so competitiveness is guessed."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0058",
+   "section": "constraint",
+   "statement": "Accounts beyond the underwriter's authority, based on premium size, limits, or class, are referred to a senior underwriter or the underwriting manager."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0059",
+   "section": "constraint",
+   "statement": "Authority levels cap the premium, limits, and total insured value the underwriter may bind without referral."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0064",
+   "section": "constraint",
+   "statement": "Facultative reinsurance is requested when the property limit or liability limit exceeds the treaty capacity."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0067",
+   "section": "judgment_call",
+   "statement": "Exclusions or sublimits such as a designated work exclusion, an assault and battery exclusion, or a roof surfacing endorsement are added for known hazards."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0090",
+   "section": "constraint",
+   "statement": "Cancellation and non-renewal notices have state-specific notice periods, commonly ten to ninety days, and the system date must be right to comply."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0136",
+   "section": "team_dynamics",
+   "statement": "Requests for certificates of insurance are handled by a service team, but underwriters get involved when the wording seeks broader coverage than the policy provides."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0137",
+   "section": "pain",
+   "statement": "Contract requirements from the insured's customers, such as primary and noncontributory wording, waiver of subrogation, and high limits, often exceed what the policy allows."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0201",
+   "section": "pain",
+   "statement": "Renewals pile up 60 to 90 days before large renewal dates, leaving little time for new business."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0236",
+   "section": "limit",
+   "statement": "Workers compensation pricing follows NCCI or state bureau rules, including experience modification factors that cannot be negotiated."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0287",
+   "section": "team_dynamics",
+   "statement": "Insureds do not understand why their renewal increased when they had no claims, and the agent expects the underwriter to supply a better explanation."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0299",
+   "section": "team_dynamics",
+   "statement": "Claims and underwriting sometimes disagree on whether a loss was something the underwriter should have known, which can be tense."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0327",
+   "section": "pain",
+   "statement": "Construction cost inflation since 2021 has left property values behind, so underwriters spend more time pushing insurance to value."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0339",
+   "section": "team_dynamics",
+   "statement": "Remote work makes it harder for junior underwriters to absorb judgment from overhearing senior colleagues."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0351",
+   "section": "pain",
+   "statement": "Certificate and additional insured requests from agents, though often handled by service staff, still reach the underwriter when wording is unusual."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0364",
+   "section": "workaround",
+   "statement": "Underwriters sometimes quote subject to receipt of currently valued loss runs, so a competitor does not take the agent's business while documents trickle in."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0403",
+   "section": "judgment_call",
+   "statement": "Underwriters ask agents for the limits and coverage form of the competing quote, and often find the cheaper quote has lower limits or extra exclusions."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0406",
+   "section": "pain",
+   "statement": "Contractors send long lists of contractual insurance requirements that call for broad additional insured wording the carrier does not offer."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0429",
+   "section": "workaround",
+   "statement": "Underwriters set personal calendar reminders about 120 days before expiration for accounts they plan to nonrenew or renew with conditions."
+  },
+  {
+   "claim_id": "commercial-lines-underwriter:0445",
+   "section": "limit",
+   "statement": "Treaty reinsurance agreements exclude certain classes and limits, so underwriters cannot write some risks even when they find them attractive."
+  }
+ ],
+ "open_questions": [
+  {
+   "question": "What is your actual authority letter like: what premium, limit and TIV caps, and how often do accounts you want exceed them?",
+   "why_it_matters": "Authority thresholds drive how much of the work is referral versus independent decision and differ widely between carriers."
+  },
+  {
+   "question": "How long does a typical referral take to come back, and what do you do when the manager is unavailable?",
+   "why_it_matters": "Referral delays decide whether quotes are competitive; tolerated workarounds like peer sign-off vary by shop."
+  },
+  {
+   "question": "Which submission problems occur most often: missing loss runs, incomplete SOVs, late arrival, wrong class, or something else?",
+   "why_it_matters": "Shows where time is lost and what intake or broker education could fix."
+  },
+  {
+   "question": "How many submissions do you handle per week, what share do you quote, and what share bind?",
+   "why_it_matters": "Reveals real workload, triage habits and how much effort goes to low-probability quotes."
+  },
+  {
+   "question": "How much time does a new business quote really take from receipt to release, and what is the target?",
+   "why_it_matters": "Turnaround is measured, and actual versus target time shows the true bottlenecks."
+  },
+  {
+   "question": "How much room do you have in schedule credits and debits in practice, and how do you justify them?",
+   "why_it_matters": "Filed ranges are nominal; real flexibility and documentation expectations differ by state and carrier."
+  },
+  {
+   "question": "Which systems do you use daily (policy admin, rating engine, imagery, replacement cost tools), and where do you retype or work around them?",
+   "why_it_matters": "Tool gaps and manual workarounds drive time and error and differ by carrier."
+  },
+  {
+   "question": "How do you handle accounts that arrive the day before the effective date?",
+   "why_it_matters": "Shows tolerated shortcuts, such as binding subject to conditions, and the risk the shop accepts."
+  },
+  {
+   "question": "When values look low, how hard do you push, and when do you accept stated values with coinsurance?",
+   "why_it_matters": "The line between pricing discipline and retention varies by manager and market."
+  },
+  {
+   "question": "How do you decide whether a large loss is a one-off or a pattern, and does claims help?",
+   "why_it_matters": "This judgment shapes renewal action and relies on informal relationships with claims."
+  },
+  {
+   "question": "How is renewal season actually managed: when do you start, what gets skipped, and what slips?",
+   "why_it_matters": "Renewal pileups crowd out new business, and the corners cut reveal real process."
+  },
+  {
+   "question": "How do you keep nonrenewal and conditional renewal deadlines, and have any been missed?",
+   "why_it_matters": "Personal calendars versus system diaries differ, and missed notices force unwanted renewals."
+  },
+  {
+   "question": "How often do you talk to insureds or agents directly, and how do you handle agents who want explanations of increases?",
+   "why_it_matters": "Communication norms and agent expectations vary and affect retention."
+  },
+  {
+   "question": "What contractual requests from insureds' customers do you most often have to decline or modify, and what do you offer instead?",
+   "why_it_matters": "Practical endorsement options and flat charges differ across carriers and affect broker satisfaction."
+  },
+  {
+   "question": "What do you do when you inherit a book with thin notes, and how are file notes actually audited?",
+   "why_it_matters": "Documentation quality and audit rigor differ and determine real compliance risk."
+  }
+ ],
+ "next": "get_role_map returns any section in full. ask_role_map returns the claims most relevant to a question. request_verification logs a question for real practitioners."
+}
