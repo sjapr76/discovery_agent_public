@@ -2,7 +2,7 @@
 
 > Maps of a growing list of jobs in the United States and how they are done: workflows, pains, workarounds, constraints, judgment calls, team dynamics, limits, improvisation, vocabulary and open questions. For AI agents and people building software for a profession.
 
-MCP server (Streamable HTTP): https://43xkx1udl2btioly8.apify.actor/mcp?ch=llms  (Apify API token as Bearer token)
+MCP server (Streamable HTTP): https://serj-ab--makerhint.apify.actor/mcp?ch=llms  (Apify API token as Bearer token)
 Free tools: list_niches, preview_role_map, request_niche, request_verification. Paid tools (0.05 USD per call): get_role_map, ask_role_map.
 The maps describe work practice and give no professional advice.
 
